@@ -1,5 +1,5 @@
 {
-  "package": "hl7.fhir.no.mal",
+  "package": "hl7.fhir.no.hackathon.2025",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
@@ -7,13 +7,13 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-observation-blodprove",
+        "url": "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove",
         "title": "Blodprøve"
       }
     ],
     "Patient": [
       {
-        "url": "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient",
+        "url": "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient",
         "title": "Pasient"
       }
     ]

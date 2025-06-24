@@ -1,19 +1,19 @@
 {
-  "url" : "http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal",
-  "name" : "Mal",
-  "title" : "Mal",
-  "description" : "Implementasjonsguide for å TODO",
+  "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
+  "name" : "FHIRHackathon2025",
+  "title" : "FHIR Hackathon 2025",
+  "description" : "Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025",
   "status" : "draft",
-  "package-id" : "hl7.fhir.no.mal",
+  "package-id" : "hl7.fhir.no.hackathon.2025",
   "ig-ver" : "0.1.0",
-  "date" : "Fri, 04 Apr, 2025 11:23:40 +0000",
-  "dateISO8601" : "2025-04-04T11:23:40+00:00",
+  "date" : "Tue, 24 Jun, 2025 11:21:01 +0000",
+  "dateISO8601" : "2025-06-24T11:21:01+00:00",
   "errs" : 0,
-  "warnings" : 6,
+  "warnings" : 12,
   "hints" : 1,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 640821960
+  "maxMemory" : 735503856
 }

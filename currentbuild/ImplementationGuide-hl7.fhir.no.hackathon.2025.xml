@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="hl7.fhir.no.mal"/>
+  <id value="hl7.fhir.no.hackathon.2025"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.mal</b></p><a name="hl7.fhir.no.mal"> </a><a name="hchl7.fhir.no.mal"> </a><a name="hl7.fhir.no.mal-no-NO"> </a><h2>Mal</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal</pre><div><p>Implementasjonsguide for å TODO</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2025</b></p><a name="hl7.fhir.no.hackathon.2025"> </a><a name="hchl7.fhir.no.hackathon.2025"> </a><h2>FHIRHackathon2025</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025</pre><div><p>Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025</p>
 </div></div>
   </text>
-  <url value="http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal"/>
+  <url value="http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025"/>
   <version value="0.1.0"/>
-  <name value="Mal"/>
-  <title value="Mal"/>
+  <name value="FHIRHackathon2025"/>
+  <title value="FHIR Hackathon 2025"/>
   <status value="draft"/>
-  <date value="2025-04-04T11:22:52+00:00"/>
+  <date value="2025-06-24T11:20:15+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>
@@ -20,7 +20,7 @@
       <value value="https://www.hl7.no"/>
     </telecom>
   </contact>
-  <description value="Implementasjonsguide for å TODO"/>
+  <description value="Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -28,7 +28,7 @@
       <display value="Norway"/>
     </coding>
   </jurisdiction>
-  <packageId value="hl7.fhir.no.mal"/>
+  <packageId value="hl7.fhir.no.hackathon.2025"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
@@ -37,7 +37,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.2.0"/>
+    <version value="6.4.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -130,7 +130,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://hl7.no/fhir/ig/mal/history.html"/>
+        <valueString value="http://hl7.no/fhir/ig/hackathon/2025/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -254,7 +254,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.4.1"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.5.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -333,7 +333,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://hl7.no/fhir/ig/mal/history.html"/>
+        <valueString value="http://hl7.no/fhir/ig/hackathon/2025/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -487,7 +487,7 @@
       </reference>
       <name value="Pasient-1"/>
       <description value="Eksempel på pasient med navn og fødselsnummer"/>
-      <exampleCanonical value="http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient"/>
+      <exampleCanonical value="http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
@@ -502,6 +502,14 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="use-case-description.html"/>
+        </extension>
+        <nameUrl value="use-case-description.html"/>
+        <title value="Use Case Description"/>
         <generation value="markdown"/>
       </page>
     </page>

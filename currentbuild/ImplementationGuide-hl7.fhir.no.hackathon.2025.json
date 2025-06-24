@@ -1,16 +1,16 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "hl7.fhir.no.mal",
+  "id" : "hl7.fhir.no.hackathon.2025",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.mal</b></p><a name=\"hl7.fhir.no.mal\"> </a><a name=\"hchl7.fhir.no.mal\"> </a><a name=\"hl7.fhir.no.mal-no-NO\"> </a><h2>Mal</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal</pre><div><p>Implementasjonsguide for å TODO</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2025</b></p><a name=\"hl7.fhir.no.hackathon.2025\"> </a><a name=\"hchl7.fhir.no.hackathon.2025\"> </a><h2>FHIRHackathon2025</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025</pre><div><p>Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025</p>\n</div></div>"
   },
-  "url" : "http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal",
+  "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
   "version" : "0.1.0",
-  "name" : "Mal",
-  "title" : "Mal",
+  "name" : "FHIRHackathon2025",
+  "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-04-04T11:22:52+00:00",
+  "date" : "2025-06-24T11:20:15+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -19,7 +19,7 @@
       "value" : "https://www.hl7.no"
     }]
   }],
-  "description" : "Implementasjonsguide for å TODO",
+  "description" : "Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -27,7 +27,7 @@
       "display" : "Norway"
     }]
   }],
-  "packageId" : "hl7.fhir.no.mal",
+  "packageId" : "hl7.fhir.no.hackathon.2025",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.2.0"
+    "version" : "6.4.0"
   },
   {
     "id" : "hl7ext",
@@ -163,7 +163,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://hl7.no/fhir/ig/mal/history.html"
+        "valueString" : "http://hl7.no/fhir/ig/hackathon/2025/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -334,7 +334,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.4.1"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.5.0"
     },
     {
       "extension" : [{
@@ -442,7 +442,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://hl7.no/fhir/ig/mal/history.html"
+        "valueString" : "http://hl7.no/fhir/ig/hackathon/2025/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -645,7 +645,7 @@
       },
       "name" : "Pasient-1",
       "description" : "Eksempel på pasient med navn og fødselsnummer",
-      "exampleCanonical" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient"
+      "exampleCanonical" : "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient"
     }],
     "page" : {
       "extension" : [{
@@ -662,6 +662,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "use-case-description.html"
+        }],
+        "nameUrl" : "use-case-description.html",
+        "title" : "Use Case Description",
         "generation" : "markdown"
       }]
     },
