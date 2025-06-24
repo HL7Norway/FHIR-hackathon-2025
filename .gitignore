@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS - Icon files
+Icon
+._*
+
+# macOS - Thumbnails
+._.DS_Store
+._.LSOverride
+
+# macOS - Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows - Folder config file
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Windows - Recycle Bin used on file shares
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows - Windows Installer files
+*.lnk

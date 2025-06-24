@@ -1,0 +1,35 @@
+# Under utvikling. Må settes opp og testes.
+
+name: Deploy to FTP
+
+on:
+  push:
+    branches:
+      - gh-pages
+  workflow_dispatch:
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+
+    - name: Install lftp
+      run: sudo apt-get install lftp
+
+    - name: Deploy to FTP server
+      env:
+        FTP_SERVER: ${{ secrets.FTP_SERVER }}
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      run: |
+        lftp -f "
+        open $FTP_SERVER
+        user $FTP_USERNAME $FTP_PASSWORD
+        mirror -R ./ /path/to/remote/directory
+        bye
+        "

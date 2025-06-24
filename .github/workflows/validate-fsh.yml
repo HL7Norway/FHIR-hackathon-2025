@@ -1,0 +1,65 @@
+name: Validate FSH Files
+
+on:
+  workflow_dispatch:
+
+# CONFIGURATION: The "short name" of the IG and the folder must be the same
+env:
+  IG_SHORTNAME: mal
+  # IG: ${{ vars.IG_KORTNAVN }}
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '16'
+        
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+        
+    - name: Cache Node.js modules
+      uses: actions/cache@v4
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+          ${{ runner.os }}-
+
+    - name: Install fsh-sushi
+      run: npm install -g fsh-sushi
+
+    - name: Install hl7.fhir.no.basis-2.2.0-snapshots in local cache
+      run: |
+        echo "NPM install fhir r4 core 4.0.1 from package registry"
+        npm --registry https://packages.simplifier.net install hl7.fhir.r4.core@4.0.1
+        echo "NPM install fhir no-basis220 from https://github.com/HL7Norway/resources/"
+        curl -L -o hl7.fhir.no.basis-2.2.0-snapshots.tgz https://raw.githubusercontent.com/HL7Norway/resources/main/snapshots/hl7.fhir.no.basis-2.2.0-snapshots.tgz
+        npm install hl7.fhir.no.basis-2.2.0-snapshots.tgz
+        echo "Create .fhir packages cache directory for no-basis"
+        mkdir -p $HOME/.fhir/packages/hl7.fhir.no.basis#2.2.0/package
+        echo "Copy local no-basis snapshot to .fhir package cache directory"
+        cp -r ./node_modules/hl7.fhir.no.basis/* $HOME/.fhir/packages/hl7.fhir.no.basis#2.2.0/package
+
+
+    - name: Install fsh-validator
+      run: pip install -U git+https://github.com/glichtner/fsh-validator
+
+    - name: Run fsh-validator
+      run: |
+        cd ${{ env.IG_SHORTNAME }}/input/fsh/
+        fsh-validator --all --log-path fsh-validator.log
+
+    - name: Upload output file
+      uses: actions/upload-artifact@v4
+      with:
+        name: fsh-validator.log
+        path: ${{ env.IG_SHORTNAME }}/input/fsh/fsh-validator.log

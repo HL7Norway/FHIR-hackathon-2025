@@ -1,0 +1,30 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# Oppdater med riktig informasjon
+id: hl7.fhir.no.mal
+canonical: http://hl7.no/fhir/ig/mal
+name: Mal
+title: "Mal"
+description: Implementasjonsguide for å TODO
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2025+
+releaseLabel: ci-build
+jurisdiction: urn:iso:std:iso:3166#NO "Norway"
+# Oppdater navn og URL til din organisasjon
+publisher:
+  name: HL7 Norge
+  url: https://www.hl7.no
+dependencies:
+  hl7.fhir.no.basis: 2.2.0
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
+  TOC: toc.html
