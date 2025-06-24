@@ -1,6 +1,6 @@
 name: Generate PlantUML
 on:
-  push:
+  # push:
   #  branches:
   #    - main
   workflow_dispatch:
