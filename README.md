@@ -1,6 +1,6 @@
 # FHIR Hackathon 2025
 
-Dato: 10 november 2025
+Dato: 10 november 2025  
 Sted: Pre EHiN 2025
 
 ## Organization
