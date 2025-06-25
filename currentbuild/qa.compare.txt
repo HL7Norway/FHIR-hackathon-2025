@@ -4,41 +4,13 @@ FHIRHackathon2025 : Validation Results
 err = 0, warn = 12, info = 1
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.hackathon.2025#$-- (canonical = http://hl7.no/fhir/ig/hackathon/2025)
- Build Errors : 28 / 4 / 0
+ Build Errors : 0 / 4 / 0
  /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025 : 0 / 2 / 1
  /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/Patient-Pasient-1 : 0 / 0 / 1
  /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 2
  /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 5 / 1
 </table>
 == n/a ==
-ERROR: Patient-Pasient-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: Patient-Pasient-1.html#/html/body/div/div/nav/div/div/ul/li/a at Line 110, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: Patient-Pasient-1.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 112, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: Patient-Pasient-1.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 112, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: Patient-Pasient-1.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 112, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-observation-blodprove.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-patient-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-patient-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-patient-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-patient-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-patient.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-patient.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 114, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-patient.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-patient.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: StructureDefinition-mal-patient.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 110, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: hack-agenda.html#/html/body/div/div/nav/div/div/ul/li/a at Line 110, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 110, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 110, column 6: The link 'track-description.html' for "Track description" cannot be resolved
-ERROR: track-descriptions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 110, column 6: The link 'track-description.html' for "Track description" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide

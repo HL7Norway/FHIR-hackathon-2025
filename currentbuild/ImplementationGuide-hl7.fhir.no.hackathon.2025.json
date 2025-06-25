@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2025</b></p><a name=\"hl7.fhir.no.hackathon.2025\"> </a><a name=\"hchl7.fhir.no.hackathon.2025\"> </a><h2>FHIRHackathon2025</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025</pre><div><p>Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025</p>\n</div></div>"
   },
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-06-25T05:55:02+00:00",
+  "date" : "2025-06-25T06:01:53+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
