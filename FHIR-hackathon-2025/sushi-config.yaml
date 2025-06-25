@@ -26,5 +26,6 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Artifacts: artifacts.html
+  Agenda: hack-agenda.html
+  Track description: track-description.html
   TOC: toc.html
