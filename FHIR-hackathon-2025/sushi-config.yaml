@@ -9,7 +9,7 @@ name: FHIR Hackathon 2025
 title: "FHIR Hackathon 2025"
 description: Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025
 status: draft
-version: 0.1.0
+version: 0.1.1
 fhirVersion: 4.0.1
 copyrightYear: 2025+
 releaseLabel: ci-build

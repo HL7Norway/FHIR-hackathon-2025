@@ -4,22 +4,25 @@ The Norwegian FHIR Hackathon 2025 takes place on EHiN preconference on the 10. n
 
 ### Why should you attend?
 
-The main learning goals of the Norwegian FHIR Hackathon are:
+The main learning goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software.
 
-* Raise FHIR competence in the Norwegian e-health community
-* Develop and test implementation of the FHIR API for [Pasientens måledata](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata)
-* Develop and test FHIR development for services with proprietary API's
+During the Norwegian FHIR Hackathon you can:
+
+* Implement and test implementation of the FHIR API for [Pasientens måledata](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata)
+* Implement and test FHIR interfaces for services with existing proprietary API's
   * Use-case: [OKT API](https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api/openapi/okt-api-prototype)
-* Develop and publish documentation of FHIR API by publishing a FHIR IG
-* Develop and test exchange of data between separate software products in different organizations using PMD API
+* Write and publish documentation of FHIR API's by publishing a FHIR IG
+* Implement and test data exchange to/from separate software products in different organizations using PMD API.
 
 ### Who should attend?
+
+Some different roles that should attend the hackathon. 
 
 * Developers
 * Solution architects
 * Information architects
 * Enterprise architects
-* Leaders that want to learn how HL7 FHIR works
+* Project managers
 
 ### Prerequisites for participants
 
