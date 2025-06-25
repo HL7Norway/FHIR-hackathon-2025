@@ -1,9 +1,9 @@
-﻿<!-- get modelType --><?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title> - FHIR Hackathon 2025 v0.1.1</title>
+    <title>Track Descriptions - FHIR Hackathon 2025 v0.1.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -105,7 +105,7 @@
   <li>
     <a href="hack-agenda.html">Agenda</a>
   </li>
-  <li><a name="l172">​</a>
+  <li><a name="l171">​</a>
     <a href="track-description.html">Track description</a>
   </li>
   <li>
@@ -123,7 +123,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Track Descriptions</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -135,8 +135,16 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 6" class="col-12">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v0.1.1) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.no/fhir/ig/hackathon/2025/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Track Descriptions</h2>
   
 
 
@@ -149,92 +157,31 @@
 
 
 
-<ul class="nav nav-tabs">
 
-  <li>
-    <a href="StructureDefinition-mal-observation-blodprove.html">Content</a>
-  </li>
-
-
-
-  <li>
-    <a href="StructureDefinition-mal-observation-blodprove-definitions.html">Detailed Descriptions</a>
-  </li>
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-mal-observation-blodprove-mappings.html">Mappings</a>
-    </li>
-  
-
-
-
-
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-mal-observation-blodprove.profile.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="StructureDefinition-mal-observation-blodprove.profile.json.html">JSON</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="StructureDefinition-mal-observation-blodprove.profile.ttl.html">TTL</a>
-    </li>
-  
-
-
+    <p>  <!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#use-cases" id="markdown-toc-use-cases">Use cases</a></li>
+  <li><a href="#top-level-use-cases" id="markdown-toc-top-level-use-cases">Top level use-cases</a></li>
 </ul>
 
+</div>
+<h3 id="use-cases">Use cases</h3>
 
-  <a name="root"> </a>
-  <h2 id="root">Resource Profile: MalObservationBlood - Examples</h2>
+<p>Quick writeup of the use cases for the Hackathon.</p>
 
-  <table class="colsd">
-    <tr>
+<h3 id="top-level-use-cases">Top level use-cases</h3>
 
-      <td colspan="2">
-        
-          Draft
-          
-            as of 2025-01-31
-          
-        
-      </td>
-
-    </tr>
-  </table>
-
-
-     <!-- insert intro if present -->
-    
-
-
-
-
-
-  <p><b>No examples are currently available for the  Profile.</b></p>
-
-
-  <!-- insert notes if present -->
-
+<ul>
+  <li>Pasientens måledata (PMD) FHIR API</li>
+  <li>OKT API</li>
+  <li>Nordic tx FHIR server API</li>
+  <li>IG building</li>
+</ul>
 
 
 
 </div>
-
         </div>    <!-- /inner-wrapper -->
       </div>    <!-- /row -->
     </div>    <!-- /container -->
@@ -242,8 +189,6 @@
 
   <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
-
-  <script src="assets/js/tabs.js" type="text/javascript"> </script>
 
   <script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>

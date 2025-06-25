@@ -14,11 +14,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2025</b></p><a name=\"hl7.fhir.no.hackathon.2025\"> </a><a name=\"hchl7.fhir.no.hackathon.2025\"> </a><h2>FHIRHackathon2025</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025</pre><div><p>Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025</p>\n</div></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.1.1"] ; # 
   fhir:name [ fhir:v "FHIRHackathon2025"] ; # 
   fhir:title [ fhir:v "FHIR Hackathon 2025"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-24T11:20:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-25T05:55:02+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -924,14 +924,28 @@
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:url ;
-             fhir:v "use-case-description.html"^^xsd:anyURI
+             fhir:v "hack-agenda.html"^^xsd:anyURI
            ]
          ] ) ;
          fhir:name [
            a fhir:url ;
-           fhir:v "use-case-description.html"^^xsd:anyURI
+           fhir:v "hack-agenda.html"^^xsd:anyURI
          ] ;
-         fhir:title [ fhir:v "Use Case Description" ] ;
+         fhir:title [ fhir:v "Hack Agenda" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "track-descriptions.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "track-descriptions.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Track Descriptions" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

@@ -5,9 +5,9 @@
   "description" : "Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025",
   "status" : "draft",
   "package-id" : "hl7.fhir.no.hackathon.2025",
-  "ig-ver" : "0.1.0",
-  "date" : "Tue, 24 Jun, 2025 11:21:01 +0000",
-  "dateISO8601" : "2025-06-24T11:21:01+00:00",
+  "ig-ver" : "0.1.1",
+  "date" : "Wed, 25 Jun, 2025 05:55:56 +0000",
+  "dateISO8601" : "2025-06-25T05:55:56+00:00",
   "errs" : 0,
   "warnings" : 12,
   "hints" : 1,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 735503856
+  "maxMemory" : 972941136
 }
