@@ -16,7 +16,7 @@ During the Norwegian FHIR Hackathon you can:
 
 ### Who should attend?
 
-Some different roles that should attend the hackathon. 
+Some different roles that should attend the hackathon.  
 
 * Developers
 * Solution architects
