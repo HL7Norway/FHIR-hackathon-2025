@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.fhir.no.hackathon.2025"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2025</b></p><a name="hl7.fhir.no.hackathon.2025"> </a><a name="hchl7.fhir.no.hackathon.2025"> </a><h2>FHIRHackathon2025</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025</pre><div><p>Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.hackathon.2025</b></p><a name="hl7.fhir.no.hackathon.2025"> </a><a name="hchl7.fhir.no.hackathon.2025"> </a><h2>FHIRHackathon2025</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025</pre><div><p>Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2025</p>
 </div></div>
   </text>
   <url value="http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025"/>
@@ -11,7 +11,7 @@
   <name value="FHIRHackathon2025"/>
   <title value="FHIR Hackathon 2025"/>
   <status value="draft"/>
-  <date value="2025-06-25T06:01:53+00:00"/>
+  <date value="2025-06-26T11:18:44+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>
@@ -20,7 +20,7 @@
       <value value="https://www.hl7.no"/>
     </telecom>
   </contact>
-  <description value="Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025"/>
+  <description value="Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2025"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
