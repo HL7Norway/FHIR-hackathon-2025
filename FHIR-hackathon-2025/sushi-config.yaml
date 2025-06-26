@@ -7,7 +7,7 @@ id: hl7.fhir.no.hackathon.2025
 canonical: http://hl7.no/fhir/ig/hackathon/2025
 name: FHIR Hackathon 2025
 title: "FHIR Hackathon 2025"
-description: Implementation guide to document, plan and publish results from Norwegian FHIR Hackathon 2025
+description: Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2025
 status: draft
 version: 0.1.2
 fhirVersion: 4.0.1
