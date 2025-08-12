@@ -1,10 +1,12 @@
 ### Agenda for the Hackathon
 
+Proposed agenda for the hackathon.
+
 |Time|Title|Presenter|
-|----|-----|---------|
+|-----|-----|---------|
 |0900|Introduction (plenary)|TBD|
 |0915|Intro to FHIR, IG and FHIR RESTful (plenary)|TBD|
-|0945|Parallell intro to tracks|Track leads|
+|0945|Parallell intros to tracks|Track leads|
 |1000|Workshop in tracks|Track leads|
 |1200|Lunch|NA|
 |1300|Workshop in tracks|Track leads|
@@ -17,7 +19,7 @@
 
 Track introductions
 
-* Intro to Måledata API FHIR API interface
+* Intro to Måledata FHIR API interface
 * Intro to OKT API (Oversikt over kommunale tjenester API) and approaches for making FHIR API from existing services
 * Intro to terminology API and demo of nordic terminology server
 * Write and publish documentation of FHIR API's by publishing a FHIR IG
