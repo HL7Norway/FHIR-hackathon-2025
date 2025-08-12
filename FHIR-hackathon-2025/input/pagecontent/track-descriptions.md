@@ -2,9 +2,10 @@
 
 Quick writeup of the use cases for the Hackathon.
 
-### Top level use-cases
+#### Pasientens måledata (PMD) FHIR API
 
-* Pasientens måledata (PMD) FHIR API
-* OKT API
-* Nordic tx FHIR server API
-* IG building
+#### Make a FHIR version of OKT API
+
+#### Nordic tx FHIR server API
+
+#### IG building
