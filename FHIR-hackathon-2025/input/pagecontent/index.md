@@ -11,6 +11,8 @@ During the Norwegian FHIR Hackathon you can:
 * Implement and test implementation of the FHIR API for [Pasientens måledata](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata)
 * Implement and test FHIR interfaces for services with existing proprietary API's
   * Use-case: [OKT API](https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api/openapi/okt-api-prototype)
+* Implement and test use of FHIR terminology services
+  * [Nordic terminology server](https://ontoserver.csiro.au/ui/about)
 * Write and publish documentation of FHIR API's by publishing a FHIR IG
 * Implement and test data exchange to/from separate software products in different organizations using PMD API.
 
