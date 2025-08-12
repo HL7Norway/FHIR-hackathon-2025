@@ -1,6 +1,6 @@
 ### Norwegian FHIR Hackathon 2025
 
-The Norwegian FHIR Hackathon 2025 takes place on EHiN preconference on the 10. november 2025. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with NHN, Helsedirektoratet, Felleskatalogen and Oslo kommune.
+The Norwegian FHIR Hackathon 2025 takes place on EHiN preconference on the 10. november 2025. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with NHN, Helsedirektoratet and Felleskatalogen.
 
 ### Why should you attend?
 
