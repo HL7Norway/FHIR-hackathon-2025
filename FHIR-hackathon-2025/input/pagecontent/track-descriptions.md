@@ -8,7 +8,7 @@ Quick writeup of the use cases for the Hackathon.
 
 #### Nordic tx FHIR server API
 
-#### IG building
+#### FHIR IG building and authoring
 
 FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github.
 
