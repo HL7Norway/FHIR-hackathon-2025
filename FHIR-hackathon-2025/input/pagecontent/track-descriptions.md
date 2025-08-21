@@ -10,7 +10,7 @@ Quick writeup of the use cases for the Hackathon.
 
 #### IG building
 
-FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a drawt on Github.
+FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github.
 
 ##### Prerequisites
 
