@@ -1,7 +1,7 @@
 {
   "version" : "0.2.1",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20250821084007",
+  "date" : "20250821085343",
   "name" : "hl7.fhir.no.hackathon.2025",
   "jurisdiction" : "urn:iso:std:iso:3166#NO"
 }
