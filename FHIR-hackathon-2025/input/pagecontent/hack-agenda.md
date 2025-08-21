@@ -4,14 +4,14 @@ Proposed agenda for the hackathon.
 
 |Time|Title|Presenter|
 |-----|-----|---------|
-|0900|Introduction (plenary)|TBD|
+|0900|Introduction (plenary)|Thomas T Rosenlund (Helsedirektoratet)|
 |0915|Intro to FHIR, IG and FHIR RESTful (plenary)|TBD|
 |0945|Parallell intros to tracks|Track leads|
-|1000|Workshop in tracks|Track leads|
+|1000|Working in tracks|Track leads|
 |1200|Lunch|NA|
-|1300|Workshop in tracks|Track leads|
+|1300|Working in tracks|Track leads|
 |1430|Coffee break|NA|
-|1445|Workshop in tracks|Track leads|
+|1445|Working in tracks|Track leads|
 |1545|Demo summary and discussions (plenary)|TBD + track leads|
 |1630|End of day|All|
 
