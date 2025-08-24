@@ -8,11 +8,11 @@ Quick writeup of the use cases for the Hackathon.
 
 This is an excercise in translating an existing API, both data structures and interactions, to the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.
 
-##### Setting the OKT API on FHIR
+##### Step 1: Design the OKT FHIR API
 
-First, we will look at the [OKT API](https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api) and discuss which FHIR resources and REST interac tions we can translate the API to.
+First, we will look at the [OKT API](https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api) and discuss which FHIR resources and REST interactions we can translate the API to.
 
-##### Bring your own Maven!
+##### Step 2: Implement the API with HAPI FHIR
 
 When the design of the FHIR API is finished, we will implement the FHIR API as a facade, using the HAPI FHIR Plain Server. We will start with [FHIR-hackathon-2025-okt](https://github.com/HL7Norway/FHIR-hackathon-2025-okt), a simple Spring Boot project that has an in-memory data store and implements the proprietary OKT API. We will add the HAPI FHIR dependencies and get busy coding resource providers and transformation logic. We will run our new FHIR service locally and test it through REST interactions.
 
