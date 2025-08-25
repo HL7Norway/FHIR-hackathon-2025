@@ -48,7 +48,7 @@ ISO maintains the copyright on the country codes, and controls its use carefully
     <ul>
       <li>
 
-          IG &copy; 2025+ HL7 Norge.  Package hl7.fhir.no.hackathon.2025#0.2.1 based on FHIR 4.0.1. Generated 2025-08-21 
+          IG &copy; 2025+ HL7 Norge.  Package hl7.fhir.no.hackathon.2025#0.2.1 based on FHIR 4.0.1. Generated 2025-08-25 
           
           
                       Links: Table of Contents |
@@ -115,7 +115,7 @@ FHIR Hackathon 2025 - Local Development build (v0.2.1) built by the FHIR (HL7&re
 
           IG &copy; 2025+           <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>
 .  Package hl7.fhir.no.hackathon.2025#0.2.1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>
-. Generated           <span title="Thu, Aug 21, 2025 08:54+0000">2025-08-21</span>
+. Generated           <span title="Mon, Aug 25, 2025 08:48+0000">2025-08-25</span>
 
                     <br/>
 
@@ -172,6 +172,30 @@ Use-case:           <a href="https://utviklerportal.nhn.no/informasjonstjenester
         </td>
         <td>
           <a href="https://ontoserver.csiro.au/ui/about">Nordic terminology server</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="track-descriptions.html">web</a>
+        </td>
+        <td>
+          <a href="https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api">utviklerportal.nhn.no</a>
+        </td>
+        <td>
+First, we will look at the           <a href="https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api">OKT API</a>
+ and discuss which FHIR resources and REST interactions we can translate the API to.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="track-descriptions.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/HL7Norway/FHIR-hackathon-2025-okt">github.com</a>
+        </td>
+        <td>
+When the design of the FHIR API is finished, we will implement the FHIR API as a facade, using the HAPI FHIR Plain Server. We will start with           <a href="https://github.com/HL7Norway/FHIR-hackathon-2025-okt">FHIR-hackathon-2025-okt</a>
+, a simple Spring Boot project that has an in-memory data store and implements the proprietary OKT API. We will add the HAPI FHIR dependencies and get busy coding resource providers and transformation logic. We will run our new FHIR service locally and test it through REST interactions.
         </td>
       </tr>
     </table>
