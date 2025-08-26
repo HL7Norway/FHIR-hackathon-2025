@@ -4,7 +4,7 @@ Proposed agenda for the hackathon.
 
 |Time|Title|Presenter|
 |-----|-----|---------|
-|0900|Introduction (plenary)|Thomas T Rosenlund (Helsedirektoratet)|
+|0900|Welcome and Introductions (plenary)|Thomas T Rosenlund (Helsedirektoratet) og Nino Lo Cascio (Bedredelt)|
 |0915|Intro to FHIR, IG and FHIR RESTful (plenary)|TBD|
 |0945|Parallell intros to tracks|Track leads|
 |1000|Working in tracks|Track leads|
