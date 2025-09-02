@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "hl7.fhir.no.hackathon.2025",
   "ig-ver" : "0.2.3",
-  "date" : "Tue, 26 Aug, 2025 06:27:57 +0000",
-  "dateISO8601" : "2025-08-26T06:27:57+00:00",
+  "date" : "Tue, 02 Sep, 2025 08:59:59 +0000",
+  "dateISO8601" : "2025-09-02T08:59:59+00:00",
   "errs" : 0,
   "warnings" : 12,
   "hints" : 1,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 909238592
+  "maxMemory" : 783075488
 }
