@@ -25,7 +25,7 @@ When the design of the FHIR API is finished, we will implement the FHIR API as a
 
 #### FHIR IG building and authoring
 
-FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github.
+FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.
 
 ##### Prerequisites
 
