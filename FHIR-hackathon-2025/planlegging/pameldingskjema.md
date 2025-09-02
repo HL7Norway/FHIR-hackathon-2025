@@ -2,7 +2,7 @@
 
 **Velkomment til gratis HL7 FHIR Hackathon på EHiN prekonferanse 10. november 2025 klokken 09:30-17:00.**  
 
-Vi har begrenset antall plasser til Hackathon, så vær raskt og bestill din plass i dag!
+Hackathon legger til rette for fysisk deltakelse, det blir altså ikke mulighet for å delta digitalt. Vi har begrenset antall plasser til Hackathon, så vær raskt og bestill din plass i dag!
 
 Når du sender inn dette skjemaet, vil det ikke automatisk samle inn opplysninger som navn og e-postadresse, med mindre du oppgir det selv. Praktisk informasjon om [FHIR Hackathon 2025](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html).
 
@@ -16,7 +16,7 @@ Når du sender inn dette skjemaet, vil det ikke automatisk samle inn opplysninge
 > Navn på virksomhet
 4. Har du  allergier eller dietter vi må ta hensyn til?
 > Skriv inn svaret
-5. Hvilke(n) Track vil du helst delta på (1-4) (mulig med flere svar, men arbeidet går i trackene går i parallell)?
+5. Hvilke(n) Track vil du helst delta på (1-4) (mulig med flere svar, men arbeidet i sporene går i parallell)?
 * XX - Pasientens måledata
 * XX - Oversikt over kommunale tjenester
 * XX - Nordic terminology
