@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025"/>
-  <version value="0.3.0"/>
+  <version value="0.3.1"/>
   <name value="FHIRHackathon2025"/>
   <title value="FHIR Hackathon 2025"/>
   <status value="draft"/>
-  <date value="2025-09-02T11:01:36+00:00"/>
+  <date value="2025-09-15T07:41:18+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>
@@ -254,7 +254,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.7.1"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
