@@ -1,8 +1,8 @@
 # FHIR Hackathon 2025
 
 Dato: 10 november 2025  
-Sted: Pre EHiN 2025
-[Information and agenda](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/)
+Sted: Pre EHiN 2025  
+[Information and agenda](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/)  
 
 ## Organization
 
