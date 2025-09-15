@@ -4,6 +4,11 @@ Quick writeup of the use cases for the Hackathon.
 
 #### Pasientens måledata (PMD) FHIR API
 
+Excercise on using the Pasientens måledata API to exchange data to/from the PMD API.
+
+* [PMD API documentation](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata/)
+* [PMD/VKP API FHIR profiles on SIMPLIFIER](https://simplifier.net/VelferdteknologiskknutepunktR4)
+
 #### Make a FHIR version of the OKT API
 
 This is an excercise in translating an existing API, both data structures and interactions, to the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.
