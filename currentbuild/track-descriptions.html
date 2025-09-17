@@ -170,69 +170,76 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#use-cases" id="markdown-toc-use-cases">Use cases</a></li>
+  <li><a href="#pasientens-måledata-pmd-fhir-api" id="markdown-toc-pasientens-måledata-pmd-fhir-api">Pasientens måledata (PMD) FHIR API</a></li>
+  <li><a href="#make-a-fhir-version-of-the-okt-api" id="markdown-toc-make-a-fhir-version-of-the-okt-api">Make a FHIR version of the OKT API</a></li>
+  <li><a href="#nordic-tx-fhir-server-api" id="markdown-toc-nordic-tx-fhir-server-api">Nordic tx FHIR server API</a></li>
+  <li><a href="#fhir-ig-building-and-authoring" id="markdown-toc-fhir-ig-building-and-authoring">FHIR IG building and authoring</a></li>
+</ul>
+
 </div>
 <h3 id="use-cases">Use cases</h3>
 
 <p>Quick writeup of the use cases for the Hackathon.<br />
-<strong>NOTE! The agenda is currently under active development and there changes will occur without further notice.</strong></p>
+<strong>NOTE! The track descriptions are currently under active development and changes will occur without further notice.</strong></p>
 
-<h4 id="pasientens-måledata-pmd-fhir-api">Pasientens måledata (PMD) FHIR API</h4>
+<h3 id="pasientens-måledata-pmd-fhir-api">Pasientens måledata (PMD) FHIR API</h3>
 
 <p>Excercise on using the Pasientens måledata API to exchange data to/from the PMD API.</p>
 
-<h5 id="step-1-introduction-to-pasientens-måledata-pmd-fhir-api">Step 1: Introduction to Pasientens måledata (PMD) FHIR API.</h5>
+<h4 id="step-1-introduction-to-pasientens-måledata-pmd-fhir-api">Step 1: Introduction to Pasientens måledata (PMD) FHIR API.</h4>
 <p>About the API and design choices</p>
 
 <p>Based on your product/solutin/needs do Step 2 and/or Step 3.</p>
 
-<h5 id="step-2-use-documentation-from-developer-portal-and-retriev-data">Step 2: Use documentation from developer portal and retriev data.</h5>
+<h4 id="step-2-use-documentation-from-developer-portal-and-retriev-data">Step 2: Use documentation from developer portal and retriev data.</h4>
 <p>Help available if needed.</p>
 
-<h5 id="step-3-use-documentation-from-developer-portal-and-write-data">Step 3: Use documentation from developer portal and write data.</h5>
+<h4 id="step-3-use-documentation-from-developer-portal-and-write-data">Step 3: Use documentation from developer portal and write data.</h4>
 <p>Help availanle if needed.</p>
 
-<h5 id="step-4-find-someone-who-did-the-opposie-of-you-in-task-2-and-3-and-test-that-data-from-one-can-be-read-by-the-other">Step 4: Find someone who did the opposie of you in task 2 and 3, and test that data from one can be read by the other.</h5>
+<h4 id="step-4-find-someone-who-did-the-opposie-of-you-in-task-2-and-3-and-test-that-data-from-one-can-be-read-by-the-other">Step 4: Find someone who did the opposie of you in task 2 and 3, and test that data from one can be read by the other.</h4>
 <p>If you´ve done both 2 and 3, try testing both against other participants.</p>
 
-<h5 id="step-5-if-you-have-gui---try-showing-data-from-multiple-other-vendors">Step 5: If you have GUI - try showing data from multiple other vendors.</h5>
+<h4 id="step-5-if-you-have-gui---try-showing-data-from-multiple-other-vendors">Step 5: If you have GUI - try showing data from multiple other vendors.</h4>
 
 <ul>
   <li><a href="https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata/">PMD API documentation</a></li>
   <li><a href="https://simplifier.net/VelferdteknologiskknutepunktR4">PMD/VKP API FHIR profiles on SIMPLIFIER</a></li>
 </ul>
 
-<h4 id="make-a-fhir-version-of-the-okt-api">Make a FHIR version of the OKT API</h4>
+<h3 id="make-a-fhir-version-of-the-okt-api">Make a FHIR version of the OKT API</h3>
 
 <p>This is an excercise in translating an existing API, both data structures and interactions, to the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.</p>
 
-<h5 id="step-1-design-the-okt-fhir-api">Step 1: Design the OKT FHIR API</h5>
+<h4 id="step-1-design-the-okt-fhir-api">Step 1: Design the OKT FHIR API</h4>
 
 <p>First, we will look at the <a href="https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api">OKT API</a> and discuss which FHIR resources and REST interactions we can translate the API to.</p>
 
-<h5 id="step-2-implement-the-api-with-hapi-fhir">Step 2: Implement the API with HAPI FHIR</h5>
+<h4 id="step-2-implement-the-api-with-hapi-fhir">Step 2: Implement the API with HAPI FHIR</h4>
 
 <p>When the design of the FHIR API is finished, we will implement the FHIR API as a facade, using the HAPI FHIR Plain Server. We will start with <a href="https://github.com/HL7Norway/FHIR-hackathon-2025-okt">FHIR-hackathon-2025-okt</a>, a simple Spring Boot project that has an in-memory data store and implements the proprietary OKT API. We will add the HAPI FHIR dependencies and get busy coding resource providers and transformation logic. We will run our new FHIR service locally and test it through REST interactions.</p>
 
-<h5 id="prerequisites">Prerequisites</h5>
+<h4 id="prerequisites">Prerequisites</h4>
 
 <ul>
   <li>Some knowledge of Java, Maven, and Spring Boot is recommended</li>
   <li>A development environment with a Java 17+ JDK and a recent version of Maven</li>
 </ul>
 
-<h4 id="nordic-tx-fhir-server-api">Nordic tx FHIR server API</h4>
+<h3 id="nordic-tx-fhir-server-api">Nordic tx FHIR server API</h3>
 
-<h4 id="fhir-ig-building-and-authoring">FHIR IG building and authoring</h4>
+<h3 id="fhir-ig-building-and-authoring">FHIR IG building and authoring</h3>
 
 <p>FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.</p>
 
-<h5 id="prerequisites-1">Prerequisites</h5>
+<h4 id="prerequisites-1">Prerequisites</h4>
 
 <p>There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesary tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.</p>
 
-<h5 id="learning-goals">Learning goals</h5>
+<h4 id="learning-goals">Learning goals</h4>
 
 <ul>
   <li>Basic understanding of the role of FHIR profiling</li>
@@ -266,7 +273,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 17, 2025 11:16+0000">2025-09-17</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 17, 2025 11:30+0000">2025-09-17</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
