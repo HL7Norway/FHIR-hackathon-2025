@@ -1,6 +1,7 @@
 ### Use cases
 
-Quick writeup of the use cases for the Hackathon.
+Quick writeup of the use cases for the Hackathon.  
+**NOTE! The agenda is currently under active development and there changes will occur without further notice.**  
 
 #### Pasientens måledata (PMD) FHIR API
 
