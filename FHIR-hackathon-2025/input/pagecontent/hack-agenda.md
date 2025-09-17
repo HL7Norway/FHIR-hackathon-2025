@@ -1,7 +1,7 @@
 ### Agenda for the Hackathon
 
 Proposed agenda for the hackathon 10. november.  
-**NOTE! The agenda is currently under active development and there changes will occur without further notice.**  
+**NOTE! The agenda is currently under active development and changes will occur without further notice.**  
 
 |Time|Title|Presenter|
 |-----|-----|---------|

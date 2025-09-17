@@ -1,11 +1,11 @@
 ### Agenda for the pre meeting
 
 Proposed agenda for the hackathon pre meeting on the 3. november.  
-**NOTE! The agenda is currently under active development and there changes will occur without further notice.**  
+**NOTE! The agenda is currently under active development and changes will occur without further notice.**  
 
 Date: 3. november 2025  
 Time: 09:00-11:00  
-Virtual meeting () 
+[Virtual meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGNmNTc5ZTYtYjZiZS00ZTI3LWFhMDItNDE1OTVkNThmMWNh%40thread.v2/0?context=%7b%22Tid%22%3a%226ba1bd5c-750f-4ad6-aba3-0f95585bc21f%22%2c%22Oid%22%3a%22abb18bf9-9a86-4188-b2d2-7e430cb2f4b5%22%7d)  
 
 #### Proposed agenda
 

@@ -1,59 +1,59 @@
 ### Use cases
 
 Quick writeup of the use cases for the Hackathon.  
-**NOTE! The agenda is currently under active development and there changes will occur without further notice.**  
+**NOTE! The track descriptions are currently under active development and changes will occur without further notice.**  
 
-#### Pasientens måledata (PMD) FHIR API
+### Pasientens måledata (PMD) FHIR API
 
 Excercise on using the Pasientens måledata API to exchange data to/from the PMD API.
 
-##### Step 1: Introduction to Pasientens måledata (PMD) FHIR API.
+#### Step 1: Introduction to Pasientens måledata (PMD) FHIR API.
 About the API and design choices 
 
 Based on your product/solutin/needs do Step 2 and/or Step 3.
 
-##### Step 2: Use documentation from developer portal and retriev data.
+#### Step 2: Use documentation from developer portal and retriev data.
 Help available if needed.
 
-##### Step 3: Use documentation from developer portal and write data.
+#### Step 3: Use documentation from developer portal and write data.
 Help availanle if needed.
 
-##### Step 4: Find someone who did the opposie of you in task 2 and 3, and test that data from one can be read by the other.
+#### Step 4: Find someone who did the opposie of you in task 2 and 3, and test that data from one can be read by the other.
 If you´ve done both 2 and 3, try testing both against other participants.
 
-##### Step 5: If you have GUI - try showing data from multiple other vendors.
+#### Step 5: If you have GUI - try showing data from multiple other vendors.
 
 * [PMD API documentation](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata/)
 * [PMD/VKP API FHIR profiles on SIMPLIFIER](https://simplifier.net/VelferdteknologiskknutepunktR4)
 
-#### Make a FHIR version of the OKT API
+### Make a FHIR version of the OKT API
 
 This is an excercise in translating an existing API, both data structures and interactions, to the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.
 
-##### Step 1: Design the OKT FHIR API
+#### Step 1: Design the OKT FHIR API
 
 First, we will look at the [OKT API](https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api) and discuss which FHIR resources and REST interactions we can translate the API to.
 
-##### Step 2: Implement the API with HAPI FHIR
+#### Step 2: Implement the API with HAPI FHIR
 
 When the design of the FHIR API is finished, we will implement the FHIR API as a facade, using the HAPI FHIR Plain Server. We will start with [FHIR-hackathon-2025-okt](https://github.com/HL7Norway/FHIR-hackathon-2025-okt), a simple Spring Boot project that has an in-memory data store and implements the proprietary OKT API. We will add the HAPI FHIR dependencies and get busy coding resource providers and transformation logic. We will run our new FHIR service locally and test it through REST interactions.
 
-##### Prerequisites
+#### Prerequisites
 
 * Some knowledge of Java, Maven, and Spring Boot is recommended
 * A development environment with a Java 17+ JDK and a recent version of Maven
 
-#### Nordic tx FHIR server API
+### Nordic tx FHIR server API
 
-#### FHIR IG building and authoring
+### FHIR IG building and authoring
 
 FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.
 
-##### Prerequisites
+#### Prerequisites
 
 There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesary tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.
 
-##### Learning goals
+#### Learning goals
 
 * Basic understanding of the role of FHIR profiling  
 * Know the necessary tools for building FHIR IG's  
