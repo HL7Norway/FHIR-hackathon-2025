@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025"/>
-  <version value="0.3.1"/>
+  <version value="0.4.0"/>
   <name value="FHIRHackathon2025"/>
   <title value="FHIR Hackathon 2025"/>
   <status value="draft"/>
-  <date value="2025-09-17T10:56:25+00:00"/>
+  <date value="2025-09-17T11:15:42+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>
@@ -510,6 +510,14 @@
         </extension>
         <nameUrl value="hack-agenda.html"/>
         <title value="Hack Agenda"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="pre-agenda.html"/>
+        </extension>
+        <nameUrl value="pre-agenda.html"/>
+        <title value="Pre Agenda"/>
         <generation value="markdown"/>
       </page>
       <page>
