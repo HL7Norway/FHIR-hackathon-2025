@@ -9,7 +9,7 @@ name: FHIR Hackathon 2025
 title: "FHIR Hackathon 2025"
 description: Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2025
 status: draft
-version: 0.3.1
+version: 0.4.0
 fhirVersion: 4.0.1
 copyrightYear: 2025+
 releaseLabel: ci-build
@@ -26,6 +26,8 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Agenda: hack-agenda.html
+  Agenda: 
+     Hackathon agenda: hack-agenda.html
+     Startup meeting agenda: pre-agenda.html
   Tracks: track-descriptions.html
   TOC: toc.html
