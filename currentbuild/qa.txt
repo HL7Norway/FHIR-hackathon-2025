@@ -3,7 +3,7 @@ FHIRHackathon2025 : Validation Results
 
 err = 0, warn = 12, info = 1
 IG Publisher Version: 2.0.17
-Generated Thu Sep 18 06:32:39 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.hackathon.2025#0.4.1 (canonical = http://hl7.no/fhir/ig/hackathon/2025)
+Generated Thu Sep 18 06:38:21 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.hackathon.2025#0.4.1 (canonical = http://hl7.no/fhir/ig/hackathon/2025)
  Build Errors : 1 / 4 / 0
  /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025 : 0 / 2 / 1
  /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/Patient-Pasient-1 : 0 / 0 / 1
@@ -11,7 +11,7 @@ Generated Thu Sep 18 06:32:39 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.hacka
  /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 5 / 1
 </table>
 == n/a ==
-ERROR: index.html#/html/body/div/div/div/div/div/ul/li/a at Line 290, column 50: The link 'ehin.no' for "EHiN 2025" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/ul/li/a at Line 291, column 50: The link 'ehin.no' for "EHiN 2025" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
