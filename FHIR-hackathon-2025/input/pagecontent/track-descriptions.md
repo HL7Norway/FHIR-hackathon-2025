@@ -10,7 +10,7 @@ Excercise on using the Pasientens måledata API to exchange data to/from the PMD
 #### Step 1: Introduction to Pasientens måledata (PMD) FHIR API.
 About the API and design choices 
 
-Based on your product/solutin/needs do Step 2 and/or Step 3.
+Based on your product/solution/needs do Step 2 and/or Step 3.
 
 #### Step 2: Use documentation from developer portal and retriev data.
 Help available if needed.
@@ -28,20 +28,17 @@ If you´ve done both 2 and 3, try testing both against other participants.
 
 ### Make a FHIR version of the OKT API
 
-This is an excercise in translating an existing API, both data structures and interactions, to the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.
+This is an exercise in translating an existing API, both data structures and interactions, to FHIR resources and the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.
 
-#### Step 1: Design the OKT FHIR API
+We will look at the proprietary [OKT API](https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api) from NHN, and discuss which FHIR resources and REST interactions we can translate the API into.
 
-First, we will look at the [OKT API](https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api) and discuss which FHIR resources and REST interactions we can translate the API to.
+Several resources might fit the purpose, including `EpisodeOfCare`, `CarePlan`, and `ServiceRequest`. We will discuss the resource descriptions and the data fields to see which one is the best match. Other projects, e.g. the use of [`EpisodeOfCare` in Velferdsteknologisk knutepunkt (VKP)](https://simplifier.net/guide/velferdsteknologiskknutepunktvkp-r4/episodeofcare?version=current) will also be considered.
 
-#### Step 2: Implement the API with HAPI FHIR
-
-When the design of the FHIR API is finished, we will implement the FHIR API as a facade, using the HAPI FHIR Plain Server. We will start with [FHIR-hackathon-2025-okt](https://github.com/HL7Norway/FHIR-hackathon-2025-okt), a simple Spring Boot project that has an in-memory data store and implements the proprietary OKT API. We will add the HAPI FHIR dependencies and get busy coding resource providers and transformation logic. We will run our new FHIR service locally and test it through REST interactions.
+The more technically inclined may also demonstrate the conversion from the proprietary API to FHIR, either in code or in FHIR, using `StructureMap` resources. Examples of both will be provided among the hackathon resources.
 
 #### Prerequisites
 
-* Some knowledge of Java, Maven, and Spring Boot is recommended
-* A development environment with a Java 17+ JDK and a recent version of Maven
+* A FHIR implementation guide with some proposals will be shared before the hackathon. Familiarity with the proprietary OKT API and the proposed structures will allow us to get started with the discussion of possible solutions quicker during the hackathon.
 
 ### Nordic tx FHIR server API
 
