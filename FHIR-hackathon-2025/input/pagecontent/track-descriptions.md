@@ -8,20 +8,20 @@ Quick writeup of the use cases for the Hackathon.
 Excercise on using the Pasientens måledata API to exchange data to/from the PMD API.
 
 #### Step 1: Introduction to Pasientens måledata (PMD) FHIR API.
-About the API and design choices 
+About the API and design choices.
 
 Based on your product/solution/needs do Step 2 and/or Step 3.
 
-#### Step 2: Use documentation from developer portal and retriev data.
+#### Step 2: Use documentation from NHN developer portal to retrieve data.
 Help available if needed.
 
-#### Step 3: Use documentation from developer portal and write data.
-Help availanle if needed.
+#### Step 3: Use documentation from NHN developer portal to write data.
+Help available if needed.
 
-#### Step 4: Find someone who did the opposie of you in task 2 and 3, and test that data from one can be read by the other.
+#### Step 4: Find someone who did the opposite of you in step 2 and 3, and test that data from one can be read by the other.
 If you´ve done both 2 and 3, try testing both against other participants.
 
-#### Step 5: If you have GUI - try showing data from multiple other vendors.
+#### Step 5: If you have a GUI - try showing data from multiple other vendors.
 
 * [PMD API documentation](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata/)
 * [PMD/VKP API FHIR profiles on SIMPLIFIER](https://simplifier.net/VelferdteknologiskknutepunktR4)
