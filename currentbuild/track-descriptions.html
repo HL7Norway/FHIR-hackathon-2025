@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Track Descriptions - FHIR Hackathon 2025 v0.4.1</title>
+    <title>Track Descriptions - FHIR Hackathon 2025 v0.4.2</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">FHIR Hackathon 2025</span>
             <br/>
-            <span style="display:inline-block;">0.4.1 - ci-build
+            <span style="display:inline-block;">0.4.2 - ci-build
 
 
 
@@ -154,7 +154,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v0.4.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v0.4.2) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Track Descriptions</h2>
   
 
@@ -228,6 +228,32 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="nordic-tx-fhir-server-api">Nordic tx FHIR server API</h3>
 
+<p>Established in cooperation by the nordic HL7 affiliates (HL7 Sweden, HL7 Denmark, HL7 Finland and HL7 Norway) to establish a common nordic terminology server to host codesystems and valuesets for use with HL7 FHIR.</p>
+
+<h4 id="use-cases-1">Use cases</h4>
+
+<h4 id="ig-building">IG building</h4>
+<p>The main use case for the Nordic terminology server is to make building FHIR IGs using terminology defined in the Nordic countries easier. The common Nordic terminology server should host and maintain codesystems and valuesets that are used in Nordic FHIR IG's and FHIR implementations. The server should be registered to tx.fhir.org to support validation in the FHIR build process. There are a number of valuesets and codesystems that are used in the Nordics:</p>
+
+<ul>
+  <li>National editions of SNOMED CT</li>
+  <li>National ValueSets defined and maintained by the affiliates
+    <ul>
+      <li>These valuesets are typically used in core and base profiles.</li>
+      <li>Examples are valuesets used in Norwegian vitalsign profiles.</li>
+    </ul>
+  </li>
+  <li>National CodeSystems used in core and base profiles</li>
+</ul>
+
+<h4 id="translation">Translation</h4>
+
+<p>Provide national displays for HL7 code system concepts by hosting "language packs" on tx-nordics.</p>
+
+<h4 id="server-instance">Server instance</h4>
+
+<p>HL7 Sweden is currently hosting a terminology server at https://tx-nordics.fhir.org/fhir for use in the Nordic.</p>
+
 <h3 id="fhir-ig-building-and-authoring">FHIR IG building and authoring</h3>
 
 <p>FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.</p>
@@ -270,7 +296,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.4.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 26, 2025 05:09+0000">2025-09-26</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.4.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 26, 2025 10:58+0000">2025-09-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
