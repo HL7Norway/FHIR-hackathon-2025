@@ -192,7 +192,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h4 id="step-1-introduction-to-pasientens-måledata-pmd-fhir-api">Step 1: Introduction to Pasientens måledata (PMD) FHIR API.</h4>
 <p>About the API and design choices</p>
 
-<p>Based on your product/solutin/needs do Step 2 and/or Step 3.</p>
+<p>Based on your product/solution/needs do Step 2 and/or Step 3.</p>
 
 <h4 id="step-2-use-documentation-from-developer-portal-and-retriev-data">Step 2: Use documentation from developer portal and retriev data.</h4>
 <p>Help available if needed.</p>
@@ -212,21 +212,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="make-a-fhir-version-of-the-okt-api">Make a FHIR version of the OKT API</h3>
 
-<p>This is an excercise in translating an existing API, both data structures and interactions, to the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.</p>
+<p>This is an exercise in translating an existing API, both data structures and interactions, to FHIR resources and the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.</p>
 
-<h4 id="step-1-design-the-okt-fhir-api">Step 1: Design the OKT FHIR API</h4>
+<p>We will look at the proprietary <a href="https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api">OKT API</a> from NHN, and discuss which FHIR resources and REST interactions we can translate the API into.</p>
 
-<p>First, we will look at the <a href="https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api">OKT API</a> and discuss which FHIR resources and REST interactions we can translate the API to.</p>
+<p>Several resources might fit the purpose, including <code class="language-plaintext highlighter-rouge">EpisodeOfCare</code>, <code class="language-plaintext highlighter-rouge">CarePlan</code>, and <code class="language-plaintext highlighter-rouge">ServiceRequest</code>. We will discuss the resource descriptions and the data fields to see which one is the best match. Other projects, e.g. the use of <a href="https://simplifier.net/guide/velferdsteknologiskknutepunktvkp-r4/episodeofcare?version=current"><code class="language-plaintext highlighter-rouge">EpisodeOfCare</code> in Velferdsteknologisk knutepunkt (VKP)</a> will also be considered.</p>
 
-<h4 id="step-2-implement-the-api-with-hapi-fhir">Step 2: Implement the API with HAPI FHIR</h4>
-
-<p>When the design of the FHIR API is finished, we will implement the FHIR API as a facade, using the HAPI FHIR Plain Server. We will start with <a href="https://github.com/HL7Norway/FHIR-hackathon-2025-okt">FHIR-hackathon-2025-okt</a>, a simple Spring Boot project that has an in-memory data store and implements the proprietary OKT API. We will add the HAPI FHIR dependencies and get busy coding resource providers and transformation logic. We will run our new FHIR service locally and test it through REST interactions.</p>
+<p>The more technically inclined may also demonstrate the conversion from the proprietary API to FHIR, either in code or in FHIR, using <code class="language-plaintext highlighter-rouge">StructureMap</code> resources. Examples of both will be provided among the hackathon resources.</p>
 
 <h4 id="prerequisites">Prerequisites</h4>
 
 <ul>
-  <li>Some knowledge of Java, Maven, and Spring Boot is recommended</li>
-  <li>A development environment with a Java 17+ JDK and a recent version of Maven</li>
+  <li>A FHIR implementation guide with some proposals will be shared before the hackathon. Familiarity with the proprietary OKT API and the proposed structures will allow us to get started with the discussion of possible solutions quicker during the hackathon.</li>
 </ul>
 
 <h3 id="nordic-tx-fhir-server-api">Nordic tx FHIR server API</h3>
@@ -273,7 +270,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.4.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Sep 18, 2025 06:37+0000">2025-09-18</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.4.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 26, 2025 05:09+0000">2025-09-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
