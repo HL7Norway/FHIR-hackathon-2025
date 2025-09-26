@@ -42,6 +42,27 @@ The more technically inclined may also demonstrate the conversion from the propr
 
 ### Nordic tx FHIR server API
 
+Established in cooperation by the nordic HL7 affiliates (HL7 Sweden, HL7 Denmark, HL7 Finland and HL7 Norway) to establish a common nordic terminology server to host codesystems and valuesets for use with HL7 FHIR.
+
+#### Use cases
+
+#### IG building
+The main use case for the Nordic terminology server is to make building FHIR IGs using terminology defined in the Nordic countries easier. The common Nordic terminology server should host and maintain codesystems and valuesets that are used in Nordic FHIR IG's and FHIR implementations. The server should be registered to tx.fhir.org to support validation in the FHIR build process. There are a number of valuesets and codesystems that are used in the Nordics:
+
+* National editions of SNOMED CT
+* National ValueSets defined and maintained by the affiliates
+  * These valuesets are typically used in core and base profiles.
+  * Examples are valuesets used in Norwegian vitalsign profiles.
+* National CodeSystems used in core and base profiles
+
+#### Translation
+
+Provide national displays for HL7 code system concepts by hosting "language packs" on tx-nordics.
+
+#### Server instance
+
+HL7 Sweden is currently hosting a terminology server at https://tx-nordics.fhir.org/fhir for use in the Nordic.
+
 ### FHIR IG building and authoring
 
 FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.
