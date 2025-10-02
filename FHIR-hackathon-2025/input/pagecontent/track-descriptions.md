@@ -36,9 +36,17 @@ Several resources might fit the purpose, including `EpisodeOfCare`, `CarePlan`, 
 
 The more technically inclined may also demonstrate the conversion from the proprietary API to FHIR, either in code or in FHIR, using `StructureMap` resources. Examples of both will be provided among the hackathon resources.
 
-#### Prerequisites and preparations
+#### Preparations
 
-* A FHIR implementation guide with some proposals will be shared before the hackathon. Familiarity with the proprietary OKT API and the proposed structures will allow us to get started with the discussion of possible solutions quicker during the hackathon.
+To be able to get started with the discussion of possible solutions quicker at the hackathon, we recommend that track participants familiarize themselves with
+
+* The documentation of the current [OKT API](https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api)
+* The draft implementation guide for the OKT FHIR API (link will be published before the hackathon)
+
+#### Relation to other tracks
+
+* FHIR IG building and authoring: The recommendations will be added to a FHIR implementation guide. This can be a use case for the IG authoring track.
+* Nordic tx FHIR server API: The profiles will likely contain some coded data. Making these codes available for the IG authoring process is a use case for the terminology server track.
 
 ### Track: Nordic tx FHIR server API
 
