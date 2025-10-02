@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Track Descriptions - FHIR Hackathon 2025 v0.4.2</title>
+    <title>Track Descriptions - FHIR Hackathon 2025 v0.4.3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">FHIR Hackathon 2025</span>
             <br/>
-            <span style="display:inline-block;">0.4.2 - ci-build
+            <span style="display:inline-block;">0.4.3 - ci-build
 
 
 
@@ -154,7 +154,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v0.4.2) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v0.4.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Track Descriptions</h2>
   
 
@@ -172,20 +172,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#use-cases" id="markdown-toc-use-cases">Use cases</a></li>
-  <li><a href="#pasientens-måledata-pmd-fhir-api" id="markdown-toc-pasientens-måledata-pmd-fhir-api">Pasientens måledata (PMD) FHIR API</a></li>
-  <li><a href="#make-a-fhir-version-of-the-okt-api" id="markdown-toc-make-a-fhir-version-of-the-okt-api">Make a FHIR version of the OKT API</a></li>
-  <li><a href="#nordic-tx-fhir-server-api" id="markdown-toc-nordic-tx-fhir-server-api">Nordic tx FHIR server API</a></li>
-  <li><a href="#fhir-ig-building-and-authoring" id="markdown-toc-fhir-ig-building-and-authoring">FHIR IG building and authoring</a></li>
+  <li><a href="#introduction-to-tracks" id="markdown-toc-introduction-to-tracks">Introduction to tracks</a></li>
+  <li><a href="#track-pasientens-måledata-pmd-fhir-api" id="markdown-toc-track-pasientens-måledata-pmd-fhir-api">Track: Pasientens måledata (PMD) FHIR API</a></li>
+  <li><a href="#track-make-a-fhir-version-of-the-okt-api" id="markdown-toc-track-make-a-fhir-version-of-the-okt-api">Track: Make a FHIR version of the OKT API</a></li>
+  <li><a href="#track-nordic-tx-fhir-server-api" id="markdown-toc-track-nordic-tx-fhir-server-api">Track: Nordic tx FHIR server API</a></li>
+  <li><a href="#track-fhir-ig-building-and-authoring" id="markdown-toc-track-fhir-ig-building-and-authoring">Track: FHIR IG building and authoring</a></li>
 </ul>
 
 </div>
-<h3 id="use-cases">Use cases</h3>
+<h3 id="introduction-to-tracks">Introduction to tracks</h3>
 
-<p>Quick writeup of the use cases for the Hackathon.<br />
+<p>This page contains a quick writeup of the use cases in the different tracks of the 2025 Norwegian FHIR Hackathon.<br />
 <strong>NOTE! The track descriptions are currently under active development and changes will occur without further notice.</strong></p>
 
-<h3 id="pasientens-måledata-pmd-fhir-api">Pasientens måledata (PMD) FHIR API</h3>
+<h3 id="track-pasientens-måledata-pmd-fhir-api">Track: Pasientens måledata (PMD) FHIR API</h3>
 
 <p>Excercise on using the Pasientens måledata API to exchange data to/from the PMD API.</p>
 
@@ -210,7 +210,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><a href="https://simplifier.net/VelferdteknologiskknutepunktR4">PMD/VKP API FHIR profiles on SIMPLIFIER</a></li>
 </ul>
 
-<h3 id="make-a-fhir-version-of-the-okt-api">Make a FHIR version of the OKT API</h3>
+<h3 id="track-make-a-fhir-version-of-the-okt-api">Track: Make a FHIR version of the OKT API</h3>
 
 <p>This is an exercise in translating an existing API, both data structures and interactions, to FHIR resources and the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.</p>
 
@@ -220,17 +220,31 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>The more technically inclined may also demonstrate the conversion from the proprietary API to FHIR, either in code or in FHIR, using <code class="language-plaintext highlighter-rouge">StructureMap</code> resources. Examples of both will be provided among the hackathon resources.</p>
 
-<h4 id="prerequisites">Prerequisites</h4>
+<h4 id="preparations">Preparations</h4>
+
+<p>To be able to get started with the discussion of possible solutions quicker at the hackathon, we recommend that track participants familiarize themselves with</p>
 
 <ul>
-  <li>A FHIR implementation guide with some proposals will be shared before the hackathon. Familiarity with the proprietary OKT API and the proposed structures will allow us to get started with the discussion of possible solutions quicker during the hackathon.</li>
+  <li>The documentation of the current <a href="https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api">OKT API</a></li>
+  <li>The draft implementation guide for the OKT FHIR API (link will be published before the hackathon)</li>
 </ul>
 
-<h3 id="nordic-tx-fhir-server-api">Nordic tx FHIR server API</h3>
+<h4 id="relation-to-other-tracks">Relation to other tracks</h4>
 
-<p>Established in cooperation by the nordic HL7 affiliates (HL7 Sweden, HL7 Denmark, HL7 Finland and HL7 Norway) to establish a common nordic terminology server to host codesystems and valuesets for use with HL7 FHIR.</p>
+<ul>
+  <li>FHIR IG building and authoring: The recommendations will be added to a FHIR implementation guide. This can be a use case for the IG authoring track.</li>
+  <li>Nordic tx FHIR server API: The profiles will likely contain some coded data. Making these codes available for the IG authoring process is a use case for the terminology server track.</li>
+</ul>
 
-<h4 id="use-cases-1">Use cases</h4>
+<h3 id="track-nordic-tx-fhir-server-api">Track: Nordic tx FHIR server API</h3>
+
+<p>Established in cooperation by the nordic HL7 affiliates (HL7 Sweden, HL7 Denmark, HL7 Finland and HL7 Norway) to establish a common nordic terminology server to host codesystems and valuesets for use with HL7 FHIR in standardization efforts.</p>
+
+<blockquote>
+  <p>DISCLAIMER: The nordic terminology server is not intended for use in a production environment. A separate terminology server should be set up by your organization for production use in your IT-infrastructure.</p>
+</blockquote>
+
+<h4 id="use-cases">Use cases</h4>
 
 <h4 id="ig-building">IG building</h4>
 <p>The main use case for the Nordic terminology server is to make building FHIR IGs using terminology defined in the Nordic countries easier. The common Nordic terminology server should host and maintain codesystems and valuesets that are used in Nordic FHIR IG's and FHIR implementations. The server should be registered to tx.fhir.org to support validation in the FHIR build process. There are a number of valuesets and codesystems that are used in the Nordics:</p>
@@ -254,13 +268,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>HL7 Sweden is currently hosting a terminology server at https://tx-nordics.fhir.org/fhir for use in the Nordic.</p>
 
-<h3 id="fhir-ig-building-and-authoring">FHIR IG building and authoring</h3>
+<h3 id="track-fhir-ig-building-and-authoring">Track: FHIR IG building and authoring</h3>
 
 <p>FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.</p>
 
-<h4 id="prerequisites-1">Prerequisites</h4>
+<h4 id="prerequisites-and-preparations">Prerequisites and preparations</h4>
 
-<p>There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesary tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.</p>
+<p>There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesarry tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.</p>
 
 <h4 id="learning-goals">Learning goals</h4>
 
@@ -296,7 +310,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.4.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 2, 2025 06:03+0000">2025-10-02</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.4.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 2, 2025 11:12+0000">2025-10-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
