@@ -2,9 +2,13 @@
 
 The Norwegian FHIR Hackathon 2025 takes place on EHiN preconference on the 10. november 2025. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [Felleskatalogen](https://www.felleskatalogen.no/medisin/) and [HL7 Norge](https://www.hl7.no/)
 
+### Pre-meeting
+
+One week before the hackathon (november 3rd 0900-1100) all participants and tracks leads meet digitaly to introduce the tracks, ask questions and discuss the content in the different tracks.
+
 ### Registration
 
-[Registration form at EHiN.](https://event.checkin.no/167096/prekonferanse-ehin-2025)
+[Registration is now open, please use registration form at EHiN](https://event.checkin.no/167096/prekonferanse-ehin-2025)
 
 ### Why should you attend?
 
@@ -32,7 +36,7 @@ The event will be of value to individuals working in the healthcare industry and
 * Enterprise architects
 * Project managers
 
-### Prerequisites for participants
+### Preparations for participants
 
 * Basic knowledge of RESTful API's is usefull to be able to participate in testing and development
 * Knowledge of at least one of the following areas:
@@ -44,7 +48,11 @@ The event will be of value to individuals working in the healthcare industry and
 
 ### How to attend
 
-* Please use the attendee form published by [EHiN 2025](ehin.no) (coming soon) to secure your place on the hackathon.
+* Please use the attendee form published by [EHiN 2025](ehin.no) to secure your place on the hackathon.
 * Attend the startup meeting the week before, monday 3rd of November from 0900-1100 (this will be a digital only meeting).
 * Make your preparations for the workshop.
 * Meet us at [X meeting point](https://maps.app.goo.gl/EcvP399Myg3NAuzr8) (EHIN venue) for the first Norwegian FHIR Hackathon 10th november 2025.
+
+### Questions and contact
+
+Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.no) if you got any questions regarding the event.
