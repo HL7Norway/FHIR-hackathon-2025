@@ -1,0 +1,51 @@
+@startuml
+
+"Participant" as participant
+
+'rectangle "test" as rect {
+"Test API usage" as (test) #lightblue
+"API testing" as (provide) #lightblue
+"give feedback" as (give) #lightblue
+"get feedback" as (get) #lightblue
+"Learn new skills" as (learn) #lightblue
+
+'(test) -down[hidden]- (give)
+'(provide) -down[hidden]- (get)
+"API provider" as applikasjon
+applikasjon -left-> provide
+applikasjon -left-> get
+get -left- give
+provide -left- test
+participant -down-> learn
+applikasjon -down-> learn
+'source -down- applikasjon
+'}
+'actor "Pasient" as pasient 
+'[API] as api
+'"skrive informasjon" as (skrive) #lightblue
+
+test -[hidden]down- give
+'api -[hidden]right- pasient
+
+participant -up-> test
+'søke <-down- pasient
+
+participant -right-> (give)
+'(give) <-right- pasient
+'kliniker -down-> (skrive)
+
+'pasient -left-> give
+'pasient -[hidden]left-> skrive
+'pasient -down-> skrive
+
+'(søke) -down- app
+'app -down- (give)
+'(give) -right- app
+'app -down- pasient
+'skrive -down- dokumentasjon
+'give -down- presentasjon
+
+'api .up. give
+'api .down. skrive
+
+@enduml

@@ -14,6 +14,8 @@ One week before the hackathon (november 3rd 0900-1100) all participants and trac
 
 The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software.  
 
+<div>{% include main-use-case.svg %}</div>
+
 During the Norwegian FHIR Hackathon you can:  
 
 * Implement and test implementation of the FHIR API for [Pasientens måledata](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata) (PMD-API)
