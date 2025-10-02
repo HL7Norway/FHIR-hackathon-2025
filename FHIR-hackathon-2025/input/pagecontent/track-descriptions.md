@@ -1,9 +1,9 @@
-### Use cases
+### Introduction to tracks
 
-Quick writeup of the use cases for the Hackathon.  
+This page contains a quick writeup of the use cases in the different tracks of the 2025 Norwegian FHIR Hackathon.  
 **NOTE! The track descriptions are currently under active development and changes will occur without further notice.**  
 
-### Pasientens måledata (PMD) FHIR API
+### Track: Pasientens måledata (PMD) FHIR API
 
 Excercise on using the Pasientens måledata API to exchange data to/from the PMD API.
 
@@ -26,7 +26,7 @@ If you´ve done both 2 and 3, try testing both against other participants.
 * [PMD API documentation](https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata/)
 * [PMD/VKP API FHIR profiles on SIMPLIFIER](https://simplifier.net/VelferdteknologiskknutepunktR4)
 
-### Make a FHIR version of the OKT API
+### Track: Make a FHIR version of the OKT API
 
 This is an exercise in translating an existing API, both data structures and interactions, to FHIR resources and the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.
 
@@ -36,11 +36,11 @@ Several resources might fit the purpose, including `EpisodeOfCare`, `CarePlan`, 
 
 The more technically inclined may also demonstrate the conversion from the proprietary API to FHIR, either in code or in FHIR, using `StructureMap` resources. Examples of both will be provided among the hackathon resources.
 
-#### Prerequisites
+#### Prerequisites and preparations
 
 * A FHIR implementation guide with some proposals will be shared before the hackathon. Familiarity with the proprietary OKT API and the proposed structures will allow us to get started with the discussion of possible solutions quicker during the hackathon.
 
-### Nordic tx FHIR server API
+### Track: Nordic tx FHIR server API
 
 Established in cooperation by the nordic HL7 affiliates (HL7 Sweden, HL7 Denmark, HL7 Finland and HL7 Norway) to establish a common nordic terminology server to host codesystems and valuesets for use with HL7 FHIR.
 
@@ -63,13 +63,13 @@ Provide national displays for HL7 code system concepts by hosting "language pack
 
 HL7 Sweden is currently hosting a terminology server at https://tx-nordics.fhir.org/fhir for use in the Nordic.
 
-### FHIR IG building and authoring
+### Track: FHIR IG building and authoring
 
 FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.
 
-#### Prerequisites
+#### Prerequisites and preparations
 
-There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesary tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.
+There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesarry tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.
 
 #### Learning goals
 
