@@ -42,7 +42,9 @@ The more technically inclined may also demonstrate the conversion from the propr
 
 ### Track: Nordic tx FHIR server API
 
-Established in cooperation by the nordic HL7 affiliates (HL7 Sweden, HL7 Denmark, HL7 Finland and HL7 Norway) to establish a common nordic terminology server to host codesystems and valuesets for use with HL7 FHIR.
+Established in cooperation by the nordic HL7 affiliates (HL7 Sweden, HL7 Denmark, HL7 Finland and HL7 Norway) to establish a common nordic terminology server to host codesystems and valuesets for use with HL7 FHIR in standardization efforts.  
+
+> DISCLAIMER: The nordic terminology server is not intended for use in a production environment. A separate terminology server should be set up by your organization for production use in your IT-infrastructure.
 
 #### Use cases
 
