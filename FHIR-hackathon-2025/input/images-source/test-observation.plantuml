@@ -1,131 +1,113 @@
 @startuml
-' Define the main Observation class
-class Observation {
-  - id: String
-  - observation_bp: String
-  - bodySite: CodeableConcept
-  - method: CodeableConcept
-  - referenceRange: BackboneElement
-  - subject: Reference
-}
+' Hovedklasse Observation
+class  Observation <<no-domain-VitalSigns-Observation-bloodpressure>> {
+  id: String [1..1]
+  'observation_bp: String [0..*] <<FHIR Blood Pressure Profile Norway>>
+  code: CodeableConcept [1..1] <<LOINC BPCode 85354-9>>
+  subject: Reference [1..1]
+  performer: Performer [0..*]
+  bodySite: CodeableConcept [0..1] <<NoDomainVitalSignsBloodpressureBodySite-ValueSet (required)>>
+  method: CodeableConcept [0..1] <<NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet (extensible)>>
+  referenceRange: BackboneElement [0..1]
+  component: SystolicBP [1..1]
+  component: DiastolicBP [1..1]
+  component: MeanArterialPressure [0..1]
+  component: PulsePressure [0..1]
+} 
 
-' Define the extension class with its slices
+' Extension med slices
 class Extension {
-  - extension_confoundingFactor: CodeableConcept
-  - extension_headTiltAngle: Quantity
-  - extension_sleepStatus: Coding
-  - extension_cuffSize: Coding
-  - extension_bodyPosition: Coding
-  - extension_formulaMAPCalc: String
-  - extension_formulaSystolicCalc: String
-  - extension_formulaDiastolicCalc: String
+  confoundingFactor: CodeableConcept [0..1] <<NoDomainVitalSignsConfoundingFactorExtension>>
+  headTiltAngle: Quantity [0..1] <<NoDomainVitalSignsTiltExtension>>
+  sleepStatus: Coding [0..1] <<NoDomainVitalSignsSleepStatus-ValueSet (required)>>
+  cuffSize: Coding [0..1] <<NoDomainVitalSignsCuffsize-ValueSet (required)>>
+  bodyPosition: Coding [0..1] <<NoDomainVitalSignsBloodpressureBodyPosition-ValueSet (required)>>
+  formulaMAPCalc: String [0..1]
+  formulaSystolicCalc: String [0..1]
+  formulaDiastolicCalc: String [0..1]
 }
 
-' Define the CodeableConcept class
-class CodeableConcept {
-  - coding: List<Coding>
-}
-
-' Define the Coding class
-class Coding {
-  - system: URI
-  - code: String
-}
-
-'' Define the Quantity class
-'class Quantity {
-'  - value: Decimal
-'  - unit: String
-'  - system: URI
-'  - code: String
+'class CodeableConcept {
+'  coding: Coding [1..*]
 '}
 
-' Define the Component class (for systolic, diastolic, etc.)
-'class Component {
-'  - code: CodeableConcept
-'  - value: Quantity
+'class Coding {
+'  system: URI [1..1]
+'  code: String [1..1]
 '}
 
-' Define the Performer class (for slices of performer)
 class Performer {
-  - performer: List<Reference>
-  - performer_organization: List<Reference>
+  author: Reference [0..*]
+  organization: Reference [0..*]
 }
 
-' Define the BodySite class with value set binding
 class BodySite {
-  - coding: List<Coding>
-  - binding: "NoDomainVitalSignsBloodpressureBodySite-ValueSet"
-  - valueSet: "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodpressureBodySite-ValueSet"
+  coding: Coding [0..*] <<NoDomainVitalSignsBloodpressureBodySite-ValueSet (required)>>
 }
 
-' Define the Method class with value set binding
 class Method {
-  - coding: List<Coding>
-  - binding: "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"
-  - valueSet: "http://hl7.no/fhir/no-domain/vitalsigns/StructureDefinition/NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"
+  coding: Coding [0..*] <<NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet (extensible)>>
 }
 
-' Define the Component class for Systolic, Diastolic, etc.
 class SystolicBP {
-  - code: CodeableConcept
-  - coding: List<Coding>
-  - binding: "4471000202106"
-  - valueSet: "http://snomed.info/sct"
+  code: CodeableConcept [1..1]
+  coding: Coding [1..*] <<Fixed SNOMED 4471000202106>>
 }
 
 class DiastolicBP {
-  - code: CodeableConcept
-  - coding: List<Coding>
-  - binding: "4481000202108"
-  - valueSet: "http://snomed.info/sct"
+  code: CodeableConcept [1..1]
+  coding: Coding [1..*] <<Fixed SNOMED 4481000202108>>
 }
 
 class MeanArterialPressure {
-  - code: CodeableConcept
-  - value: Quantity
-  - coding: List<Coding>
-  - binding: "8478-0"
-  - valueSet: "http://loinc.org"
+  code: CodeableConcept [1..1]
+  coding: Coding [0..*] <<Fixed LOINC 8478-0 | SNOMED 4501000202102>>
+  value: Quantity [0..1] <<UCUM mm[Hg]>>
 }
 
 class PulsePressure {
-  - code: CodeableConcept
-  - value: Quantity
-  - coding: List<Coding>
-  - binding: "4461000202102"
-  - valueSet: "http://snomed.info/sct"
+  code: CodeableConcept [1..1]
+  coding: Coding [1..*] <<Fixed SNOMED 4461000202102>>
+  value: Quantity [0..1] <<UCUM mm[Hg]>>
 }
 
-' Relationships between classes
-Observation "1" *-left- "0..*" Extension
-Observation "0..*" *-left- "0..*" Performer :Author
-Observation "0..*" *-left- "0..*" Performer :organization
-Performer -[hidden]down- BodySite
-BodySite -[hidden]down- Method
-Method -[hidden]down- Extension
-Observation "0..1" *-left- "0..1" BodySite
-Observation "0..1" *-left- "0..1" Method
-'Observation "0..*" *-right- "0..*" Component
+' Relasjoner
+'Observation "0..*" *-- "0..*" Extension
+'Observation "1..1" *-- "1..1" Reference : subject
+'Observation "0..*" *-- "0..*" Performer : performer
+'Observation "0..1" *-- "0..1" BodySite
+'Observation "0..1" *-- "0..1" Method
 
-'Component "1" *-- "1" CodeableConcept
-'Component "1" *-- "1" Quantity
+'Observation "1..1" *-- "1..1" SystolicBP : component
+'Observation "1..1" *-- "1..1" DiastolicBP : component
+'Observation "0..1" *-- "0..1" MeanArterialPressure : component
+'Observation "0..1" *-- "0..1" PulsePressure : component
 
-Observation "1..1" *-right- "1..1" SystolicBP :component
-Observation "1..1" *-right- "1..1" DiastolicBP :component
-Observation "0..1" *-right- "0..1" MeanArterialPressure :component
-Observation "0..1" *-right- "0..1" PulsePressure :component
-SystolicBP -[hidden]down- DiastolicBP
-DiastolicBP -[hidden]down- MeanArterialPressure
-MeanArterialPressure -[hidden]down- PulsePressure
-
-SystolicBP "1" *-right- "1" CodeableConcept
-SystolicBP "1" *-right- "0..*" Coding
-DiastolicBP "1" *-right- "1" CodeableConcept
-DiastolicBP "1" *-right- "0..*" Coding
-MeanArterialPressure "1" *-right- "1" CodeableConcept
-MeanArterialPressure "1" *-right- "0..*" Coding
-PulsePressure "1" *-right- "1" CodeableConcept
-PulsePressure "1" *-right- "0..*" Coding
+Observation "1" *-down- "0..*" Extension :extension
+Observation "0..*" *-left- "0..*" Performer :Author 
+Observation "0..*" *-left- "0..*" Performer :organization 
+Performer -[hidden]down- BodySite 
+BodySite -[hidden]down- Method 
+'Method -[hidden]down- Extension 
+Observation "0..1" *-left- "0..1" BodySite 
+Observation "0..1" *-left- "0..1" Method 
+'Observation "0..*" *-right- "0..*" Component 
+'Component "1" *-- "1" CodeableConcept 
+'Component "1" *-- "1" Quantity 
+Observation "1..1" *-right- "1..1" SystolicBP :component 
+Observation "1..1" *-right- "1..1" DiastolicBP :component 
+Observation "0..1" *-right- "0..1" MeanArterialPressure :component 
+Observation "0..1" *-right- "0..1" PulsePressure :component 
+SystolicBP -[hidden]down- DiastolicBP 
+DiastolicBP -[hidden]down- MeanArterialPressure 
+MeanArterialPressure -[hidden]down- PulsePressure 
+'SystolicBP "1" *-right- "1" CodeableConcept 
+'SystolicBP "1" *-right- "0..*" Coding 
+'DiastolicBP "1" *-right- "1" CodeableConcept 
+'DiastolicBP "1" *-right- "0..*" Coding 
+'MeanArterialPressure "1" *-right- "1" CodeableConcept 
+'MeanArterialPressure "1" *-right- "0..*" Coding 
+'PulsePressure "1" *-right- "1" CodeableConcept 
+'PulsePressure "1" *-right- "0..*" Coding
 
 @enduml
