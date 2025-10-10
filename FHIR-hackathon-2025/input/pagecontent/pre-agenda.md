@@ -1,6 +1,6 @@
-### Agenda for the pre meeting
+### Agenda for the pre meetings
 
-Proposed agenda for the hackathon pre meeting on the 3. november.  
+Proposed agenda for the hackathon pre meetings on the 3. november.  
 **NOTE! The agenda is currently under active development and changes will occur without further notice.**
 
 Date: 3. november 2025  

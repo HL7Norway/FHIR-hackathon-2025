@@ -1,0 +1,206 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Moterom Hdir Oslo 540 - 8 pl";CUTYPE=RESOURCE;ROLE=NON-PARTICI
+	PANT;RSVP=TRUE:mailto:RoomHdirOslo5402@helsedir.no
+ATTENDEE;CN="Øyvind Aassve";RSVP=TRUE:mailto:oeyaas@sykehuspartner.no
+ATTENDEE;CN="Gaute Nygreen";RSVP=TRUE:mailto:gaute.nygreen@nhn.no
+ATTENDEE;CN="Adam Kover";RSVP=TRUE:mailto:adam.kover@felleskatalogen.no
+ATTENDEE;CN="Nino Lo Cascio";RSVP=TRUE:mailto:nino.lo.cascio@tietoevry.com
+ATTENDEE;CN="Espen Stranger Seland";RSVP=TRUE:mailto:ess@vali.no
+ATTENDEE;CN="Mattias Colliander";RSVP=TRUE:mailto:mattias.colliander@collia
+	n.se
+ATTENDEE;CN="Michal Jan Warecki";RSVP=TRUE:mailto:michal.jan.warecki@nhn.no
+ATTENDEE;CN="Robert William Dall Frøseth";RSVP=TRUE:mailto:robert.william.
+	dall.froseth@nhn.no
+CLASS:PUBLIC
+CREATED:20251010T113705Z
+DESCRIPTION:Intro meeting to the Norwegian FHIR Hackathon Agenda: Pre Agend
+	a - FHIR Hackathon 2025 v0.4.3 <https://hl7norway.github.io/FHIR-hackathon
+	-2025/currentbuild/pre-agenda.html> \n\n__________________________________
+	______________________________________________\n\nMicrosoft Teams Trenger 
+	du hjelp? <https://aka.ms/JoinTeamsMeeting?omkt=nb-NO>  \n\nBli med i møt
+	et nå <https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGFhYWYxOTI
+	tMTU3My00ZTJmLWEyMTAtMTc0ZGYxY2M5OTk5%40thread.v2/0?context=%7b%22Tid%22%3
+	a%226ba1bd5c-750f-4ad6-aba3-0f95585bc21f%22%2c%22Oid%22%3a%22abb18bf9-9a86
+	-4188-b2d2-7e430cb2f4b5%22%7d>  \n\nMøte-ID: 326 159 391 201 0 \n\nPassor
+	d: 6jJ7cq9Z \n\n________________________________\n\nRing på telefon \n\n+
+	47 23 88 41 25\,\,465943135# <tel:+4723884125\,\,465943135>  Norge\, Oslo 
+	\n\nFinn et lokalt nummer <https://dialin.teams.microsoft.com/ae5cb1c4-00f
+	0-4cee-82bd-4a3623da0717?id=465943135>  \n\nTelefonkonferanse-ID: 465 943 
+	135# \n\nBli med fra en videokonferanseenhet \n\nLeiers nøkkel: hdir@ptc.
+	nhn.no <mailto:hdir@ptc.nhn.no>  \n\nVideo-ID: 129 013 055 3 \n\nMer infor
+	masjon <https://ptc.nhn.no/teams/?conf=1290130553&ivr=HDIR&d=ptc.nhn.no&te
+	st=test_call&w&prefix=hdir.>  \n\nFor arrangører: Møtealternativer <http
+	s://teams.microsoft.com/meetingOptions/?organizerId=abb18bf9-9a86-4188-b2d
+	2-7e430cb2f4b5&tenantId=6ba1bd5c-750f-4ad6-aba3-0f95585bc21f&threadId=19_m
+	eeting_OGFhYWYxOTItMTU3My00ZTJmLWEyMTAtMTc0ZGYxY2M5OTk5@thread.v2&messageI
+	d=0&language=nb-NO>  | Tilbakestill PIN-kode for innringing <https://diali
+	n.teams.microsoft.com/usp/pstnconferencing>  \n\n_________________________
+	_______________________________________________________\n\n \n\n
+DTEND;TZID="W. Europe Standard Time":20251027T105500
+DTSTAMP:20251010T113557Z
+DTSTART;TZID="W. Europe Standard Time":20251027T100000
+LAST-MODIFIED:20251010T113705Z
+LOCATION:Moterom Hdir Oslo 540 - 8 pl
+ORGANIZER;CN="Thomas Tveit Rosenlund":mailto:Thomas.Tveit.Rosenlund@helsedi
+	r.no
+PRIORITY:5
+SEQUENCE:1
+SUMMARY;LANGUAGE=no:FHIR Hackathon pre meeting 1
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000020EE6BE7E039DC01000000000000000
+	0100000004E379D19DBB9214EA57C1B34B0589D5C
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=Generato
+	r content="Microsoft Word 15 (filtered medium)"><!--[if !mso]><style>v\\:*
+	 {behavior:url(#default#VML)\;}\no\\:* {behavior:url(#default#VML)\;}\nw\\
+	:* {behavior:url(#default#VML)\;}\n.shape {behavior:url(#default#VML)\;}\n
+	</style><![endif]--><style><!--\n/* Font Definitions */\n@font-face\n	{fon
+	t-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 3 2 4\;}\n@font-face\n	
+	{font-family:Aptos\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2
+	 11 5 2 4 2 4 2 2 3\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNorma
+	l\, div.MsoNormal\n	{margin:0cm\;\n	font-size:11.0pt\;\n	font-family:"Apto
+	s"\,sans-serif\;\n	mso-ligatures:standardcontextual\;\n	mso-fareast-langua
+	ge:EN-US\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;\n	color
+	:#467886\;\n	text-decoration:underline\;}\nspan.EpostStil18\n	{mso-style-t
+	ype:personal-compose\;\n	font-family:"Aptos"\,sans-serif\;\n	color:windowt
+	ext\;}\nspan.me-email-text\n	{mso-style-name:me-email-text\;}\nspan.me-ema
+	il-text-secondary\n	{mso-style-name:me-email-text-secondary\;}\nspan.me-em
+	ail-headline\n	{mso-style-name:me-email-headline\;}\n.MsoChpDefault\n	{mso
+	-style-type:export-only\;\n	font-size:10.0pt\;\n	mso-ligatures:none\;}\n@p
+	age WordSection1\n	{size:612.0pt 792.0pt\;\n	margin:70.85pt 70.85pt 70.85p
+	t 70.85pt\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></style><!--[if
+	 gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xml>
+	<![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idm
+	ap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--></head><bod
+	y lang=NO-BOK link="#467886" vlink="#96607D" style='word-wrap:break-word'>
+	<div class=WordSection1><p class=MsoNormal><span lang=EN-US>Intro meeting 
+	to the Norwegian FHIR Hackathon Agenda: </span><a href="https://hl7norway.
+	github.io/FHIR-hackathon-2025/currentbuild/pre-agenda.html"><span lang=EN-
+	US>Pre Agenda - FHIR Hackathon 2025 v0.4.3</span></a><span lang=EN-US><o:p
+	></o:p></span></p><div><div style='margin-bottom:18.0pt\;overflow:hidden'>
+	<p class=MsoNormal><span lang=EN-US style='font-family:"Segoe UI"\,sans-se
+	rif\;color:#242424'>______________________________________________________
+	__________________________</span><span lang=EN-US style='font-size:12.0pt\
+	;font-family:"Segoe UI"\,sans-serif\;color:#242424\;mso-ligatures:none'><o
+	:p></o:p></span></p></div><div style='margin-bottom:9.0pt'><p class=MsoNor
+	mal><span class=me-email-text><b><span style='font-size:18.0pt\;font-famil
+	y:"Segoe UI"\,sans-serif\;color:#242424'>Microsoft Teams</span></b></span>
+	<span style='font-family:"Segoe UI"\,sans-serif\;color:#242424'> <a href="
+	https://aka.ms/JoinTeamsMeeting?omkt=nb-NO"><span style='font-size:10.5pt\
+	;color:#5B5FC7'>Trenger du hjelp?</span></a> <o:p></o:p></span></p></div><
+	div style='margin-bottom:4.5pt'><p class=MsoNormal><span style='font-famil
+	y:"Segoe UI"\,sans-serif\;color:#242424'><a href="https://teams.microsoft.
+	com/l/meetup-join/19%3ameeting_OGFhYWYxOTItMTU3My00ZTJmLWEyMTAtMTc0ZGYxY2M
+	5OTk5%40thread.v2/0?context=%7b%22Tid%22%3a%226ba1bd5c-750f-4ad6-aba3-0f95
+	585bc21f%22%2c%22Oid%22%3a%22abb18bf9-9a86-4188-b2d2-7e430cb2f4b5%22%7d" t
+	arget="_blank" title="Meeting join link"><b><span style='font-size:15.0pt\
+	;color:#5B5FC7'>Bli med i møtet nå</span></b></a> <o:p></o:p></span></p>
+	</div><div style='margin-bottom:4.5pt'><p class=MsoNormal><span class=me-e
+	mail-text-secondary><span style='font-size:10.5pt\;font-family:"Segoe UI"\
+	,sans-serif\;color:#616161'>Møte-ID: </span></span><span class=me-email-t
+	ext><span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;col
+	or:#242424'>326 159 391 201 0</span></span><span style='font-family:"Segoe
+	 UI"\,sans-serif\;color:#242424'> <o:p></o:p></span></p></div><div style='
+	margin-bottom:4.5pt'><p class=MsoNormal><span class=me-email-text-secondar
+	y><span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color
+	:#616161'>Passord: </span></span><span class=me-email-text><span style='fo
+	nt-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#242424'>6jJ7cq9
+	Z</span></span><span style='font-family:"Segoe UI"\,sans-serif\;color:#242
+	424'> <o:p></o:p></span></p></div><div style='margin-bottom:18.0pt'><div c
+	lass=MsoNormal align=center style='text-align:center'><span style='font-fa
+	mily:"Segoe UI"\,sans-serif\;color:#242424'><hr size=1 width="100%" align=
+	center></span></div></div><div><div style='margin-bottom:4.5pt'><p class=M
+	soNormal><span class=me-email-text><b><span style='font-family:"Segoe UI"\
+	,sans-serif\;color:#242424'>Ring på telefon</span></b></span><span style=
+	'font-family:"Segoe UI"\,sans-serif\;color:#242424'> <o:p></o:p></span></p
+	></div><div style='margin-bottom:4.5pt'><p class=MsoNormal><span style='fo
+	nt-family:"Segoe UI"\,sans-serif\;color:#242424'><a href="tel:+4723884125\
+	,\,465943135"><span style='font-size:10.5pt\;color:#5B5FC7'>+47 23 88 41 2
+	5\,\,465943135#</span></a> </span><span class=me-email-text><span style='f
+	ont-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#616161'>Norge\
+	, Oslo</span></span><span style='font-family:"Segoe UI"\,sans-serif\;color
+	:#242424'> <o:p></o:p></span></p></div><div style='margin-bottom:4.5pt'><p
+	 class=MsoNormal><span style='font-family:"Segoe UI"\,sans-serif\;color:#2
+	42424'><a href="https://dialin.teams.microsoft.com/ae5cb1c4-00f0-4cee-82bd
+	-4a3623da0717?id=465943135"><span style='font-size:10.5pt\;color:#5B5FC7'>
+	Finn et lokalt nummer</span></a> <o:p></o:p></span></p></div></div><div st
+	yle='margin-bottom:18.0pt'><p class=MsoNormal><span class=me-email-text-se
+	condary><span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\
+	;color:#616161'>Telefonkonferanse-ID: </span></span><span class=me-email-t
+	ext><span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;col
+	or:#242424'>465 943 135#</span></span><span style='font-family:"Segoe UI"\
+	,sans-serif\;color:#242424'> <o:p></o:p></span></p></div><div style='margi
+	n-bottom:4.5pt'><p class=MsoNormal><span class=me-email-headline><b><span 
+	style='font-family:"Segoe UI"\,sans-serif\;color:#242424'>Bli med fra en v
+	ideokonferanseenhet</span></b></span><span style='font-family:"Segoe UI"\,
+	sans-serif\;color:#242424'> <o:p></o:p></span></p></div><div style='margin
+	-bottom:4.5pt'><p class=MsoNormal><span class=me-email-text><span style='f
+	ont-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#616161'>Leiers
+	 nøkkel: </span></span><span class=me-email-text><span style='font-size:1
+	0.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#242424'><a href="mailto:
+	hdir@ptc.nhn.no">hdir@ptc.nhn.no</a></span></span><span style='font-family
+	:"Segoe UI"\,sans-serif\;color:#242424'> <o:p></o:p></span></p></div><div 
+	style='margin-bottom:4.5pt'><p class=MsoNormal><span class=me-email-text-s
+	econdary><span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif
+	\;color:#616161'>Video-ID: </span></span><span class=me-email-text><span s
+	tyle='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#242424'
+	>129 013 055 3</span></span><span style='font-family:"Segoe UI"\,sans-seri
+	f\;color:#242424'> <o:p></o:p></span></p></div><div style='margin-bottom:1
+	8.0pt'><p class=MsoNormal><span style='font-family:"Segoe UI"\,sans-serif\
+	;color:#242424'><a href="https://ptc.nhn.no/teams/?conf=1290130553&amp\;iv
+	r=HDIR&amp\;d=ptc.nhn.no&amp\;test=test_call&amp\;w&amp\;prefix=hdir." tar
+	get="_blank"><span style='font-size:10.5pt\;color:#5B5FC7'>Mer informasjon
+	</span></a> <o:p></o:p></span></p></div><div><p class=MsoNormal><span clas
+	s=me-email-text-secondary><span style='font-size:10.5pt\;font-family:"Sego
+	e UI"\,sans-serif\;color:#616161'>For arrangører: </span></span><span sty
+	le='font-family:"Segoe UI"\,sans-serif\;color:#242424'><a href="https://te
+	ams.microsoft.com/meetingOptions/?organizerId=abb18bf9-9a86-4188-b2d2-7e43
+	0cb2f4b5&amp\;tenantId=6ba1bd5c-750f-4ad6-aba3-0f95585bc21f&amp\;threadId=
+	19_meeting_OGFhYWYxOTItMTU3My00ZTJmLWEyMTAtMTc0ZGYxY2M5OTk5@thread.v2&amp\
+	;messageId=0&amp\;language=nb-NO" target="_blank"><span style='font-size:1
+	0.5pt\;color:#5B5FC7'>Møtealternativer</span></a> </span><span style='fon
+	t-family:"Segoe UI"\,sans-serif\;color:#616161'>|</span><span style='font-
+	family:"Segoe UI"\,sans-serif\;color:#242424'> <a href="https://dialin.tea
+	ms.microsoft.com/usp/pstnconferencing" target="_blank"><span style='font-s
+	ize:10.5pt\;color:#5B5FC7'>Tilbakestill PIN-kode for innringing</span></a>
+	 <o:p></o:p></span></p></div><div style='margin-bottom:18.0pt\;overflow:hi
+	dden'><p class=MsoNormal><span style='font-family:"Segoe UI"\,sans-serif\;
+	color:#242424'>___________________________________________________________
+	_____________________<o:p></o:p></span></p></div></div><p class=MsoNormal>
+	<o:p>&nbsp\;</o:p></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:1
+X-MS-OLK-APPTSEQTIME:20251010T113557Z
+X-MS-OLK-AUTOFILLLOCATION:TRUE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
