@@ -20,12 +20,13 @@ Date: 27. october 2025
 
 | | | |
 | :--- | :--- | :--- |
-| 0900 | Welcome | Thomas T Rosenlund |
-| 0910 | PMD track intro | Michal |
-| 0920 | OKT track intro | Robert |
-| 0930 | Terminology track intro | Mattias |
-| 0940 | IG track intro | Espen/Thomas |
-| 0950 | Q&A and Discussion | All |
+| 1000 | Welcome | Thomas T Rosenlund |
+| 1010 | PMD track intro | Michal |
+| 1020 | OKT track intro | Robert |
+| 1030 | Terminology track intro | Mattias |
+| 1040 | IG track intro | Espen/Thomas |
+| 1050 | Q&A and Discussion | All |
+| 1100 | End of meeting | All |
 
 ### November 3rd
 
@@ -39,9 +40,9 @@ The goal of the pre-meeting is to give a quick introduction to the different hac
 
 | | | |
 | :--- | :--- | :--- |
-| 0900 | Welcome | Thomas T Rosenlund |
-| 0910 | Separate meetings for each track | All |
-| 1000 | End of meeting | All |
+| 1000 | Welcome | Thomas T Rosenlund |
+| 1010 | Separate meetings for each track | All |
+| 1100 | End of meeting | All |
 
 ### Virtual meeting invite
 

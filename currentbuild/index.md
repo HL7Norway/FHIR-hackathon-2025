@@ -91,7 +91,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-10-13T06:53:50+00:00",
+  "date" : "2025-10-13T08:09:18+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
