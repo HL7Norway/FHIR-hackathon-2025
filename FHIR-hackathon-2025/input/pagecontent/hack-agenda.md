@@ -6,9 +6,8 @@ Proposed agenda for the hackathon 10. november.
 |Time|Title|Presenter|
 |-----|-----|---------|
 |0930|Welcome and Introductions (plenary)|Thomas T Rosenlund (Helsedirektoratet) og Nino Lo Cascio (Bedredelt)|
-|0945|Intro to FHIR, IG and FHIR RESTful (plenary)|Thomas/Espen|
-|1015|Parallell intros to tracks|Track leads|
-|1030|Working in tracks|Track leads|
+|0945|Parallell intros to tracks|Track leads|
+|1015|Working in tracks|Track leads|
 |1200|Lunch|NA|
 |1300|Working in tracks|Track leads|
 |1430|Coffee break|NA|
@@ -24,3 +23,7 @@ Track introductions
 * Intro to Oversikt over kommunale tjenester API (OKT API) and approaches for making FHIR API from existing services (Adam)
 * Intro to terminology API and demo of nordic terminology server (Mattias?)
 * Write and publish documentation of FHIR API's by publishing a FHIR IG (Thomas/Espen)
+
+##### Introduction to FHIR
+
+Intro to FHIR, IG and FHIR RESTful can be given on demand. Please review the [HL7 FHIR video resources](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html#preparations-for-participants)

@@ -4,7 +4,7 @@ The Norwegian FHIR Hackathon 2025 takes place on EHiN preconference on the 10. n
 
 ### Pre-meetings
 
-One and two weeks before the hackathon (october 27th and november 3rd 1000-1100) all participants and tracks leads meet digitaly to introduce the tracks, ask questions and discuss the content in the different tracks.
+We will arrange two pre meetings before the hackathon. The pre meetings will be arranged one and two weeks before the actual hackathon (on october 27th and november 3rd 1000-1100). The track leads will introduce the different tracks and there will be time for questions and discussions about how to prepare for the actual hackathon. Both pre-meetings will be digital only on Teams, and you will receive an invite for the pre meeting via e-mail (you can also download an ical from the [meeting pages](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/pre-agenda.html)).
 
 ### Registration
 
@@ -46,7 +46,10 @@ The event will be of value to individuals working in the healthcare industry and
   * Information modelling
   * Testing RESTful APIs
   * Using RESTful APIs using Postman
-* Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite (intro to FHIR will be provided).
+* Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite (intro to FHIR will be provided). HL7 also provides some great video resources for this purpose:
+  * [FHIR 101](https://vimeo.com/1102006982/68c2e4fcfb)
+  * [How to read an implementation guide](https://vimeo.com/1102008456/cc0e9cddbd)
+  * [Newcomer orientation](https://vimeo.com/542197402/8fb80fea04)
 
 ### How to attend
 

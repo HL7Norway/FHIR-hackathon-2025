@@ -32,7 +32,7 @@ ATTENDEE;CN="Michal Jan Warecki";RSVP=TRUE:mailto:michal.jan.warecki@nhn.no
 ATTENDEE;CN="Robert William Dall Frøseth";RSVP=TRUE:mailto:robert.william.
 	dall.froseth@nhn.no
 CLASS:PUBLIC
-CREATED:20251010T113705Z
+CREATED:20251013T054514Z
 DESCRIPTION:Intro meeting to the Norwegian FHIR Hackathon Agenda: Pre Agend
 	a - FHIR Hackathon 2025 v0.4.3 <https://hl7norway.github.io/FHIR-hackathon
 	-2025/currentbuild/pre-agenda.html> \n\n__________________________________
@@ -57,14 +57,14 @@ DESCRIPTION:Intro meeting to the Norwegian FHIR Hackathon Agenda: Pre Agend
 	n.teams.microsoft.com/usp/pstnconferencing>  \n\n_________________________
 	_______________________________________________________\n\n \n\n
 DTEND;TZID="W. Europe Standard Time":20251027T105500
-DTSTAMP:20251010T113557Z
+DTSTAMP:20251010T124411Z
 DTSTART;TZID="W. Europe Standard Time":20251027T100000
-LAST-MODIFIED:20251010T113705Z
+LAST-MODIFIED:20251013T054514Z
 LOCATION:Moterom Hdir Oslo 540 - 8 pl
 ORGANIZER;CN="Thomas Tveit Rosenlund":mailto:Thomas.Tveit.Rosenlund@helsedi
 	r.no
 PRIORITY:5
-SEQUENCE:1
+SEQUENCE:2
 SUMMARY;LANGUAGE=no:FHIR Hackathon pre meeting 1
 TRANSP:OPAQUE
 UID:040000008200E00074C5B7101A82E0080000000020EE6BE7E039DC01000000000000000
@@ -193,8 +193,8 @@ X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml"
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MS-OLK-APPTLASTSEQUENCE:1
-X-MS-OLK-APPTSEQTIME:20251010T113557Z
+X-MS-OLK-APPTLASTSEQUENCE:2
+X-MS-OLK-APPTSEQTIME:20251010T124411Z
 X-MS-OLK-AUTOFILLLOCATION:TRUE
 X-MS-OLK-CONFTYPE:0
 BEGIN:VALARM
