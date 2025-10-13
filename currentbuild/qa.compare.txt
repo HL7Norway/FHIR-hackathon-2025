@@ -11,7 +11,7 @@ Generated $--. FHIR version $-- for hl7.fhir.no.hackathon.2025#$-- (canonical = 
  /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 5 / 1
 </table>
 == n/a ==
-ERROR: index.html#/html/body/div/div/div/div/div/ul/li/a at Line 298, column 50: The link 'ehin.no' for "EHiN 2025" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/ul/li/a at Line 304, column 50: The link 'ehin.no' for "EHiN 2025" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide

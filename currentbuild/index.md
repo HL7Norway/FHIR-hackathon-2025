@@ -1,4 +1,4 @@
-# Home - FHIR Hackathon 2025 v0.4.4
+# Home - FHIR Hackathon 2025 v0.4.5
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.4.4 |
-| Draft as of 2025-10-10 | *Computable Name*:FHIRHackathon2025 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.4.5 |
+| Draft as of 2025-10-13 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
 
@@ -16,7 +16,7 @@ The Norwegian FHIR Hackathon 2025 takes place on EHiN preconference on the 10. n
 
 ### Pre-meetings
 
-One and two weeks before the hackathon (october 27th and november 3rd 1000-1100) all participants and tracks leads meet digitaly to introduce the tracks, ask questions and discuss the content in the different tracks.
+We will arrange two pre meetings before the hackathon. The pre meetings will be arranged one and two weeks before the actual hackathon (on october 27th and november 3rd 1000-1100). The track leads will introduce the different tracks and there will be time for questions and discussions about how to prepare for the actual hackathon. Both pre-meetings will be digital only on Teams, and you will receive an invite for the pre meeting via e-mail (you can also download an ical from the [meeting pages](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/pre-agenda.html)).
 
 ### Registration
 
@@ -60,7 +60,11 @@ The event will be of value to individuals working in the healthcare industry and
 * Testing RESTful APIs
 * Using RESTful APIs using Postman
  
-* Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite (intro to FHIR will be provided).
+* Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite (intro to FHIR will be provided). HL7 also provides some great video resources for this purpose: 
+* [FHIR 101](https://vimeo.com/1102006982/68c2e4fcfb)
+* [How to read an implementation guide](https://vimeo.com/1102008456/cc0e9cddbd)
+* [Newcomer orientation](https://vimeo.com/542197402/8fb80fea04)
+ 
 
 ### How to attend
 
@@ -82,11 +86,11 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2025",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "0.4.4",
+  "version" : "0.4.5",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-10-10T12:42:41+00:00",
+  "date" : "2025-10-13T06:20:23+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
