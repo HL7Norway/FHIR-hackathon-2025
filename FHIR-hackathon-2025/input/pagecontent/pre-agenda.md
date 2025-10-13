@@ -24,7 +24,7 @@ Time: 09:00-10:00
 
 Date: 3. november 2025  
 Time: 09:00-10:00  
-[Virtual meeting](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/pre-agenda.html#Virtual-meeting-invite)
+[Virtual meeting](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/FHIR-Hackathon-pre-meeting-2.ics)
 
 #### Proposed agenda
 
