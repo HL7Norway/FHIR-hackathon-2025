@@ -14,13 +14,14 @@
 
 The Norwegian FHIR Hackathon 2025 takes place on EHiN preconference on the 10. november 2025. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with [NHN](https://www.nhn.no/), [Helsedirektoratet](https://www.helsedirektoratet.no/), [Bedredelt](https://bedredelt.no/), [Felleskatalogen](https://www.felleskatalogen.no/medisin/) and [HL7 Norge](https://www.hl7.no/)
 
-### Pre-meetings
-
-We will arrange two pre meetings before the hackathon. The pre meetings will be arranged one and two weeks before the actual hackathon (on october 27th and november 3rd 1000-1100). The track leads will introduce the different tracks and there will be time for questions and discussions about how to prepare for the actual hackathon. Both pre-meetings will be digital only on Teams, and you will receive an invite for the pre meeting via e-mail (you can also download an ical from the [meeting pages](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/pre-agenda.html)).
-
 ### Registration
 
 [Registration is now open, please use registration form at EHiN](https://event.checkin.no/167096/prekonferanse-ehin-2025)
+ **Please select "Norwegian FHIR Hackathon 2025" and fill out the registration form.**
+
+### Pre-meetings
+
+We will arrange two pre meetings before the hackathon. The pre meetings will be arranged one and two weeks before the actual hackathon (on october 27th and november 3rd 1000-1100). The track leads will introduce the different tracks and there will be time for questions and discussions about how to prepare for the actual hackathon. Both pre-meetings will be digital only on Teams, and you will receive an invite for the pre meeting via e-mail (you can also download an ical from the [meeting pages](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/pre-agenda.html)).
 
 ### Why should you attend?
 
@@ -90,7 +91,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-10-13T06:28:04+00:00",
+  "date" : "2025-10-13T06:53:50+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
