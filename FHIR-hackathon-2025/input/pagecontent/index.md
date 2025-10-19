@@ -54,7 +54,7 @@ The event will be of value to individuals working in the healthcare industry and
 
 ### How to attend
 
-* Please use the attendee form published by [EHiN 2025](ehin.no) to secure your place on the hackathon.
+* Please use the attendee form published by [EHiN 2025](https://ehin.no/) to secure your place on the hackathon.
 * Attend the startup meeting the week before, monday 3rd of November from 0900-1100 (this will be a digital only meeting).
 * Make your preparations for the workshop.
 * Meet us at [X meeting point](https://maps.app.goo.gl/EcvP399Myg3NAuzr8) (EHIN venue) for the first Norwegian FHIR Hackathon 10th november 2025.
