@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.4.5 |
-| Draft as of 2025-10-13 | *Computable Name*:FHIRHackathon2025 |
+| Draft as of 2025-10-19 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
 
@@ -36,7 +36,7 @@ During the Norwegian FHIR Hackathon you can:
 * Use-case: [Oversikt over kommunale tjenester API (OKT)](https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api/openapi/okt-api-prototype)
  
 * Implement and test use of FHIR terminology services 
-* [Nordic terminology server](https://ontoserver.csiro.au/ui/about)
+* [Nordic terminology server](https://tx-nordics.fhir.org/fhir/r4)
  
 * Write and publish documentation of FHIR API's by authoring and publishing a FHIR Implementation Guide
 
@@ -91,7 +91,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-10-13T08:09:18+00:00",
+  "date" : "2025-10-19T16:33:42+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {

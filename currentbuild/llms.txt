@@ -3,9 +3,9 @@
 ## Pages
 
 * [Home](index.md)
+* [Hack Agenda](hack-agenda.md)
 * [Pre Agenda](pre-agenda.md)
 * [Artifacts Summary](artifacts.md)
-* [Hack Agenda](hack-agenda.md)
 * [Track Descriptions](track-descriptions.md)
 
 ## Resources
