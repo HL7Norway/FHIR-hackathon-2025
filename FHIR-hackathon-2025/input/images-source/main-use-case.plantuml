@@ -1,23 +1,26 @@
 @startuml
 
 "Participant" as participant
+"API provider" as applikasjon
 
 'rectangle "test" as rect {
+"Learn new skills" as (learn) #pink
 "Test API usage" as (test) #lightblue
 "API testing" as (provide) #lightblue
 "give feedback" as (give) #lightblue
 "get feedback" as (get) #lightblue
-"Learn new skills" as (learn) #lightblue
+
 
 '(test) -down[hidden]- (give)
 '(provide) -down[hidden]- (get)
-"API provider" as applikasjon
+applikasjon -up-> learn
 applikasjon -left-> provide
-applikasjon -left-> get
+applikasjon -down-> get
 get -left- give
 provide -left- test
-participant -down-> learn
-applikasjon -down-> learn
+provide -down[hidden]- get
+participant -up-> learn
+
 'source -down- applikasjon
 '}
 'actor "Pasient" as pasient 
@@ -27,10 +30,10 @@ applikasjon -down-> learn
 test -[hidden]down- give
 'api -[hidden]right- pasient
 
-participant -up-> test
+participant -right-> test
 'søke <-down- pasient
 
-participant -right-> (give)
+participant -down-> (give)
 '(give) <-right- pasient
 'kliniker -down-> (skrive)
 
