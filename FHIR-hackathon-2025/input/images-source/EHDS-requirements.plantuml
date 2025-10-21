@@ -1,13 +1,13 @@
 @startuml
 
-box "Consumer"
+box "Consumer" #lightgreen
   participant "Consume\nEEHRxF" as cons
-  participant "Harmonized\ncomponent" as harmonized1
+  participant "Harmonized\ncomponent" as harmonized1 #lightskyblue
 end box
 
 
-box "Producer" 
-  participant "Harmonized\ncomponent" as harmonized2
+box "Producer" #lightblue
+  participant "Harmonized\ncomponent" as harmonized2 #lightskyblue
   participant "Produce\nEEHRxF" as prod
 end box
 
@@ -15,6 +15,7 @@ note right of harmonized1: Authorization
 
 harmonized1 -> harmonized2 : "can I acces you data"
 harmonized1 <- harmonized2 : "Yes, return token"
+note right #lightgray: <size:10>Authorization\n<size:10>might be outside EHR</size>
 
 note right of harmonized1: Patient lookup
 
