@@ -1,4 +1,4 @@
-# Home - FHIR Hackathon 2025 v0.4.5
+# Home - FHIR Hackathon 2025 v0.5.0
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.4.5 |
-| Draft as of 2025-10-19 | *Computable Name*:FHIRHackathon2025 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.5.0 |
+| Draft as of 2025-10-21 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
 
@@ -87,11 +87,11 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2025",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "0.4.5",
+  "version" : "0.5.0",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-10-19T17:04:36+00:00",
+  "date" : "2025-10-21T07:48:35+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
@@ -148,7 +148,7 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
       "id" : "hl7_fhir_no_basis",
       "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
       "packageId" : "hl7.fhir.no.basis",
-      "version" : "2.2.0"
+      "version" : "2.2.2"
     }
   ],
   "definition" : {

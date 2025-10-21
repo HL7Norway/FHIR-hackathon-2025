@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025"/>
-  <version value="0.4.5"/>
+  <version value="0.5.0"/>
   <name value="FHIRHackathon2025"/>
   <title value="FHIR Hackathon 2025"/>
   <status value="draft"/>
-  <date value="2025-10-19T17:04:36+00:00"/>
+  <date value="2025-10-21T07:48:35+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>
@@ -50,7 +50,7 @@
   <dependsOn id="hl7_fhir_no_basis">
     <uri value="http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis"/>
     <packageId value="hl7.fhir.no.basis"/>
-    <version value="2.2.0"/>
+    <version value="2.2.2"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

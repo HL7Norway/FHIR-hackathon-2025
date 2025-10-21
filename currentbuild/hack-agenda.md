@@ -1,4 +1,4 @@
-# Hack Agenda - FHIR Hackathon 2025 v0.4.5
+# Hack Agenda - FHIR Hackathon 2025 v0.5.0
 
 * [**Table of Contents**](toc.md)
 * **Hack Agenda**
@@ -12,7 +12,7 @@ Proposed agenda for the hackathon 10. november.
 
 | | | |
 | :--- | :--- | :--- |
-| 0930 | Welcome and Introductions (plenary) | Thomas T Rosenlund (Helsedirektoratet) og Nino Lo Cascio (Bedredelt) |
+| 0930 | Welcome and Introductions (plenary) | Partners and Track leads |
 | 0945 | Parallell intros to tracks | Track leads |
 | 1015 | Working in tracks | Track leads |
 | 1200 | Lunch | NA |
