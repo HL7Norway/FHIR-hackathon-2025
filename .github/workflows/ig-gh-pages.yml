@@ -25,13 +25,13 @@ jobs:
         run: |
           echo "NPM install fhir r4 core 4.0.1 from package registry"
           npm --registry https://packages.simplifier.net install hl7.fhir.r4.core@4.0.1
-          echo "NPM install hl7.fhir.no.basis-2.2.0 from https://github.com/HL7Norway/resources/"
-          curl -L -o hl7.fhir.no.basis-2.2.0-snapshots.tgz https://raw.githubusercontent.com/HL7Norway/resources/main/snapshots/hl7.fhir.no.basis-2.2.0-snapshots.tgz
-          npm install hl7.fhir.no.basis-2.2.0-snapshots.tgz
+          echo "NPM install hl7.fhir.no.basis-2.2.2 from https://github.com/HL7Norway/resources/"
+          curl -L -o hl7.fhir.no.basis-2.2.2-snapshots.tgz https://raw.githubusercontent.com/HL7Norway/resources/main/snapshots/hl7.fhir.no.basis-2.2.2-snapshots.tgz
+          npm install hl7.fhir.no.basis-2.2.2-snapshots.tgz
           echo "Create .fhir packages cache directory for no-basis"
-          mkdir -p /github/home/.fhir/packages/hl7.fhir.no.basis#2.2.0/package
+          mkdir -p /github/home/.fhir/packages/hl7.fhir.no.basis#2.2.2/package
           echo "Copy local no-basis snapshot to .fhir package cache directory"
-          cp -r ./node_modules/hl7.fhir.no.basis/* /github/home/.fhir/packages/hl7.fhir.no.basis#2.2.0/package 
+          cp -r ./node_modules/hl7.fhir.no.basis/* /github/home/.fhir/packages/hl7.fhir.no.basis#2.2.2/package 
 
       - name: Run 🔥 IG Publisher with 🍣 Sushi
         run: |
