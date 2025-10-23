@@ -1,5 +1,5 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json	2765	-	0	0	0	0	0	0	14	82	0	0	0	0	0	0	0	0	0	0	73	68	0	0	0	3	0	1
-fsh-generated/resources/Patient-Pasient-1.json	375	12	0	0	0	0	0	0	1	285	0	0	0	0	0	0	0	0	0	0	13	12	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2253	13	0	67	0	0	0	0	0	130	0	0	1	0	0	0	0	2	0	0	199	957	0	1	0	14	0	0
-fsh-generated/resources/StructureDefinition-mal-patient.json	829	13	0	87	0	0	0	0	0	75	0	0	0	0	0	0	0	1	0	0	252	1051	0	0	0	22	0	2
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json	2765	-	0	0	0	1	0	0	16	88	0	0	0	0	0	0	0	1	0	0	74	70	0	0	0	3	0	1
+fsh-generated/resources/Patient-Pasient-1.json	375	12	0	0	1	0	0	0	0	245	0	0	0	0	0	0	0	0	0	0	12	16	0	1	0	0	0	0
+fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2253	12	0	92	0	0	1	1	1	105	0	0	1	0	0	0	0	1	0	0	222	1104	0	0	0	14	0	1
+fsh-generated/resources/StructureDefinition-mal-patient.json	829	17	0	105	0	0	0	0	0	111	0	0	0	0	0	0	0	3	0	0	279	957	0	0	0	20	0	2

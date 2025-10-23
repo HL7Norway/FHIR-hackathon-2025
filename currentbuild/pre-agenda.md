@@ -1,4 +1,4 @@
-# Pre Agenda - FHIR Hackathon 2025 v0.6.0
+# Pre Agenda - FHIR Hackathon 2025 v0.6.1
 
 * [**Table of Contents**](toc.md)
 * **Pre Agenda**

@@ -1,4 +1,4 @@
-# Hack Agenda - FHIR Hackathon 2025 v0.6.0
+# Hack Agenda - FHIR Hackathon 2025 v0.6.1
 
 * [**Table of Contents**](toc.md)
 * **Hack Agenda**
@@ -26,9 +26,9 @@ Proposed agenda for the hackathon 10. november.
 
 Track introductions
 
-* Intro to Pasientens måledata FHIR API interface (NHN)
-* Intro to Oversikt over kommunale tjenester API (OKT API) and approaches for making FHIR API from existing services (Adam)
-* Intro to terminology API and demo of nordic terminology server (Mattias?)
+* Intro to Pasientens måledata FHIR API interface (Michal/Tormod?)
+* Intro to Oversikt over kommunale tjenester API (OKT API) and approaches for making FHIR API from existing services (Robert/Adam)
+* Intro to terminology API and demo of nordic terminology server (Vadim/Mattias)
 * Write and publish documentation of FHIR API's by publishing a FHIR IG (Thomas/Espen)
 
 #### Track leads and partners

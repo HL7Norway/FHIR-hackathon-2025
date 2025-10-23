@@ -1,4 +1,4 @@
-# Home - FHIR Hackathon 2025 v0.6.0
+# Home - FHIR Hackathon 2025 v0.6.1
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.6.0 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.6.1 |
 | Draft as of 2025-10-23 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
@@ -87,11 +87,11 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2025",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-10-23T06:41:35+00:00",
+  "date" : "2025-10-23T06:47:20+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {

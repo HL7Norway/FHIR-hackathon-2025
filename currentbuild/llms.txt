@@ -1,4 +1,4 @@
-# hl7.fhir.no.hackathon.2025#0.6.0: FHIR Hackathon 2025
+# hl7.fhir.no.hackathon.2025#0.6.1: FHIR Hackathon 2025
 
 ## Pages
 
