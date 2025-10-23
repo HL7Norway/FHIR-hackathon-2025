@@ -1,6 +1,6 @@
 {
-  "version" : "0.5.0",
-  "date" : "20251021074835",
+  "version" : "0.6.0",
+  "date" : "20251023064135",
   "notForPublication" : true,
   "name" : "hl7.fhir.no.hackathon.2025.r4b"
 }
