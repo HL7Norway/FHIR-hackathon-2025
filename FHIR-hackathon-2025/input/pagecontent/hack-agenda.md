@@ -14,6 +14,7 @@ Proposed agenda for the hackathon 10. november.
 |1445|Working in tracks|Track leads|
 |1600|Demo summary and discussions (plenary)|TBD + track leads|
 |1700|End of day|All|
+{: .grid .table-striped}
 
 #### Parallell intros
 
@@ -43,6 +44,7 @@ A list of people involved in the organization of the hackathon and track leads, 
 |IG authoring|Espen Stranger Seland|[ess@vali.no](mailto:ess@vali.no>)|Vali AS|
 |Partner|Øyvind Aassve|[oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)|Sykehuspartner|
 |Partner|Gaute Nygreen|[gaute.nygreen@nhn.no](mailto:gaute.nygreen@nhn.no)|NHN|
+{: .grid .table-striped}
 
 ##### Introduction to FHIR
 

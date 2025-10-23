@@ -26,6 +26,7 @@ Time: 09:00-10:00
 | 1040 | IG track intro          | Espen/Thomas       |
 | 1050 | Q&A and Discussion      | All                |
 | 1100 | End of meeting          | All                |
+{: .grid .table-striped}
 
 ### November 3rd
 
@@ -42,6 +43,7 @@ Time: 09:00-10:00
 | 1000 | Welcome                 | Thomas T Rosenlund |
 | 1015 | Separate meetings for each track | All       |
 | 1100 | End of meeting          | All                |
+{: .grid .table-striped}
 
 ### Virtual meeting invite
 
