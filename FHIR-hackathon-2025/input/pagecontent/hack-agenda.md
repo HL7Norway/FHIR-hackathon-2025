@@ -24,6 +24,26 @@ Track introductions
 * Intro to terminology API and demo of nordic terminology server (Mattias?)
 * Write and publish documentation of FHIR API's by publishing a FHIR IG (Thomas/Espen)
 
+#### Track leads and partners
+
+A list of people involved in the organization of the hackathon and track leads, including contact information.  
+
+|Track|Name|Contact|Affiliate|
+|----------|------------|-------------|-----------|
+|PMD|Michal Jan Warecki|[michal.jan.warecki@nhn.no](mailto:michal.jan.warecki@nhn.no)|NHN|
+|PMD|Tormod Haugene|[tormod.haugene@nhn.no](mailto:tormod.haugene@nhn.no)|NHN|
+|PMD/OKT|Sigurd Ringbakken|[sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no)|NHN|
+|PMD|Bjørnar Selvén|[bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no)|NHN|
+|OKT|Robert William Dall Frøseth|[robert.william.dall.froseth@nhn.no](mailto:robert.william.dall.froseth@nhn.no)|NHN|
+|OKT|Adam Kover|[adam.kover@felleskatalogen.no](mailto:adam.kover@felleskatalogen.no)|Felleskatalogen|
+|OKT|Nino Lo Cascio|[nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)|Tietoevry|
+|Terminology|Vadim Peretokin|[vperetokin@hey.com](mailto:vperetokin@hey.com)|Consultant|
+|Terminology|Mattias Colliander|[mattias.colliander@collian.se](mailto:mattias.colliander@collian.se)|HL7 Sweden|
+|IG authoring|Thomas Tveit Rosenlund|[Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no)|Helsedirektoratet|
+|IG authoring|Espen Stranger Seland|[ess@vali.no](mailto:ess@vali.no>)|Vali AS|
+|Partner|Øyvind Aassve|[oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)|Sykehuspartner|
+|Partner|Gaute Nygreen|[gaute.nygreen@nhn.no](mailto:gaute.nygreen@nhn.no)|NHN|
+
 ##### Introduction to FHIR
 
 Intro to FHIR, IG and FHIR RESTful can be given on demand. Please review the [HL7 FHIR video resources](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html#preparations-for-participants)
