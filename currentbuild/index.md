@@ -1,4 +1,4 @@
-# Home - FHIR Hackathon 2025 v0.6.2
+# Home - FHIR Hackathon 2025 v0.6.3
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.6.2 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.6.3 |
 | Draft as of 2025-10-24 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
@@ -70,7 +70,7 @@ The event will be of value to individuals working in the healthcare industry and
 ### How to attend
 
 * Please use the attendee form published by [EHiN 2025](https://event.checkin.no/167096/prekonferanse-ehin-2025) to secure your place on the hackathon.
-* Attend the startup meeting the week before, monday 3rd of November from 0900-1100 (this will be a digital only meeting).
+* Attend the startup meetings one and two the weeks before, on monday 27th of October and monday 3rd of November from 1000-1100 (this will be a digital only meetings).
 * Make your preparations for the workshop.
 * Meet us at [X meeting point](https://maps.app.goo.gl/EcvP399Myg3NAuzr8) (EHIN venue) for the first Norwegian FHIR Hackathon 10th november 2025.
 
@@ -87,11 +87,11 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2025",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-10-24T08:42:53+00:00",
+  "date" : "2025-10-24T11:16:17+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
