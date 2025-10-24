@@ -73,13 +73,13 @@ Provide national displays for HL7 code system concepts by hosting "language pack
 
 HL7 Sweden is currently hosting a terminology server at https://tx-nordics.fhir.org/fhir for use in the Nordic.
 
-### Track: FHIR IG building and authoring
+### Track: FHIR IG authoring and building
 
 FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.
 
 #### Prerequisites and preparations
 
-There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesarry tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop.
+There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesarry tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop (both PMD and OKT are valid use-cases for authoring and building an IG).
 
 #### Learning goals
 
