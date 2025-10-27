@@ -1,4 +1,4 @@
-# Blodprøve - FHIR Hackathon 2025 v0.7.0
+# Blodprøve - FHIR Hackathon 2025 v0.7.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove | *Version*:0.7.0 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove | *Version*:0.7.2 |
 | Draft as of 2025-01-31 | *Computable Name*:MalObservationBlood |
 
  
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-mal-observation-blod
   "resourceType" : "StructureDefinition",
   "id" : "mal-observation-blodprove",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove",
-  "version" : "0.7.0",
+  "version" : "0.7.2",
   "name" : "MalObservationBlood",
   "title" : "Blodprøve",
   "status" : "draft",

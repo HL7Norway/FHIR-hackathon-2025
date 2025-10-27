@@ -1,4 +1,4 @@
-# Home - FHIR Hackathon 2025 v0.7.0
+# Home - FHIR Hackathon 2025 v0.7.2
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.7.0 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.7.2 |
 | Draft as of 2025-10-27 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
@@ -78,6 +78,10 @@ The event will be of value to individuals working in the healthcare industry and
 
 Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.no) if you got any questions regarding the event.
 
+## Other hackathons in the Nordics
+
+All the nordic countries are arranging FHIR hackathon in 2025/2026. More information on the [Nordic FHIR Hackathon page](https://fhir.fi/hackathon/)
+
 
 
 ## Resource Content
@@ -87,11 +91,11 @@ Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.n
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2025",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "0.7.0",
+  "version" : "0.7.2",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-10-27T12:21:34+00:00",
+  "date" : "2025-10-27T13:03:57+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
