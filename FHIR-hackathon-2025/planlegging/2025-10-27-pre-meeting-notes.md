@@ -30,12 +30,45 @@ Assignments
 ### Terminology track
 
 * Terminology and IG publishing.
-* 
 
 ## Til retrospekt
 
-* Språkdrakt på introer og diskusjoner?
-* Skal vi bruke litt tid på introrunde?
-* Add some assignments for architects and clinicins?
+* Språkdrakt på introer og diskusjoner? norsk og engelsk (terminologi)
+* Skal vi bruke litt tid på introrunde? ja
+* Add some assignments for architects and clinicins.
   * Make it easier to understand what is possible to do without technical knowledge.
-* 
+
+## Retrospect 2025-10-27
+
+* Language - what is the preferred language
+  * Intro in English
+  * Tracks in Norwegian
+  * Terminology track is in English
+
+* Plan for intro on pre meeting number 2
+  * Main goal for pre meeting 2
+  * **Choose a track and start to work on it**
+  * Start with intro and what main track you want to attend to
+  * Intro round, all organizers and participants:  
+    * Name and affiliate
+    * What is your main track?
+  * Open up for questions in norwegian as well
+
+* Track specific meeting
+  * In each track - more about what they want ot do and what they work on
+  * One team link for each track for people connect to.
+  * Thomas updates Team meeting with links to all track specific meetings.
+    * Enter each track meeting link
+    * Standard title for the tracks meeting.
+      * Standard title: "FHIR Hackathon pre meeting 2: OKT track"
+
+* We do have a general intro meeting first? yes
+* Thomas Writes something about what architects and clinicians can do on the Hackathon.
+
+* Work for track leads before the next pre meeting.
+  * Examples: in all the track description
+  * Info about test data
+  * Link to workable test environment
+  * Especially important for PMD, but also for OKT and terminology
+  * Go into the profiles of the PMD/OKT, some introduction to terminology Resources for terminology track
+  * Build IG's using tx-nordic
