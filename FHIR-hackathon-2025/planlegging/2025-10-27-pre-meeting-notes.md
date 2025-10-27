@@ -12,4 +12,30 @@
 
 ## Notes
 
+### PMD - patient vitals - Michal
+Service by NHN
+Resources
+* Patient and Observation
+Assignments
+* read, write and show data in your applications
+* Maybe status-endpoint
 
+### OKT - track - Robert
+
+* Felles journalløft
+* Datadeling internt i kommunen
+* Dokumentasjon på OKT-API
+* Hendte ut hendelser
+
+### Terminology track
+
+* Terminology and IG publishing.
+* 
+
+## Til retrospekt
+
+* Språkdrakt på introer og diskusjoner?
+* Skal vi bruke litt tid på introrunde?
+* Add some assignments for architects and clinicins?
+  * Make it easier to understand what is possible to do without technical knowledge.
+* 
