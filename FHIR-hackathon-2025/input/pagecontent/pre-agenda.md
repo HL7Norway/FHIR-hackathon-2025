@@ -42,13 +42,13 @@ Time: 10:00-11:00
 | Time | Title                   | Presenter          |
 |------|-------------------------|--------------------|
 | 1000 | Welcome                 | Thomas T Rosenlund |
-| 1015 | Separate meetings for each track | All       |
+| 1015 | Separate meetings for each track (breakout sessions)| All       |
 | 1100 | End of meeting          | All                |
 {: .grid .table-striped}
 
 #### Breakout sessions for each track
 
-Each track will have their own Teams meeting. The meeting links for the different track intro meetings are provided in the table:  
+Each track will have their own Teams meeting link for the track specific intro/discussions from 1015 and onwards. The meeting links for the different track intro meetings are provided in the table:  
 
 | Title                   | Meeting link       |
 |-------------------------|--------------------|
