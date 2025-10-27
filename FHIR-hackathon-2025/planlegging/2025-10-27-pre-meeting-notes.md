@@ -64,6 +64,7 @@ Assignments
 
 * We do have a general intro meeting first? yes
 * Thomas Writes something about what architects and clinicians can do on the Hackathon.
+* Thomas updates the ig-mal with a script for running tx-fhir.org in the ig-build  
 
 * Work for track leads before the next pre meeting.
   * Examples: in all the track description
