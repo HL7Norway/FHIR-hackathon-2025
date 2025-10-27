@@ -7,8 +7,7 @@
 
 ### Introduction to tracks
 
-This page contains a quick writeup of the use cases in the different tracks of the 2025 Norwegian FHIR Hackathon.
- **NOTE! The track descriptions are currently under active development and changes will occur without further notice.**
+This page contains a quick writeup of the use cases in the different tracks of the 2025 Norwegian FHIR Hackathon. **NOTE! The track descriptions are currently under active development and changes will occur without further notice.**
 
 ### Track: Pasientens måledata (PMD) FHIR API
 
@@ -82,9 +81,35 @@ The main use case for the Nordic terminology server is to make building FHIR IGs
 
 Provide national displays for HL7 code system concepts by hosting "language packs" on tx-nordics.
 
-#### Server instance
+#### Building IGs
 
-HL7 Sweden is currently hosting a terminology server at https://tx-nordics.fhir.org/fhir for use in the Nordic.
+HL7 Sweden is currently hosting a terminology server at https://tx-nordics.fhir.org/fhir for use in the Nordics, and IGs can be built using this server with:
+
+```
+./_genonce.sh -tx https://tx-nordics.fhir.org/fhir/r4
+
+```
+
+#### Terminology APIs
+
+In addition to the FHIR terminology server API for authoring, we will also have an educational track on using the terminology APIs for searching and retrieving codes, valuesets and concepts from the terminology server. As mentioned previously, this is not intended for production use, and will only serve an educational purpose in this hackathon.
+
+Sample APIs that can be used against the nordic terminology server:
+
+```
+# expand a valueset
+GET https://tx-nordics.fhir.org/fhir/r4/ValueSet/2d9364e2-9e55-4872-969a-b8e1b0655c16/$expand
+
+# expand a valueset with displays in Norwegian
+GET https://tx-nordics.fhir.org/fhir/r4/ValueSet/common-conditions-vs/$expand?displayLanguage=no
+
+# expand a valueset with displays in English
+GET https://tx-nordics.fhir.org/fhir/r4/ValueSet/common-conditions-vs/$expand?displayLanguage=en
+
+# look up all properties of a SNOMED code
+GET https://tx-nordics.fhir.org/fhir/r4/CodeSystem/$lookup?system=http://snomed.info/sct&code=263495000&_format=json
+
+```
 
 ### Track: FHIR IG authoring and building
 

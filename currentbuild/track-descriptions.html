@@ -182,7 +182,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <h3 id="introduction-to-tracks">Introduction to tracks</h3>
 
-<p>This page contains a quick writeup of the use cases in the different tracks of the 2025 Norwegian FHIR Hackathon.<br />
+<p>This page contains a quick writeup of the use cases in the different tracks of the 2025 Norwegian FHIR Hackathon.
 <strong>NOTE! The track descriptions are currently under active development and changes will occur without further notice.</strong></p>
 
 <h3 id="track-pasientens-måledata-pmd-fhir-api">Track: Pasientens måledata (PMD) FHIR API</h3>
@@ -264,9 +264,30 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Provide national displays for HL7 code system concepts by hosting "language packs" on tx-nordics.</p>
 
-<h4 id="server-instance">Server instance</h4>
+<h4 id="building-igs">Building IGs</h4>
 
-<p>HL7 Sweden is currently hosting a terminology server at https://tx-nordics.fhir.org/fhir for use in the Nordic.</p>
+<p>HL7 Sweden is currently hosting a terminology server at https://tx-nordics.fhir.org/fhir for use in the Nordics, and IGs can be built using this server with:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./_genonce.sh <span class="nt">-tx</span> https://tx-nordics.fhir.org/fhir/r4
+</code></pre></div></div>
+
+<h4 id="terminology-apis">Terminology APIs</h4>
+<p>In addition to the FHIR terminology server API for authoring, we will also have an educational track on using the terminology APIs for searching and retrieving codes, valuesets and concepts from the terminology server. As mentioned previously, this is not intended for production use, and will only serve an educational purpose in this hackathon.</p>
+
+<p>Sample APIs that can be used against the nordic terminology server:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># expand a valueset
+GET https://tx-nordics.fhir.org/fhir/r4/ValueSet/2d9364e2-9e55-4872-969a-b8e1b0655c16/$expand
+
+# expand a valueset with displays in Norwegian
+GET https://tx-nordics.fhir.org/fhir/r4/ValueSet/common-conditions-vs/$expand?displayLanguage=no
+
+# expand a valueset with displays in English
+GET https://tx-nordics.fhir.org/fhir/r4/ValueSet/common-conditions-vs/$expand?displayLanguage=en
+
+# look up all properties of a SNOMED code
+GET https://tx-nordics.fhir.org/fhir/r4/CodeSystem/$lookup?system=http://snomed.info/sct&amp;code=263495000&amp;_format=json
+</code></pre></div></div>
 
 <h3 id="track-fhir-ig-authoring-and-building">Track: FHIR IG authoring and building</h3>
 
@@ -310,7 +331,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 27, 2025 08:22+0000">2025-10-27</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 27, 2025 08:32+0000">2025-10-27</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
