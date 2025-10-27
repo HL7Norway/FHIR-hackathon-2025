@@ -56,6 +56,7 @@ Each track will have their own Teams meeting. The meeting links for the differen
 |OKT Track | [OKT track link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGMwZWFlZmItZDI2Mi00MjAwLWFiY2QtNzRjYmZhODc0ODYy%40thread.v2/0?context=%7b%22Tid%22%3a%22e3dac4b3-9b0b-4f41-8623-9392d0d566dc%22%2c%22Oid%22%3a%22624b6cc5-f1ec-4eb8-9961-29193a3f66ea%22%7d)|
 |Terminology track | [Terminology track link](https://teams.live.com/meet/9359883104571?p=gpvPAWIHW8Zrej4jLs)|
 |IG track | [IG Track link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODk2YzNhZDktMmQ1Ni00ODk0LTllMjQtNzVjODExMDA3YTU0%40thread.v2/0?context=%7b%22Tid%22%3a%226ba1bd5c-750f-4ad6-aba3-0f95585bc21f%22%2c%22Oid%22%3a%22abb18bf9-9a86-4188-b2d2-7e430cb2f4b5%22%7d)|
+{: .grid .table-striped}
 
 ### Virtual meeting invite
 
