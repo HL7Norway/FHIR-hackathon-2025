@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "FHIRHackathon2025"] ; # 
   fhir:title [ fhir:v "FHIR Hackathon 2025"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-27T08:13:24+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-27T08:22:01+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;

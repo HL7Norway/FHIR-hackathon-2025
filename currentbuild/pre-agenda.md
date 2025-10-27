@@ -20,7 +20,8 @@ The first meeting will contain an introduction to all the Hackathon tracks, incl
 
 Date: 27. october 2025
  Time: 10:00-11:00
- [Virtual meeting](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/FHIR-Hackathon-pre-meeting-1.ics) Presentation: [FHIR Hackathon pre meeting 1 - intro](FHIR-Hackathon-2025-pre1.pdf)
+ Presentation: [FHIR Hackathon pre meeting 1 - intro](FHIR-Hackathon-2025-pre1.pdf)
+ [Virtual meeting](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/FHIR-Hackathon-pre-meeting-1.ics)
 
 #### Agenda
 
