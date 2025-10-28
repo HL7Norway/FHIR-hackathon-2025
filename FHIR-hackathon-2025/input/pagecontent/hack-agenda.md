@@ -20,9 +20,9 @@ Proposed agenda for the hackathon on 10 November.
 
 Track introductions
 
-* Intro to Pasientens måledata FHIR API interface (Michal/Tormod?)
+* Intro to Pasientens måledata FHIR API interface (Michal/Tormod)
 * Intro to Oversikt over kommunale tjenester API (OKT API) and approaches for making FHIR API from existing services (Robert/Adam)
-* Intro to terminology API and demo of Nordic terminology server (Vadim/Mattias)
+* Intro to terminology API and demo of Nordic terminology server (Vadim)
 * Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
 #### Track leads and partners
