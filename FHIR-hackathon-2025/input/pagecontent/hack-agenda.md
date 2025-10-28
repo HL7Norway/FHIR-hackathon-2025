@@ -39,7 +39,6 @@ A list of people involved in the organization of the hackathon and track leads, 
 |OKT|Adam Kover|[adam.kover@felleskatalogen.no](mailto:adam.kover@felleskatalogen.no)|Felleskatalogen|
 |OKT|Nino Lo Cascio|[nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)|Tietoevry|
 |Terminology|Vadim Peretokin|[vperetokin@hey.com](mailto:vperetokin@hey.com)|Consultant|
-|Terminology|Mattias Colliander|[mattias.colliander@collian.se](mailto:mattias.colliander@collian.se)|HL7 Sweden|
 |IG authoring|Thomas Tveit Rosenlund|[Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no)|Helsedirektoratet|
 |IG authoring|Espen Stranger Seland|[ess@vali.no](mailto:ess@vali.no>)|Vali AS|
 |Partner|Øyvind Aassve|[oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)|Sykehuspartner|
