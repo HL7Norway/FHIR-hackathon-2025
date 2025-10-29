@@ -63,6 +63,6 @@ The event will be of value to individuals working in the healthcare industry and
 
 Please contact [Thomas Tveit Rosenlund](mailto:thomas.tveit.rosenlund@helsedir.no) if you got any questions regarding the event.
 
-## Other hackathons in the Nordics
+### Other hackathons in the Nordics
 
 All the nordic countries are arranging FHIR hackathon in 2025/2026. More information on the [Nordic FHIR Hackathon page](https://fhir.fi/hackathon/)
