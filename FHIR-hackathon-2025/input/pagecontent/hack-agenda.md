@@ -32,7 +32,7 @@ A list of people involved in the organization of the hackathon and track leads, 
 |Track|Name|Contact|Affiliate|
 |----------|------------|-------------|-----------|
 |PMD|Michal Jan Warecki|[michal.jan.warecki@nhn.no](mailto:michal.jan.warecki@nhn.no)|NHN|
-|PMD|Tormod Haugene|[tormod.haugene@nhn.no](mailto:tormod.haugene@nhn.no)|NHN|
+|PMD/OKT|Tormod Haugene|[tormod.haugene@nhn.no](mailto:tormod.haugene@nhn.no)|NHN|
 |PMD/OKT|Sigurd Ringbakken|[sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no)|NHN|
 |PMD|Bjørnar Selvén|[bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no)|NHN|
 |OKT|Robert William Dall Frøseth|[robert.william.dall.froseth@nhn.no](mailto:robert.william.dall.froseth@nhn.no)|NHN|
