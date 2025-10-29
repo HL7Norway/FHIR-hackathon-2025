@@ -1,4 +1,4 @@
-# Artifacts Summary - FHIR Hackathon 2025 v0.7.2
+# Artifacts Summary - FHIR Hackathon 2025 v0.7.4
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**

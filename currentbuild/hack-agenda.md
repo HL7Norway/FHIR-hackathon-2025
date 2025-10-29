@@ -1,4 +1,4 @@
-# Hack Agenda - FHIR Hackathon 2025 v0.7.2
+# Hack Agenda - FHIR Hackathon 2025 v0.7.4
 
 * [**Table of Contents**](toc.md)
 * **Hack Agenda**
@@ -26,9 +26,9 @@ Proposed agenda for the hackathon on 10 November.
 
 Track introductions
 
-* Intro to Pasientens måledata FHIR API interface (Michal/Tormod?)
+* Intro to Pasientens måledata FHIR API interface (Michal/Tormod)
 * Intro to Oversikt over kommunale tjenester API (OKT API) and approaches for making FHIR API from existing services (Robert/Adam)
-* Intro to terminology API and demo of Nordic terminology server (Vadim/Mattias)
+* Intro to terminology API and demo of Nordic terminology server (Vadim)
 * Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
 
 #### Track leads and partners
@@ -38,7 +38,7 @@ A list of people involved in the organization of the hackathon and track leads, 
 | | | | |
 | :--- | :--- | :--- | :--- |
 | PMD | Michal Jan Warecki | [michal.jan.warecki@nhn.no](mailto:michal.jan.warecki@nhn.no) | NHN |
-| PMD | Tormod Haugene | [tormod.haugene@nhn.no](mailto:tormod.haugene@nhn.no) | NHN |
+| PMD/OKT | Tormod Haugene | [tormod.haugene@nhn.no](mailto:tormod.haugene@nhn.no) | NHN |
 | PMD/OKT | Sigurd Ringbakken | [sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no) | NHN |
 | PMD | Bjørnar Selvén | [bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no) | NHN |
 | OKT | Robert William Dall Frøseth | [robert.william.dall.froseth@nhn.no](mailto:robert.william.dall.froseth@nhn.no) | NHN |
