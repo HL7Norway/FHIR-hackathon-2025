@@ -110,6 +110,8 @@ There is no need for prior knowledge on FHIR or IG building before participation
 * Know the necessary tools for building FHIR IG's
   * IG publisher
   * SUSHI
-* Learn how to write FHIR documentation using FSH
+  * Forge
+  * Simplifier.net
+* Learn how to write FHIR documentation using FSH or Forge
 * Learn how to use the tools for FHIR IG authoring
-* Learn how to present a draft IG on Github, using Github.io
+* Learn how to present a draft IG using Github.io or Simplifier.net
