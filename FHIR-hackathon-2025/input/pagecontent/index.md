@@ -13,7 +13,7 @@ We will arrange two pre meetings before the hackathon. The pre meetings will be 
 
 ### Why should you attend?
 
-The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software.  
+The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software. The Norwegian FHIR Hackathon is a typical learning-by-doing event where you can expect to build, write and test things yourself.  
 
 <div>{% include main-use-case.svg %}</div>
 
