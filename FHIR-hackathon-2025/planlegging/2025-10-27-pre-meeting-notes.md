@@ -1,3 +1,28 @@
+# Pre meeting 2 2025-11-03
+
+## Agenda plenary
+
+1000 Welcome, Thomas T Rosenlund
+1010 Presentation of the track leads, All
+1015 Presentation of the participants, All
+1020 Separate meetings for each track (breakout sessions), All
+1100 End of meeting, all
+
+## Notes
+
+### Generelle notater
+
+* Mange som er interessert i PMD og OKT
+* 5-6 stykker på IG authoring
+* Hvor mange på terminology?
+
+### IG authoring track notater
+
+* Stort sett nybegynnere.
+* De fleste vil antakelig bruke Forge og Simplifier som build infrastruktur.
+* Ble mest grunnleggende informasjon om FHIR profilering og verktøyvalg.
+* Oppfordret alle til å installere verktøy og prøve det før Hackathon.
+
 # Pre meeting 1 2025-10-27
 
 ## Agenda

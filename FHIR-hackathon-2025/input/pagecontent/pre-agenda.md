@@ -35,6 +35,7 @@ The second meeting will contain a short introduction. Each participant will pres
 
 Date: 3. november 2025  
 Time: 10:00-11:00  
+Presentation: [FHIR Hackathon pre meeting 2 and IG authoring](FHIR-Hackathon-2025-premeeting-2.pdf)  
 [Virtual meeting](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/FHIR-Hackathon-pre-meeting-2.ics)  
 
 #### Agenda 
