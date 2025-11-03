@@ -1,4 +1,4 @@
-# Home - FHIR Hackathon 2025 v0.7.4
+# Home - FHIR Hackathon 2025 v0.8.0
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.7.4 |
-| Draft as of 2025-10-31 | *Computable Name*:FHIRHackathon2025 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:0.8.0 |
+| Draft as of 2025-11-03 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
 
@@ -25,7 +25,7 @@ We will arrange two pre meetings before the hackathon. The pre meetings will be 
 
 ### Why should you attend?
 
-The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software.
+The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software. The Norwegian FHIR Hackathon is a typical learning-by-doing event where you can expect to build, write and test things yourself.
 
 During the Norwegian FHIR Hackathon you can:
 
@@ -91,11 +91,11 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2025",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "0.7.4",
+  "version" : "0.8.0",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-10-31T06:13:44+00:00",
+  "date" : "2025-11-03T08:05:01+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {

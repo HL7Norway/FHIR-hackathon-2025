@@ -17,7 +17,7 @@
      fhir:v "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient>
   ] ; # 
-  fhir:version [ fhir:v "0.7.4"] ; # 
+  fhir:version [ fhir:v "0.8.0"] ; # 
   fhir:name [ fhir:v "MalPatient"] ; # 
   fhir:title [ fhir:v "Pasient"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

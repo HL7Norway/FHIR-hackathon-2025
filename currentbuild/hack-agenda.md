@@ -1,4 +1,4 @@
-# Hack Agenda - FHIR Hackathon 2025 v0.7.4
+# Hack Agenda - FHIR Hackathon 2025 v0.8.0
 
 * [**Table of Contents**](toc.md)
 * **Hack Agenda**
