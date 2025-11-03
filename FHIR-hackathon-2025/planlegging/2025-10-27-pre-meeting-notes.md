@@ -16,12 +16,37 @@
 * 5-6 stykker på IG authoring
 * Hvor mange på terminology?
 
+### PMD
+
+* Test server available?  
+* Test server will be ready for the hackathon with test data.  
+* Great turnout of interested participants.  
+
+### Terminology
+
+* 2 pax  
+* Want to learn about terminology  
+* Make an educational-track together with authoring  
+
+### OKT
+
+* 10 people in the call, 5 organizers and participants  
+  * Good size group  
+* Syns det var bra deltagelse i OKT-sporet.  
+* One or two more providers - to get more input.  
+* Hadde vært fint om vi kunne fått dobbeltsjekket at DNV Imatis faktisk vil delta (som de sa).  
+* En viktig ting er å sette scopet for OKT/hva vi egentlig skal løse med API-et, så det ikke blir for stort.  
+
 ### IG authoring track notater
 
-* Stort sett nybegynnere.
-* De fleste vil antakelig bruke Forge og Simplifier som build infrastruktur.
-* Ble mest grunnleggende informasjon om FHIR profilering og verktøyvalg.
-* Oppfordret alle til å installere verktøy og prøve det før Hackathon.
+* New people - FSH school  
+* Reverse engineering funksjoner i Forge  
+
+* 5 på formøtet.  
+* Stort sett nybegynnere.  
+* De fleste vil antakelig bruke Forge og Simplifier som build infrastruktur.  
+* Ble mest grunnleggende informasjon om FHIR profilering og verktøyvalg.  
+* Oppfordret alle til å installere verktøy og prøve det før Hackathon.  
 
 # Pre meeting 1 2025-10-27
 
