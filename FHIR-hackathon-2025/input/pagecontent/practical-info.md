@@ -4,11 +4,12 @@ FHIR Hackathon 2025 foregår på X-meeting point utenfor Oslo. Det er mulig å k
 
 ### Bilde av møterommet
 
-<p>{% include rom-A5.png %}</p>
+<img src="rom-A5.png" alt="Bilde av møterommet" style="width: 100%;max-width: 800px"/>
 
 ### Kart over møtesenteret
 
-![Møtesenteret](motesenter.png)  
+Rom A2 markert i kartet over møtesenteret.  
+<img src="motesenter.png" alt="Bilde av møterommet" style="width: 100%;max-width: 800px"/>
 
 ### Servering
 
