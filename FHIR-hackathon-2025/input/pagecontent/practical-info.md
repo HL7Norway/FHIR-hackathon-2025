@@ -4,7 +4,7 @@ The Norwegian FHIR Hackathon 2025 takes place on X-meeting point outside Oslo. Y
 
 ### Picture of the meeting room
 
-<p><img src="rom-A5.png" alt="Bilde av møterommet" style="width: 100%;max-width: 800px"/></p>
+<div><img src="rom-A5.png" alt="Bilde av møterommet" style="width: 100%;max-width: 800px"/></div>
 
 ### Map of the meeting venue
 
@@ -14,7 +14,12 @@ Room A2, where the Hackathon takes place is marked on this map.
 
 ### Refreshments
 
-Snacks, water and coffe will be available for the participants in the "Catwalk" when you arrive. A two course lunch is served in the restaurant from 1200-1300. In addition coffee, water, tea, cookies and snacks is available for the afternoon break at 1430.
+The following food an beverage is included as part of you Hackathon ticket:  
+
+* Coffe, tea and water will be available througout the day
+* From 0900 snacks will be available for the participants in the "Catwalk"
+* A two course lunch is served in the restaurant from 1200-1300
+* Cookies and snacks is available for the afternoon break at 1430
 
 ### Registration
 
