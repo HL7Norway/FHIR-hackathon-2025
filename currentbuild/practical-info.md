@@ -5,7 +5,7 @@
 
 ## Practical Info
 
-This page contains practical info for presenters and participants.
+This page contains practical info for organizers and participants.
 
 The Norwegian FHIR Hackathon 2025 takes place on X-meeting point outside Oslo. You can get there by bus or car, or using the tube combined with a short bike ride/walk. The meeting takes place in room A2 in the meeting centre.
 
@@ -25,7 +25,7 @@ The following food an beverage is included as part of you Hackathon ticket:
 
 ### Registration
 
-You need to [register digitaly](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html#registration) to secure a place for attending the Hackathon. On the actual Hackathon you need to collect your participation badge from 0930. The Hackathon starts at 0930 so we plan to collect badges in the first break of the day.
+You need to [register digitaly](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html#registration) to secure a place for attending the Hackathon (anyone already on the [organizers list](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/hack-agenda.html#track-leads-and-partners) do not have to register). On the actual Hackathon you need to collect your participation badge from 0930. The Hackathon starts at 0930 so we plan to collect badges in the first break of the day.
 
 ### Picture of the meeting room
 
