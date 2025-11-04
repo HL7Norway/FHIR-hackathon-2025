@@ -17,11 +17,11 @@
      fhir:v "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025>
   ] ; # 
-  fhir:version [ fhir:v "0.8.1"] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
   fhir:name [ fhir:v "FHIRHackathon2025"] ; # 
   fhir:title [ fhir:v "FHIR Hackathon 2025"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-03T10:49:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-04T09:51:52+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -1421,6 +1421,25 @@
            fhir:l fhir:hack-agenda.html
          ] ;
          fhir:title [ fhir:v "Hack Agenda" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
+             fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
+           ] ;
+           fhir:value [
+             a fhir:Url ;
+             fhir:v "practical-info.html"^^xsd:anyURI ;
+             fhir:l fhir:practical-info.html
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:Url ;
+           fhir:v "practical-info.html"^^xsd:anyURI ;
+           fhir:l fhir:practical-info.html
+         ] ;
+         fhir:title [ fhir:v "Practical Info" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

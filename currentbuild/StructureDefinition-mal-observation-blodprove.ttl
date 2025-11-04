@@ -17,7 +17,7 @@
      fhir:v "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove>
   ] ; # 
-  fhir:version [ fhir:v "0.8.1"] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
   fhir:name [ fhir:v "MalObservationBlood"] ; # 
   fhir:title [ fhir:v "Blodprøve"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

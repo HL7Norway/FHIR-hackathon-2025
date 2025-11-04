@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Track Descriptions - FHIR Hackathon 2025 v0.8.1</title>
+    <title>Track Descriptions - FHIR Hackathon 2025 v0.9.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"4"}
-    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <style type="text/css">h2{--heading-prefix:"5"}
+    h3,h4,h5,h6{--heading-prefix:"5"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">FHIR Hackathon 2025</span>
             <br/>
-            <span style="display:inline-block;">0.8.1 - ci-build
+            <span style="display:inline-block;">0.9.0 - ci-build
 
 
 
@@ -120,6 +120,9 @@
     <a href="track-descriptions.html">Tracks</a>
   </li>
   <li>
+    <a href="practical-info.html">Practical</a>
+  </li>
+  <li>
     <a href="toc.html">TOC</a>
   </li>
 </ul>
@@ -154,7 +157,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v0.8.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v0.9.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Track Descriptions</h2>
   
 
@@ -297,6 +300,13 @@ GET https://tx-nordics.fhir.org/fhir/r4/CodeSystem/$lookup?system=http://snomed.
 
 <p>There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesarry tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop (both PMD and OKT are valid use-cases for authoring and building an IG).</p>
 
+<h5 id="preparations-1">Preparations</h5>
+
+<p>The presentations from the pre-meetings contain information about the FHIR IG authoring track included links to tools, introductory guides and specifications that are usefull to prepare for the Hackathon.</p>
+
+<p>Presentation: <a href="FHIR-Hackathon-2025-pre1.pdf">FHIR Hackathon pre meeting 1 - intro</a><br />
+Presentation: <a href="FHIR-Hackathon-2025-premeeting-2.pdf">FHIR Hackathon pre meeting 2 and IG authoring</a></p>
+
 <h4 id="learning-goals">Learning goals</h4>
 
 <ul>
@@ -304,9 +314,14 @@ GET https://tx-nordics.fhir.org/fhir/r4/CodeSystem/$lookup?system=http://snomed.
   <li>Know the necessary tools for building FHIR IG's
     <ul>
       <li>IG publisher</li>
-      <li>SUSHI</li>
-      <li>Forge</li>
+      <li>SUSHI (Publisher and SUSHI can run entirely on Github)</li>
+      <li>Forge (must be installed on your computer, trial version available)</li>
       <li>Simplifier.net</li>
+    </ul>
+  </li>
+  <li>Basic understanding of Github for maintaining your codebase
+    <ul>
+      <li>Simplifier Github integration</li>
     </ul>
   </li>
   <li>Learn how to write FHIR documentation using FSH or Forge</li>
@@ -333,7 +348,7 @@ GET https://tx-nordics.fhir.org/fhir/r4/CodeSystem/$lookup?system=http://snomed.
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.8.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 3, 2025 10:49+0000">2025-11-03</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#0.9.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 4, 2025 09:51+0000">2025-11-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

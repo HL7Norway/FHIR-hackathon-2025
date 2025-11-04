@@ -1,12 +1,13 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json	2765	-	0	0	0	0	0	0	15	83	0	0	0	0	0	0	0	0	0	0	70	71	0	0	0	3	0	1
-fsh-generated/resources/Patient-Pasient-1.json	375	17	0	0	0	0	0	0	0	243	0	0	0	0	0	0	0	0	0	0	12	16	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2253	16	0	56	0	0	1	0	0	91	0	0	1	0	0	0	0	2	0	0	204	1141	0	0	0	11	0	1
-fsh-generated/resources/StructureDefinition-mal-patient.json	829	16	0	101	1	0	0	0	0	55	0	0	0	0	0	0	0	2	0	0	286	1002	0	0	0	14	0	1
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json	2902	-	0	0	0	0	0	0	14	71	0	0	0	0	0	0	0	0	0	0	69	70	0	0	0	2	0	0
+fsh-generated/resources/Patient-Pasient-1.json	375	11	0	0	0	0	0	0	0	241	0	0	0	0	0	0	0	0	0	0	13	16	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2253	12	0	74	0	0	0	0	1	85	0	0	1	0	0	0	0	2	0	0	218	1132	0	0	0	11	1	1
+fsh-generated/resources/StructureDefinition-mal-patient.json	829	12	0	127	1	0	0	0	0	56	0	0	0	0	0	0	0	1	0	0	278	924	0	0	0	18	0	1
 /fsh-generated/includes/fsh-link-references.md	160	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/fsh-generated/includes/menu.xml	1438	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/input/pagecontent/hack-agenda.md	2658	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent/track-descriptions.md	7045	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	1501	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/hack-agenda.md	2658	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/track-descriptions.md	7668	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/practical-info.md	875	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/index.md	4433	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/pre-agenda.md	4119	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -16,6 +17,8 @@ fsh-generated/resources/StructureDefinition-mal-patient.json	829	16	0	101	1	0	0	
 /input/images/test.puml	389	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/test.svg	9068	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/FHIR-Hackathon-pre-meeting-2.ics	12651	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/images/FHIR-Hackathon-2025-premeeting-2.pdf	2521100	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0
+/input/images/motesenter.png	283545	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images/rom-A5.png	1176631	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+/input/images/FHIR-Hackathon-2025-premeeting-2.pdf	2521100	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0
 /input/images/FHIR-Hackathon-2025-pre1.pdf	2424894	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
-/temp/pages/_includes/artifacts.xml	2479	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	2479	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
