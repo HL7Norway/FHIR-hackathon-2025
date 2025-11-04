@@ -1,4 +1,4 @@
-# Practical Info - FHIR Hackathon 2025 v0.9.0
+# Practical Info - FHIR Hackathon 2025 v0.9.1
 
 * [**Table of Contents**](toc.md)
 * **Practical Info**
@@ -16,7 +16,8 @@ FHIR Hackathon 2025 foregår på X-meeting point utenfor Oslo. Det er mulig å k
 ### Kart over møtesenteret
 
 Rom A2 markert i kartet over møtesenteret.
- ![](motesenter.png)
+
+![](motesenter.png)
 
 ### Servering
 
