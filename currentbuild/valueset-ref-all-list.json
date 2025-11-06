@@ -82,8 +82,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve",
-      "StructureDefinition-mal-patient.html" : "Pasient"
+      "StructureDefinition-mal-patient.html" : "Pasient",
+      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

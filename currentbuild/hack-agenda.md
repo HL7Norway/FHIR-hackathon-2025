@@ -1,4 +1,4 @@
-# Hack Agenda - FHIR Hackathon 2025 v0.9.2
+# Hack Agenda - FHIR Hackathon 2025 v1.0.0
 
 * [**Table of Contents**](toc.md)
 * **Hack Agenda**
@@ -12,14 +12,14 @@ Proposed agenda for the hackathon on 10 November.
 
 | | | |
 | :--- | :--- | :--- |
-| 0930 | Welcome and Introductions (plenary) | Partners and Track leads |
+| 0930 | Welcome and Introductions (plenary) | Partners |
 | 0945 | Parallell intros to tracks | Track leads |
-| 1015 | Working in tracks | Track leads |
-| 1200 | Lunch | NA |
-| 1300 | Working in tracks | Track leads |
-| 1430 | Coffee break | NA |
-| 1445 | Working in tracks | Track leads |
-| 1600 | Demo summary and discussions (plenary) | TBD + track leads |
+| 1015 | Working in tracks | All |
+| 1200 | Lunch | All |
+| 1300 | Working in tracks | All |
+| 1430 | Coffee break | All |
+| 1445 | Working in tracks | All |
+| 1600 | Demo summary and discussions (plenary) | Track leads + all |
 | 1700 | End of day | All |
 
 #### Parallell intros
@@ -50,7 +50,11 @@ A list of people involved in the organization of the hackathon and track leads, 
 | Partner | Øyvind Aassve | [oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no) | Sykehuspartner |
 | Partner | Gaute Nygreen | [gaute.nygreen@nhn.no](mailto:gaute.nygreen@nhn.no) | NHN |
 
-##### Introduction to FHIR
+#### Demo summary and discussions
+
+The track leads presents the main results from the day in a plenary presentation. All participants are welcome to demo things they have built during the day. Presentable results can be everything from workable client/server software, via curl/Postman transactions to implementation guides and FHIR conformance resources.
+
+#### Introduction to FHIR
 
 Intro to FHIR, IG and FHIR RESTful can be given on demand. Please review the [HL7 FHIR video resources](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html#preparations-for-participants)
 
