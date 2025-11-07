@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Track Descriptions - FHIR Hackathon 2025 v1.0.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5"}
+    h3,h4,h5,h6{--heading-prefix:"5"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Hackathon 2025</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Agenda
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="hack-agenda.html">Hackathon agenda</a>
+      </li>
+      <li>
+        <a href="pre-agenda.html">Startup meeting agenda</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="track-descriptions.html">Tracks</a>
+  </li>
+  <li>
+    <a href="practical-info.html">Practical</a>
+  </li>
+  <li>
+    <a href="toc.html">TOC</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Track Descriptions</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Track Descriptions</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#introduction-to-tracks" id="markdown-toc-introduction-to-tracks">Introduction to tracks</a></li>
+  <li><a href="#track-pasientens-måledata-pmd-fhir-api" id="markdown-toc-track-pasientens-måledata-pmd-fhir-api">Track: Pasientens måledata (PMD) FHIR API</a></li>
+  <li><a href="#track-make-a-fhir-version-of-the-okt-api" id="markdown-toc-track-make-a-fhir-version-of-the-okt-api">Track: Make a FHIR version of the OKT API</a></li>
+  <li><a href="#track-nordic-tx-fhir-server-api" id="markdown-toc-track-nordic-tx-fhir-server-api">Track: Nordic tx FHIR server API</a></li>
+  <li><a href="#track-fhir-ig-authoring-and-building" id="markdown-toc-track-fhir-ig-authoring-and-building">Track: FHIR IG authoring and building</a></li>
+</ul>
+
+</div>
+<h3 id="introduction-to-tracks">Introduction to tracks</h3>
+
+<p>This page contains a quick writeup of the use cases in the different tracks of the 2025 Norwegian FHIR Hackathon.
+<strong>NOTE! The track descriptions are currently under active development and changes will occur without further notice.</strong></p>
+
+<h3 id="track-pasientens-måledata-pmd-fhir-api">Track: Pasientens måledata (PMD) FHIR API</h3>
+
+<p>Excercise on using the Pasientens måledata API to exchange data to/from the PMD API.</p>
+
+<h4 id="step-1-introduction-to-pasientens-måledata-pmd-fhir-api">Step 1: Introduction to Pasientens måledata (PMD) FHIR API.</h4>
+<p>About the API and design choices.</p>
+
+<p>Based on your product/solution/needs do Step 2 and/or Step 3.</p>
+
+<h4 id="step-2-use-documentation-from-nhn-developer-portal-to-retrieve-data">Step 2: Use documentation from NHN developer portal to retrieve data.</h4>
+<p>Help available if needed.</p>
+
+<h4 id="step-3-use-documentation-from-nhn-developer-portal-to-write-data">Step 3: Use documentation from NHN developer portal to write data.</h4>
+<p>Help available if needed.</p>
+
+<h4 id="step-4-find-someone-who-did-the-opposite-of-you-in-step-2-and-3-and-test-that-data-from-one-can-be-read-by-the-other">Step 4: Find someone who did the opposite of you in step 2 and 3, and test that data from one can be read by the other.</h4>
+<p>If you´ve done both 2 and 3, try testing both against other participants.</p>
+
+<h4 id="step-5-if-you-have-a-gui---try-showing-data-from-multiple-other-vendors">Step 5: If you have a GUI - try showing data from multiple other vendors.</h4>
+
+<ul>
+  <li><a href="https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata/">PMD API documentation</a></li>
+  <li><a href="https://simplifier.net/VelferdteknologiskknutepunktR4">PMD/VKP API FHIR profiles on SIMPLIFIER</a></li>
+</ul>
+
+<h3 id="track-make-a-fhir-version-of-the-okt-api">Track: Make a FHIR version of the OKT API</h3>
+
+<p>This is an exercise in translating an existing API, both data structures and interactions, to FHIR resources and the FHIR REST API. It should give participants practical, hands-on experience in designing and implementing FHIR-enabled services.</p>
+
+<p>We will look at the proprietary <a href="https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api">OKT API</a> from NHN, and discuss which FHIR resources and REST interactions we can translate the API into.</p>
+
+<p>Several resources might fit the purpose, including <code class="language-plaintext highlighter-rouge">EpisodeOfCare</code>, <code class="language-plaintext highlighter-rouge">CarePlan</code>, and <code class="language-plaintext highlighter-rouge">ServiceRequest</code>. We will discuss the resource descriptions and the data fields to see which one is the best match. Other projects, e.g. the use of <a href="https://simplifier.net/guide/velferdsteknologiskknutepunktvkp-r4/episodeofcare?version=current"><code class="language-plaintext highlighter-rouge">EpisodeOfCare</code> in Velferdsteknologisk knutepunkt (VKP)</a> will also be considered.</p>
+
+<p>The more technically inclined may also demonstrate the conversion from the proprietary API to FHIR, either in code or in FHIR, using <code class="language-plaintext highlighter-rouge">StructureMap</code> resources. Examples of both will be provided among the hackathon resources.</p>
+
+<h4 id="preparations">Preparations</h4>
+
+<p>To be able to get started with the discussion of possible solutions quicker at the hackathon, we recommend that track participants familiarize themselves with</p>
+
+<ul>
+  <li>The documentation of the current <a href="https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api">OKT API</a></li>
+  <li>The draft implementation guide for the OKT FHIR API (link will be published before the hackathon)</li>
+</ul>
+
+<h4 id="relation-to-other-tracks">Relation to other tracks</h4>
+
+<ul>
+  <li>FHIR IG building and authoring: The recommendations will be added to a FHIR implementation guide. This can be a use case for the IG authoring track.</li>
+  <li>Nordic tx FHIR server API: The profiles will likely contain some coded data. Making these codes available for the IG authoring process is a use case for the terminology server track.</li>
+</ul>
+
+<h3 id="track-nordic-tx-fhir-server-api">Track: Nordic tx FHIR server API</h3>
+
+<p>Established in cooperation by the nordic HL7 affiliates (HL7 Sweden, HL7 Denmark, HL7 Finland and HL7 Norway) to establish a common nordic terminology server to host codesystems and valuesets for use with HL7 FHIR in standardization efforts.</p>
+
+<blockquote>
+  <p>DISCLAIMER: The nordic terminology server is not intended for use in a production environment. A separate terminology server should be set up by your organization for production use in your IT-infrastructure.</p>
+</blockquote>
+
+<h4 id="use-cases">Use cases</h4>
+
+<h4 id="ig-building">IG building</h4>
+<p>The main use case for the Nordic terminology server is to make building FHIR IGs using terminology defined in the Nordic countries easier. The common Nordic terminology server should host and maintain codesystems and valuesets that are used in Nordic FHIR IG's and FHIR implementations. The server should be registered to tx.fhir.org to support validation in the FHIR build process. There are a number of valuesets and codesystems that are used in the Nordics:</p>
+
+<ul>
+  <li>National editions of SNOMED CT</li>
+  <li>National ValueSets defined and maintained by the affiliates
+    <ul>
+      <li>These valuesets are typically used in core and base profiles.</li>
+      <li>Examples are valuesets used in Norwegian vitalsign profiles.</li>
+    </ul>
+  </li>
+  <li>National CodeSystems used in core and base profiles</li>
+</ul>
+
+<h4 id="translation">Translation</h4>
+
+<p>Provide national displays for HL7 code system concepts by hosting "language packs" on tx-nordics.</p>
+
+<h4 id="building-igs">Building IGs</h4>
+
+<p>HL7 Sweden is currently hosting a terminology server at https://tx-nordics.fhir.org/fhir for use in the Nordics, and IGs can be built using this server with:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./_genonce.sh <span class="nt">-tx</span> https://tx-nordics.fhir.org/fhir/r4
+</code></pre></div></div>
+
+<h4 id="terminology-apis">Terminology APIs</h4>
+<p>In addition to the FHIR terminology server API for authoring, we will also have an educational track on using the terminology APIs for searching and retrieving codes, valuesets and concepts from the terminology server. As mentioned previously, this is not intended for production use, and will only serve an educational purpose in this hackathon.</p>
+
+<p>Sample APIs that can be used against the nordic terminology server:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># expand a valueset
+GET https://tx-nordics.fhir.org/fhir/r4/ValueSet/2d9364e2-9e55-4872-969a-b8e1b0655c16/$expand
+
+# expand a valueset with displays in Norwegian
+GET https://tx-nordics.fhir.org/fhir/r4/ValueSet/common-conditions-vs/$expand?displayLanguage=no
+
+# expand a valueset with displays in English
+GET https://tx-nordics.fhir.org/fhir/r4/ValueSet/common-conditions-vs/$expand?displayLanguage=en
+
+# look up all properties of a SNOMED code
+GET https://tx-nordics.fhir.org/fhir/r4/CodeSystem/$lookup?system=http://snomed.info/sct&amp;code=263495000&amp;_format=json
+</code></pre></div></div>
+
+<h3 id="track-fhir-ig-authoring-and-building">Track: FHIR IG authoring and building</h3>
+
+<p>FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.</p>
+
+<h4 id="prerequisites-and-preparations">Prerequisites and preparations</h4>
+
+<p>There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesarry tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop (both PMD and OKT are valid use-cases for authoring and building an IG).</p>
+
+<h5 id="preparations-1">Preparations</h5>
+
+<p>The presentations from the pre-meetings contain information about the FHIR IG authoring track included links to tools, introductory guides and specifications that are usefull to prepare for the Hackathon.</p>
+
+<p>Presentation: <a href="FHIR-Hackathon-2025-pre1.pdf">FHIR Hackathon pre meeting 1 - intro</a><br />
+Presentation: <a href="FHIR-Hackathon-2025-premeeting-2.pdf">FHIR Hackathon pre meeting 2 and IG authoring</a></p>
+
+<h4 id="learning-goals">Learning goals</h4>
+
+<ul>
+  <li>Basic understanding of the role of FHIR profiling</li>
+  <li>Know the necessary tools for building FHIR IG's
+    <ul>
+      <li>IG publisher</li>
+      <li>SUSHI (Publisher and SUSHI can run entirely on Github)</li>
+      <li>Forge (must be installed on your computer, trial version available)</li>
+      <li>Simplifier.net</li>
+    </ul>
+  </li>
+  <li>Basic understanding of Github for maintaining your codebase
+    <ul>
+      <li>Simplifier Github integration</li>
+    </ul>
+  </li>
+  <li>Learn how to write FHIR documentation using FSH or Forge</li>
+  <li>Learn how to use the tools for FHIR IG authoring</li>
+  <li>Learn how to present a draft IG using Github.io or Simplifier.net</li>
+</ul>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 7, 2025 07:33+0000">2025-11-07</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

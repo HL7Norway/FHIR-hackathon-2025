@@ -1,0 +1,19 @@
+{
+  "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
+  "name" : "FHIRHackathon2025",
+  "title" : "FHIR Hackathon 2025",
+  "description" : "Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2025",
+  "status" : "draft",
+  "package-id" : "hl7.fhir.no.hackathon.2025",
+  "ig-ver" : "1.0.0",
+  "date" : "Fri, 07 Nov, 2025 07:33:40 +0000",
+  "dateISO8601" : "2025-11-07T07:33:40+00:00",
+  "errs" : 0,
+  "warnings" : 12,
+  "hints" : 1,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 877677888
+}

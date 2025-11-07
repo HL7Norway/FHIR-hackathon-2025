@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Pre Agenda - FHIR Hackathon 2025 v1.0.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Hackathon 2025</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Agenda
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="hack-agenda.html">Hackathon agenda</a>
+      </li>
+      <li>
+        <a href="pre-agenda.html">Startup meeting agenda</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="track-descriptions.html">Tracks</a>
+  </li>
+  <li>
+    <a href="practical-info.html">Practical</a>
+  </li>
+  <li>
+    <a href="toc.html">TOC</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Pre Agenda</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Pre Agenda</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#agenda-for-the-pre-meetings" id="markdown-toc-agenda-for-the-pre-meetings">Agenda for the pre meetings</a></li>
+  <li><a href="#intro" id="markdown-toc-intro">Intro</a></li>
+  <li><a href="#october-27th" id="markdown-toc-october-27th">October 27th</a></li>
+  <li><a href="#november-3rd" id="markdown-toc-november-3rd">November 3rd</a></li>
+  <li><a href="#virtual-meeting-invite" id="markdown-toc-virtual-meeting-invite">Virtual meeting invite</a></li>
+</ul>
+
+</div>
+<h3 id="agenda-for-the-pre-meetings">Agenda for the pre meetings</h3>
+
+<p>Proposed agenda for the hackathon pre-Hackathon meetings on the 27th october and 3rd of november.<br />
+<strong>NOTE! The agenda is currently under active development and changes will occur without further notice.</strong></p>
+
+<h3 id="intro">Intro</h3>
+
+<p>The goal of the pre-Hackathon meetings are to give a quick introduction to the different hackathon tracks, and make the participants capable of doing necessary preparations for the Hackathon. The pre-Hackathon meetings will be virtual only.</p>
+
+<h3 id="october-27th">October 27th</h3>
+
+<p>The first meeting will contain an introduction to all the Hackathon tracks, including information about important prerequisites and proposed tasks for each track and some time for Q&amp;A and discussion.</p>
+
+<p>Date: 27. october 2025<br />
+Time: 10:00-11:00<br />
+Presentation: <a href="FHIR-Hackathon-2025-pre1.pdf">FHIR Hackathon pre meeting 1 - intro</a><br />
+<a href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/FHIR-Hackathon-pre-meeting-1.ics">Virtual meeting</a></p>
+
+<h4 id="agenda">Agenda</h4>
+
+<table class="grid table-striped">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Title</th>
+      <th>Presenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1000</td>
+      <td>Welcome</td>
+      <td>Thomas T Rosenlund</td>
+    </tr>
+    <tr>
+      <td>1010</td>
+      <td>PMD track intro</td>
+      <td>Michal Jan Warecki</td>
+    </tr>
+    <tr>
+      <td>1020</td>
+      <td>OKT track intro</td>
+      <td>Robert William Dall Frøseth</td>
+    </tr>
+    <tr>
+      <td>1030</td>
+      <td>Terminology track intro</td>
+      <td>Vadim Peretokin</td>
+    </tr>
+    <tr>
+      <td>1040</td>
+      <td>IG track intro</td>
+      <td>Espen/Thomas</td>
+    </tr>
+    <tr>
+      <td>1050</td>
+      <td>Q&amp;A and Discussion</td>
+      <td>All</td>
+    </tr>
+    <tr>
+      <td>1100</td>
+      <td>End of meeting</td>
+      <td>All</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="november-3rd">November 3rd</h3>
+
+<p>The second meeting will contain a short introduction. Each participant will present themselves and say what track they want to focus on. We will then split up in different tracks meetings (choose the one you are most interested in/want to start out with working on) and disuss track specific issues in the breakout sessions.</p>
+
+<p>Date: 3. november 2025<br />
+Time: 10:00-11:00<br />
+Presentation: <a href="FHIR-Hackathon-2025-premeeting-2.pdf">FHIR Hackathon pre meeting 2 and IG authoring</a><br />
+<a href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/FHIR-Hackathon-pre-meeting-2.ics">Virtual meeting</a></p>
+
+<h4 id="agenda-1">Agenda</h4>
+
+<table class="grid table-striped">
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Title</th>
+      <th>Presenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1000</td>
+      <td>Welcome</td>
+      <td>Thomas T Rosenlund</td>
+    </tr>
+    <tr>
+      <td>1015</td>
+      <td>Separate meetings for each track (breakout sessions)</td>
+      <td>All</td>
+    </tr>
+    <tr>
+      <td>1100</td>
+      <td>End of meeting</td>
+      <td>All</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="breakout-sessions-for-each-track">Breakout sessions for each track</h4>
+
+<p>Each track will have their own Teams meeting link for the track specific intro/discussions from 1015 and onwards. The meeting links for the different track intro meetings are provided in the table:</p>
+
+<table class="grid table-striped">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Meeting link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PMD track</td>
+      <td><a href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_MzU5OWZkMzYtZTEwMC00NGNlLThiYWQtZTA5N2U4ZGEyZWEy%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522e3dac4b3-9b0b-4f41-8623-9392d0d566dc%2522%252c%2522Oid%2522%253a%252208a212c1-dfe5-4811-933a-9933608a484c%2522%257d%26anon%3Dtrue&amp;type=meetup-join&amp;deeplinkId=196d111e-5805-454a-a52f-9aaf8428c04b&amp;directDl=true&amp;msLaunch=true&amp;enableMobilePage=true&amp;suppressPrompt=true">PMD track link</a></td>
+    </tr>
+    <tr>
+      <td>OKT Track</td>
+      <td><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGMwZWFlZmItZDI2Mi00MjAwLWFiY2QtNzRjYmZhODc0ODYy%40thread.v2/0?context=%7b%22Tid%22%3a%22e3dac4b3-9b0b-4f41-8623-9392d0d566dc%22%2c%22Oid%22%3a%22624b6cc5-f1ec-4eb8-9961-29193a3f66ea%22%7d">OKT track link</a></td>
+    </tr>
+    <tr>
+      <td>Terminology track</td>
+      <td><a href="https://teams.live.com/meet/9359883104571?p=gpvPAWIHW8Zrej4jLs">Terminology track link</a></td>
+    </tr>
+    <tr>
+      <td>IG track</td>
+      <td><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODk2YzNhZDktMmQ1Ni00ODk0LTllMjQtNzVjODExMDA3YTU0%40thread.v2/0?context=%7b%22Tid%22%3a%226ba1bd5c-750f-4ad6-aba3-0f95585bc21f%22%2c%22Oid%22%3a%22abb18bf9-9a86-4188-b2d2-7e430cb2f4b5%22%7d">IG Track link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="virtual-meeting-invite">Virtual meeting invite</h3>
+
+<p>You will receive a Teams invitation to the virtual meeting after you sign up for the hackathon event.</p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 7, 2025 07:33+0000">2025-11-07</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

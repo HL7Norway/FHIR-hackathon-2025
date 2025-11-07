@@ -1,0 +1,346 @@
+{
+  "date" : "Fri, 07 Nov, 2025 07:33:40 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json",
+      "size" : 2902,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 29
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 45,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 45,
+          "length" : 71
+        },
+        {
+          "activity" : "validate",
+          "start" : 47,
+          "length" : 2405
+        },
+        {
+          "activity" : "generate1",
+          "start" : 50,
+          "length" : 72
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 85
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 64,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-Pasient-1.json",
+      "size" : 375,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 40,
+          "length" : 22
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 45,
+          "length" : 232
+        },
+        {
+          "activity" : "validate",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 50,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 16
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json",
+      "size" : 2253,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 40,
+          "length" : 13
+        },
+        {
+          "activity" : "load",
+          "start" : 40,
+          "length" : 23
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 41,
+          "length" : 96
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 45,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 45,
+          "length" : 92
+        },
+        {
+          "activity" : "validate",
+          "start" : 45,
+          "length" : 1196
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 50,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 50,
+          "length" : 210
+        },
+        {
+          "activity" : "generate2",
+          "start" : 53,
+          "length" : 1168
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1436
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 58,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 64,
+          "length" : 11
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 73,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-mal-patient.json",
+      "size" : 829,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 40,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 40,
+          "length" : 20
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 41,
+          "length" : 102
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 45,
+          "length" : 49
+        },
+        {
+          "activity" : "validate",
+          "start" : 47,
+          "length" : 685
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 50,
+          "length" : 298
+        },
+        {
+          "activity" : "generate2",
+          "start" : 54,
+          "length" : 781
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 761
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 64,
+          "length" : 17
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 73,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 73,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/includes/fsh-link-references.md",
+      "size" : 160
+    },
+    {
+      "name" : "/fsh-generated/includes/menu.xml",
+      "size" : 1501,
+      "processes" : [
+        {
+          "activity" : "validate",
+          "start" : 50,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/hack-agenda.md",
+      "size" : 2976
+    },
+    {
+      "name" : "/input/pagecontent/track-descriptions.md",
+      "size" : 7668
+    },
+    {
+      "name" : "/input/pagecontent/practical-info.md",
+      "size" : 1607,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/index.md",
+      "size" : 4433
+    },
+    {
+      "name" : "/input/pagecontent/pre-agenda.md",
+      "size" : 4119
+    },
+    {
+      "name" : "/template/config",
+      "size" : 0
+    },
+    {
+      "name" : "/template/config/_config.yml",
+      "size" : 140
+    },
+    {
+      "name" : "/input/images",
+      "size" : 0
+    },
+    {
+      "name" : "/input/images/FHIR-Hackathon-pre-meeting-1.ics",
+      "size" : 12934
+    },
+    {
+      "name" : "/input/images/test.puml",
+      "size" : 389
+    },
+    {
+      "name" : "/input/images/test.svg",
+      "size" : 9068
+    },
+    {
+      "name" : "/input/images/FHIR-Hackathon-pre-meeting-2.ics",
+      "size" : 12651
+    },
+    {
+      "name" : "/input/images/motesenter.png",
+      "size" : 283545,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/rom-A5.png",
+      "size" : 1176631
+    },
+    {
+      "name" : "/input/images/FHIR-Hackathon-2025-premeeting-2.pdf",
+      "size" : 2521100,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/FHIR-Hackathon-2025-pre1.pdf",
+      "size" : 2424894,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "/temp/pages/_includes/artifacts.xml",
+      "size" : 2479
+    }
+  ]
+}
