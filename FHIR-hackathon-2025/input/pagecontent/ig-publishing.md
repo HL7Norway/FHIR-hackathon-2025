@@ -26,3 +26,23 @@ Presentation: [FHIR Hackathon pre meeting 2 and IG authoring](FHIR-Hackathon-202
 * Learn how to write FHIR documentation using FSH or Forge
 * Learn how to use the tools for FHIR IG authoring
 * Learn how to present a draft IG using Github.io or Simplifier.net
+
+### Basic use cases
+
+The basic use cases are described over.
+
+### Advanced use cases
+
+Some advanced assignments.
+
+#### Generate IG and publish on GitHub
+
+1. Make sure you have a GitHub account
+2. Go to [ig-mal](https://github.com/HL7Norway/ig-mal) and follow the instructions
+3. Upload or write your FHIR profiles based in FHIR Shorthand (FSH)
+4. Set up the publishing enviroment with GitHub Pages functionality
+5. Run the publisher action
+
+#### Install enviroment for IG publisher on your computer
+
+You must have necessary rights to install and run software. 
