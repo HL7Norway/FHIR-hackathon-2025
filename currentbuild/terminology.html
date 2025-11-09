@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Terminology - FHIR Hackathon 2025 v1.1.0</title>
+    <title>Terminology - FHIR Hackathon 2025 v1.1.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">FHIR Hackathon 2025</span>
             <br/>
-            <span style="display:inline-block;">1.1.0 - ci-build
+            <span style="display:inline-block;">1.1.1 - ci-build
 
 
 
@@ -170,7 +170,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v1.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v1.1.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Terminology</h2>
   
 
@@ -186,10 +186,67 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#basic-use-cases" id="markdown-toc-basic-use-cases">Basic use cases</a></li>
+  <li><a href="#advanced-use-cases" id="markdown-toc-advanced-use-cases">Advanced use cases</a></li>
+</ul>
+
 </div>
 <p>This page contains more detailed information about the Nordic tx FHIR server API and Terminology track.</p>
+
+<h3 id="basic-use-cases">Basic use cases</h3>
+
+<p>The basic use cases are described in the <a href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/track-descriptions.html#use-cases">track description page</a> and includes building IG using the nordic terminology server and accessing the terminology API.</p>
+
+<h3 id="advanced-use-cases">Advanced use cases</h3>
+
+<p>Some advanced terminology assignments.</p>
+
+<h4 id="add-codesystem-to-kodeverk-ig">Add Codesystem to kodeverk IG</h4>
+
+<ol>
+  <li>Define a codesystem and corresponding valueset as FHIR resources:</li>
+</ol>
+
+<ul>
+  <li><a href="https://hl7.org/fhir/R4/codesystem.html">CodeSystem definition</a></li>
+  <li><a href="https://hl7.org/fhir/R4/valueset.html">ValueSet definiton</a></li>
+</ul>
+
+<ol>
+  <li>Debug the definition using IG publisher tools or fshschool tools on the internet.</li>
+  <li>Add a pull request to <a href="https://github.com/HL7Norway/kodeverk">kodeverk IG</a> for the CodeSystem/ValueSet definitons.</li>
+</ol>
+
+<h4 id="add-codesystem-and-valueset-definition-tx-nordic">Add Codesystem and ValueSet definition tx-nordic</h4>
+
+<p>Use the <a href="https://tx-nordics.fhir.org/fhir/r4">tx-nordic</a> API to add a CodeSystem and ValueSet definition to the server.</p>
+
+<h4 id="build-an-ig-that-uses-a-valuesetcodesystem">Build an IG that uses a ValueSet/CodeSystem</h4>
+
+<p>Build an IG using different terminology servers. What happens?</p>
+
+<ol>
+  <li>Build a FHIR IG containting a profile that uses one of your defined ValueSets.</li>
+  <li>Add an example that includes codes from the CodeSystem.</li>
+  <li>Build the IG referring to the <a href="https://tx-nordics.fhir.org/fhir/r4">tx-nordic</a>
+    <ol>
+      <li>Inspect the results, including the QA report to see if there are any errors.</li>
+      <li>Compare QA report building using tx-nordic and not building using tx-nordic server.</li>
+    </ol>
+  </li>
+</ol>
+
+<h4 id="map-fat-codesystem-to-fhir-codesystem">Map FAT Codesystem to FHIR CodeSystem</h4>
+
+<p>Inspect <a href="https://finnkode.helsedirektoratet.no/">finnkode.no</a> and the API documentation for <a href="https://fat.kote.helsedirektoratet.no/index.html">FAT-API</a>.</p>
+
+<ol>
+  <li>Is it possible to map the contents available for administrative codesystems to FHIR CodeSystems and ValueSets definitions?</li>
+  <li>Make an example of a mapping containing the information available from FAT-API for a CodeSystem, preferably with a ValueSet containing all the code from the mapped CodeSystem</li>
+  <li>Can the mapping be described using a <a href="https://hl7.org/fhir/R4/structuremap.html">FHIR StructureMap</a> or is another mapping language better suited?</li>
+</ol>
 
 
 
@@ -210,7 +267,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 9, 2025 14:01+0000">2025-11-09</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.1.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 9, 2025 14:56+0000">2025-11-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
