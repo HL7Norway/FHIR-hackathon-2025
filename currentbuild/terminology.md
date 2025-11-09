@@ -1,4 +1,4 @@
-# Terminology - FHIR Hackathon 2025 v1.1.1
+# Terminology - FHIR Hackathon 2025 v1.1.2
 
 * [**Table of Contents**](toc.md)
 * **Terminology**
@@ -18,9 +18,8 @@ Some advanced terminology assignments.
 #### Add Codesystem to kodeverk IG
 
 1. Define a codesystem and corresponding valueset as FHIR resources:
-
-* [CodeSystem definition](https://hl7.org/fhir/R4/codesystem.html)
-* [ValueSet definiton](https://hl7.org/fhir/R4/valueset.html)
+1. [CodeSystem definition](https://hl7.org/fhir/R4/codesystem.html)
+1. [ValueSet definiton](https://hl7.org/fhir/R4/valueset.html)
 
 1. Debug the definition using IG publisher tools or fshschool tools on the internet.
 1. Add a pull request to[kodeverk IG](https://github.com/HL7Norway/kodeverk)for the CodeSystem/ValueSet definitons.

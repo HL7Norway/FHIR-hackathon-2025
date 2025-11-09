@@ -1,4 +1,4 @@
-# Pasient-1 - FHIR Hackathon 2025 v1.1.1
+# Pasient-1 - FHIR Hackathon 2025 v1.1.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
