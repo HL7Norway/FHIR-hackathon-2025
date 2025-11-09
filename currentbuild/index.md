@@ -1,4 +1,4 @@
-# Home - FHIR Hackathon 2025 v1.0.0
+# Home - FHIR Hackathon 2025 v1.1.0
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:1.0.0 |
-| Draft as of 2025-11-07 | *Computable Name*:FHIRHackathon2025 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:1.1.0 |
+| Draft as of 2025-11-09 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
 
@@ -91,11 +91,11 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2025",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-11-07T07:33:40+00:00",
+  "date" : "2025-11-09T14:01:41+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
@@ -893,6 +893,17 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "ig-publishing.html"
+            }
+          ],
+          "nameUrl" : "ig-publishing.html",
+          "title" : "Ig Publishing",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
               "valueUrl" : "practical-info.html"
             }
           ],
@@ -909,6 +920,17 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
           ],
           "nameUrl" : "pre-agenda.html",
           "title" : "Pre Agenda",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "terminology.html"
+            }
+          ],
+          "nameUrl" : "terminology.html",
+          "title" : "Terminology",
           "generation" : "markdown"
         },
         {

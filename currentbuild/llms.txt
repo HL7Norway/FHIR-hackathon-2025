@@ -1,4 +1,4 @@
-# hl7.fhir.no.hackathon.2025#1.0.0: FHIR Hackathon 2025
+# hl7.fhir.no.hackathon.2025#1.1.0: FHIR Hackathon 2025
 
 ## Pages
 
@@ -6,7 +6,9 @@
 * [Pre Agenda](pre-agenda.md)
 * [Practical Info](practical-info.md)
 * [Artifacts Summary](artifacts.md)
+* [Ig Publishing](ig-publishing.md)
 * [Hack Agenda](hack-agenda.md)
+* [Terminology](terminology.md)
 * [Track Descriptions](track-descriptions.md)
 
 ## Resources

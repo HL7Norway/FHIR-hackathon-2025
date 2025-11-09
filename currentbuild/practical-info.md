@@ -1,4 +1,4 @@
-# Practical Info - FHIR Hackathon 2025 v1.0.0
+# Practical Info - FHIR Hackathon 2025 v1.1.0
 
 * [**Table of Contents**](toc.md)
 * **Practical Info**
