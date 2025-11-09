@@ -46,3 +46,18 @@ Some advanced assignments.
 #### Install enviroment for IG publisher on your computer
 
 You must have necessary rights to install and run software. 
+
+1. Install Java. IG Publisher requires Java 17 or later.
+2. Download IG Publisher - https://github.com/HL7/ig-publisher.
+3. Set Up Your IG Project Folder
+4. Run the publisher
+5. Optional: Use Sushi for FSH Projects
+
+#### Using Firely Forge and Simplifier for Collaborative IG Development
+
+You must have necessary rights to install and run software.
+
+1. Create and edit FHIR profiles using Firely Forge
+2. Upload and manage IG content on Simplifier.net
+3. Collaborate with others, track changes, and validate content using Firely Terminal
+4. Learn how to sync local work with Simplifier and use versioning
