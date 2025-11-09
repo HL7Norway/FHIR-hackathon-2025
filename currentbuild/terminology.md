@@ -26,7 +26,7 @@ Some advanced terminology assignments.
 
 #### Add Codesystem and ValueSet definition tx-nordic
 
-Use the [tx-nordic](https://tx-nordics.fhir.org/fhir/r4) API to add a CodeSystem and ValueSet definition to the server.
+Use the [tx-nordic](https://tx-nordics.fhir.org/fhir/r4) API to add a NamingSystem, CodeSystem and ValueSet definition to the server.
 
 #### Build an IG that uses a ValueSet/CodeSystem
 
@@ -34,7 +34,7 @@ Build an IG using different terminology servers. What happens?
 
 1. Build a FHIR IG containting a profile that uses one of your defined ValueSets.
 1. Add an example that includes codes from the CodeSystem.
-1. Build the IG referring to the[tx-nordic](https://tx-nordics.fhir.org/fhir/r4)
+1. Build the IG referring to the[tx-nordic](https://tx-nordics.fhir.org/fhir/r4).
 1. Inspect the results, including the QA report to see if there are any errors.
 1. Compare QA report building using tx-nordic and not building using tx-nordic server.
 
@@ -43,6 +43,7 @@ Build an IG using different terminology servers. What happens?
 Inspect [finnkode.no](https://finnkode.helsedirektoratet.no/) and the API documentation for [FAT-API](https://fat.kote.helsedirektoratet.no/index.html).
 
 1. Is it possible to map the contents available for administrative codesystems to FHIR CodeSystems and ValueSets definitions?
-1. Make an example of a mapping containing the information available from FAT-API for a CodeSystem, preferably with a ValueSet containing all the code from the mapped CodeSystem
+1. Make an example of a mapping containing the information available from FAT-API for a CodeSystem, preferably with a ValueSet containing all the code from the mapped CodeSystem.
 1. Can the mapping be described using a[FHIR StructureMap](https://hl7.org/fhir/R4/structuremap.html)or is another mapping language better suited?
+1. Make script for translation from FAT codesystem to FHIR codesystem.
 

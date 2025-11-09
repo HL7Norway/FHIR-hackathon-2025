@@ -218,7 +218,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h4 id="add-codesystem-and-valueset-definition-tx-nordic">Add Codesystem and ValueSet definition tx-nordic</h4>
 
-<p>Use the <a href="https://tx-nordics.fhir.org/fhir/r4">tx-nordic</a> API to add a CodeSystem and ValueSet definition to the server.</p>
+<p>Use the <a href="https://tx-nordics.fhir.org/fhir/r4">tx-nordic</a> API to add a NamingSystem, CodeSystem and ValueSet definition to the server.</p>
 
 <h4 id="build-an-ig-that-uses-a-valuesetcodesystem">Build an IG that uses a ValueSet/CodeSystem</h4>
 
@@ -227,7 +227,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ol>
   <li>Build a FHIR IG containting a profile that uses one of your defined ValueSets.</li>
   <li>Add an example that includes codes from the CodeSystem.</li>
-  <li>Build the IG referring to the <a href="https://tx-nordics.fhir.org/fhir/r4">tx-nordic</a>
+  <li>Build the IG referring to the <a href="https://tx-nordics.fhir.org/fhir/r4">tx-nordic</a>.
     <ol>
       <li>Inspect the results, including the QA report to see if there are any errors.</li>
       <li>Compare QA report building using tx-nordic and not building using tx-nordic server.</li>
@@ -241,8 +241,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <ol>
   <li>Is it possible to map the contents available for administrative codesystems to FHIR CodeSystems and ValueSets definitions?</li>
-  <li>Make an example of a mapping containing the information available from FAT-API for a CodeSystem, preferably with a ValueSet containing all the code from the mapped CodeSystem</li>
+  <li>Make an example of a mapping containing the information available from FAT-API for a CodeSystem, preferably with a ValueSet containing all the code from the mapped CodeSystem.</li>
   <li>Can the mapping be described using a <a href="https://hl7.org/fhir/R4/structuremap.html">FHIR StructureMap</a> or is another mapping language better suited?</li>
+  <li>Make script for translation from FAT codesystem to FHIR codesystem.</li>
 </ol>
 
 
@@ -264,7 +265,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.1.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 9, 2025 15:01+0000">2025-11-09</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.1.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 9, 2025 18:11+0000">2025-11-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
