@@ -186,10 +186,72 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#track-fhir-ig-authoring-and-building" id="markdown-toc-track-fhir-ig-authoring-and-building">Track: FHIR IG authoring and building</a></li>
+  <li><a href="#basic-use-cases" id="markdown-toc-basic-use-cases">Basic use cases</a></li>
+  <li><a href="#advanced-use-cases" id="markdown-toc-advanced-use-cases">Advanced use cases</a></li>
+</ul>
+
 </div>
-<p>This page contains more detailed information about the Implementation guide authoring and publishing track.</p>
+<h3 id="track-fhir-ig-authoring-and-building">Track: FHIR IG authoring and building</h3>
+
+<p>FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.</p>
+
+<h4 id="prerequisites-and-preparations">Prerequisites and preparations</h4>
+
+<p>There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesarry tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop (both PMD and OKT are valid use-cases for authoring and building an IG).</p>
+
+<h5 id="preparations">Preparations</h5>
+
+<p>The presentations from the pre-meetings contain information about the FHIR IG authoring track included links to tools, introductory guides and specifications that are usefull to prepare for the Hackathon.</p>
+
+<p>Presentation: <a href="FHIR-Hackathon-2025-pre1.pdf">FHIR Hackathon pre meeting 1 - intro</a><br />
+Presentation: <a href="FHIR-Hackathon-2025-premeeting-2.pdf">FHIR Hackathon pre meeting 2 and IG authoring</a></p>
+
+<h4 id="learning-goals">Learning goals</h4>
+
+<ul>
+  <li>Basic understanding of the role of FHIR profiling</li>
+  <li>Know the necessary tools for building FHIR IG's
+    <ul>
+      <li>IG publisher</li>
+      <li>SUSHI (Publisher and SUSHI can run entirely on Github)</li>
+      <li>Forge (must be installed on your computer, trial version available)</li>
+      <li>Simplifier.net</li>
+    </ul>
+  </li>
+  <li>Basic understanding of Github for maintaining your codebase
+    <ul>
+      <li>Simplifier Github integration</li>
+    </ul>
+  </li>
+  <li>Learn how to write FHIR documentation using FSH or Forge</li>
+  <li>Learn how to use the tools for FHIR IG authoring</li>
+  <li>Learn how to present a draft IG using Github.io or Simplifier.net</li>
+</ul>
+
+<h3 id="basic-use-cases">Basic use cases</h3>
+
+<p>The basic use cases are described over.</p>
+
+<h3 id="advanced-use-cases">Advanced use cases</h3>
+
+<p>Some advanced assignments.</p>
+
+<h4 id="generate-ig-and-publish-on-github">Generate IG and publish on GitHub</h4>
+
+<ol>
+  <li>Make sure you have a GitHub account</li>
+  <li>Go to <a href="https://github.com/HL7Norway/ig-mal">ig-mal</a> and follow the instructions</li>
+  <li>Upload or write your FHIR profiles based in FHIR Shorthand (FSH)</li>
+  <li>Set up the publishing enviroment with GitHub Pages functionality</li>
+  <li>Run the publisher action</li>
+</ol>
+
+<h4 id="install-enviroment-for-ig-publisher-on-your-computer">Install enviroment for IG publisher on your computer</h4>
+
+<p>You must have necessary rights to install and run software.</p>
 
 
 
@@ -210,7 +272,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.1.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 9, 2025 18:11+0000">2025-11-09</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.1.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 9, 2025 18:37+0000">2025-11-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
