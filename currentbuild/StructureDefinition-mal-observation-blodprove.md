@@ -1,4 +1,4 @@
-# Blodprøve - FHIR Hackathon 2025 v1.1.2
+# Blodprøve - FHIR Hackathon 2025 v1.1.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove | *Version*:1.1.2 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove | *Version*:1.1.3 |
 | Draft as of 2025-01-31 | *Computable Name*:MalObservationBlood |
 
  
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-mal-observation-blod
   "resourceType" : "StructureDefinition",
   "id" : "mal-observation-blodprove",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove",
-  "version" : "1.1.2",
+  "version" : "1.1.3",
   "name" : "MalObservationBlood",
   "title" : "Blodprøve",
   "status" : "draft",
@@ -66,7 +66,7 @@ Other representations of profile: [CSV](StructureDefinition-mal-observation-blod
       ]
     }
   ],
-  "fhirVersion" : "4.0.1",
+  "fhirVersion" : "6.0.0-ballot3",
   "mapping" : [
     {
       "identity" : "workflow",
@@ -74,14 +74,14 @@ Other representations of profile: [CSV](StructureDefinition-mal-observation-blod
       "name" : "Workflow Pattern"
     },
     {
-      "identity" : "sct-concept",
-      "uri" : "http://snomed.info/conceptdomain",
-      "name" : "SNOMED CT Concept Domain Binding"
+      "identity" : "w5",
+      "uri" : "http://hl7.org/fhir/fivews",
+      "name" : "FiveWs Pattern Mapping"
     },
     {
       "identity" : "v2",
       "uri" : "http://hl7.org/v2",
-      "name" : "HL7 v2 Mapping"
+      "name" : "HL7 V2 Mapping"
     },
     {
       "identity" : "rim",
@@ -89,9 +89,9 @@ Other representations of profile: [CSV](StructureDefinition-mal-observation-blod
       "name" : "RIM Mapping"
     },
     {
-      "identity" : "w5",
-      "uri" : "http://hl7.org/fhir/fivews",
-      "name" : "FiveWs Pattern Mapping"
+      "identity" : "sct-concept",
+      "uri" : "http://snomed.info/conceptdomain",
+      "name" : "SNOMED CT Concept Domain Binding"
     },
     {
       "identity" : "sct-attr",

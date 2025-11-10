@@ -1,30 +1,42 @@
 FHIRHackathon2025 : Validation Results
 =========================================
 
-err = 0, warn = 12, info = 1
+err = 4, warn = 9, info = 12
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.hackathon.2025#$-- (canonical = http://hl7.no/fhir/ig/hackathon/2025)
- Build Errors : 0 / 4 / 0
- /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025 : 0 / 2 / 1
- /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/Patient-Pasient-1 : 0 / 0 / 1
- /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 2
- /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 5 / 1
+ Build Errors : 3 / 3 / 0
+ /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025 : 1 / 1 / 2
+ /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/Patient-Pasient-1 : 0 / 1 / 1
+ /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 2 / 6
+ /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 2 / 7
 </table>
 == n/a ==
+ERROR: ImplementationGuide/hl7.fhir.no.hackathon.2025: This IG is version 6.0.0-ballot3, while the IG 'hl7.terminology.r5' is from version 5.0.0
+ERROR: ImplementationGuide/hl7.fhir.no.hackathon.2025: This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.extensions.r5' is from version 5.0.0
+ERROR: ImplementationGuide/hl7.fhir.no.hackathon.2025: This IG is version 6.0.0-ballot3, while the IG 'hl7.fhir.uv.tools.r5' is from version 5.0.0
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json ==
-WARNING: ImplementationGuide/hl7.fhir.no.hackathon.2025: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
-WARNING: ImplementationGuide/hl7.fhir.no.hackathon.2025: ImplementationGuide.dependsOn[2]: The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource
+INFORMATION: ImplementationGuide/hl7.fhir.no.hackathon.2025: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
+WARNING: ImplementationGuide/hl7.fhir.no.hackathon.2025: ImplementationGuide.dependsOn[0]: The ImplementationGuide is based on FHIR version 6.0.0-ballot3 but package hl7.terminology.r5#6.5.0 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+ERROR: ImplementationGuide/hl7.fhir.no.hackathon.2025: ImplementationGuide.dependsOn[1]: The canonical URL http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions points to the package hl7.fhir.uv.extensions which is inconsistent with the stated packageId of hl7.fhir.uv.extensions.r5
 == fsh-generated/resources/Patient-Pasient-1.json ==
+WARNING: Patient/Pasient-1: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.1'
 == fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json ==
-INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
+INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[1].type[0].code: Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
+WARNING: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[4].binding.additional[0]: Constraint failed: eld-31: 'additionalBindings should have a key' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[13].type[0].code: Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
+INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[42].type[0].code: Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
+INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[55].type[0].code: Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-mal-patient.json ==
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.2.0'
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot: The slice 'FNR' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot: The slice 'FHN' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot: The slice 'DNR' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
-WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot: The slice 'HNR' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+INFORMATION: StructureDefinition/mal-patient: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|6.0.0-ballot3
+INFORMATION: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[1].type[0].code: Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
+WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[4].binding.additional[0]: Constraint failed: eld-31: 'additionalBindings should have a key' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+INFORMATION: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[12].type[0].code: Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
+INFORMATION: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[30].type[0].code: Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
+INFORMATION: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[44].type[0].code: Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3
+WARNING: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[47].binding.additional[0]: Constraint failed: eld-31: 'additionalBindings should have a key' (defined in http://hl7.org/fhir/StructureDefinition/ElementDefinition) (Best Practice Recommendation)
+INFORMATION: StructureDefinition/mal-patient: StructureDefinition.snapshot.element[52].type[0].code: Reference to experimental CodeSystem http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot3

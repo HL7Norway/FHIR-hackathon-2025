@@ -1,4 +1,4 @@
-# Pasient - FHIR Hackathon 2025 v1.1.2
+# Pasient - FHIR Hackathon 2025 v1.1.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient | *Version*:1.1.2 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient | *Version*:1.1.3 |
 | Draft as of 2025-01-22 | *Computable Name*:MalPatient |
 
  
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-mal-patient.csv), [E
   "resourceType" : "StructureDefinition",
   "id" : "mal-patient",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient",
-  "version" : "1.1.2",
+  "version" : "1.1.3",
   "name" : "MalPatient",
   "title" : "Pasient",
   "status" : "draft",
@@ -66,12 +66,22 @@ Other representations of profile: [CSV](StructureDefinition-mal-patient.csv), [E
       ]
     }
   ],
-  "fhirVersion" : "4.0.1",
+  "fhirVersion" : "6.0.0-ballot3",
   "mapping" : [
+    {
+      "identity" : "w5",
+      "uri" : "http://hl7.org/fhir/fivews",
+      "name" : "FiveWs Pattern Mapping"
+    },
     {
       "identity" : "rim",
       "uri" : "http://hl7.org/v3",
       "name" : "RIM Mapping"
+    },
+    {
+      "identity" : "interface",
+      "uri" : "http://hl7.org/fhir/interface",
+      "name" : "Interface Pattern"
     },
     {
       "identity" : "cda",
@@ -79,14 +89,9 @@ Other representations of profile: [CSV](StructureDefinition-mal-patient.csv), [E
       "name" : "CDA (R2)"
     },
     {
-      "identity" : "w5",
-      "uri" : "http://hl7.org/fhir/fivews",
-      "name" : "FiveWs Pattern Mapping"
-    },
-    {
       "identity" : "v2",
       "uri" : "http://hl7.org/v2",
-      "name" : "HL7 v2 Mapping"
+      "name" : "HL7 V2 Mapping"
     },
     {
       "identity" : "loinc",
@@ -97,7 +102,7 @@ Other representations of profile: [CSV](StructureDefinition-mal-patient.csv), [E
   "kind" : "resource",
   "abstract" : false,
   "type" : "Patient",
-  "baseDefinition" : "http://hl7.no/fhir/StructureDefinition/no-basis-Patient",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Patient",
   "derivation" : "constraint",
   "differential" : {
     "element" : [

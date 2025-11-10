@@ -1,4 +1,4 @@
-# Ig Publishing - FHIR Hackathon 2025 v1.1.2
+# Ig Publishing - FHIR Hackathon 2025 v1.1.3
 
 * [**Table of Contents**](toc.md)
 * **Ig Publishing**
@@ -11,7 +11,7 @@ FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challeng
 
 #### Prerequisites and preparations
 
-There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necesarry tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop (both PMD and OKT are valid use-cases for authoring and building an IG).
+There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necessary tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop (both PMD and OKT are valid use-cases for authoring and building an IG).
 
 ##### Preparations
 

@@ -1,7 +1,7 @@
 {
   "package": "hl7.fhir.no.hackathon.2025",
-  "version": "1.1.2",
-  "fhirVersion": "4.0.1",
+  "version": "1.1.3",
+  "fhirVersion": "6.0.0-ballot3",
   "jurisdiction": "NO",
   "extensions": [],
   "profiles": {
@@ -19,9 +19,6 @@
     ]
   },
   "usage": {
-    "http://hl7.no/fhir/StructureDefinition/no-basis-middlename": [
-      "Patient.name"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -30,15 +27,6 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
       "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
-      "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/patient-citizenship": [
-      "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
@@ -50,13 +38,6 @@
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
-      "ImplementationGuide.definition"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
-      "ImplementationGuide.definition.page",
-      "ImplementationGuide.definition.page.page"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [

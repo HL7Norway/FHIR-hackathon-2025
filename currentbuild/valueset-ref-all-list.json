@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "active",
       "name" : "AdministrativeGender",
       "title" : "AdministrativeGender",
@@ -15,25 +15,48 @@
       "StructureDefinition-mal-patient.html" : "Pasient"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+      "version" : "6.0.0-ballot3",
+      "status" : "active",
+      "name" : "AllLanguages",
+      "title" : "All Languages",
+      "description" : "This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.21"],
+      "sources" : ["2.16.840.1.113883.4.642.3.21"],
+      "uses" : {
+      },
+      "StructureDefinition-mal-patient.html" : "Pasient",
+      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "draft",
       "name" : "SNOMEDCTBodyStructures",
       "title" : "SNOMED CT Body Structures",
       "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
       "systems" : ["http://snomed.info/sct"],
-      "oids" : ["2.16.840.1.113883.4.642.3.141"],
-      "sources" : ["2.16.840.1.113883.4.642.3.141"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.653",
+        "2.16.840.1.113883.4.642.2.78",
+        "2.16.840.1.113883.4.642.3.141"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.653",
+        "2.16.840.1.113883.4.642.2.78",
+        "2.16.840.1.113883.4.642.3.141"
+      ],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "active",
       "name" : "DataAbsentReason",
-      "title" : "DataAbsentReason",
+      "title" : "Data Absent Reason",
       "description" : "Used to specify why the normally expected content of the data element is missing.",
       "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
       "oids" : ["2.16.840.1.113883.4.642.3.5"],
@@ -43,68 +66,54 @@
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "Identifier Type Codes",
-      "title" : "IdentifierType",
-      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
-      "oids" : ["2.16.840.1.113883.4.642.3.45"],
-      "sources" : ["2.16.840.1.113883.4.642.3.45"],
-      "uses" : {
-      },
-      "StructureDefinition-mal-patient.html" : "Pasient"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "IdentifierUse",
-      "title" : "IdentifierUse",
-      "description" : "Identifies the purpose for this identifier, if known .",
-      "systems" : ["http://hl7.org/fhir/identifier-use"],
-      "oids" : ["2.16.840.1.113883.4.642.3.57"],
-      "sources" : ["2.16.840.1.113883.4.642.3.57"],
-      "uses" : {
-      },
-      "StructureDefinition-mal-patient.html" : "Pasient"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
-      "version" : "4.0.1",
-      "status" : "draft",
+      "version" : "6.0.0-ballot3",
+      "status" : "active",
       "name" : "CommonLanguages",
       "title" : "Common Languages",
-      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "description" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
       "systems" : ["urn:ietf:bcp:47"],
-      "oids" : ["2.16.840.1.113883.4.642.3.20"],
-      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.891",
+        "2.16.840.1.113883.4.642.3.20"
+      ],
       "uses" : {
       },
-      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve",
-      "StructureDefinition-mal-patient.html" : "Pasient"
+      "StructureDefinition-mal-patient.html" : "Pasient",
+      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "active",
       "name" : "LinkType",
-      "title" : "LinkType",
-      "description" : "The type of link between this patient resource and another patient resource.",
+      "title" : "Link Type",
+      "description" : "The type of link between this Patient resource and another Patient/RelatedPerson resource.",
       "systems" : ["http://hl7.org/fhir/link-type"],
-      "oids" : ["2.16.840.1.113883.4.642.3.423"],
-      "sources" : ["2.16.840.1.113883.4.642.3.423"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.234",
+        "2.16.840.1.113883.4.642.3.423",
+        "2.16.840.1.113883.4.642.3.412"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.234",
+        "2.16.840.1.113883.4.642.3.423",
+        "2.16.840.1.113883.4.642.3.412"
+      ],
       "uses" : {
       },
       "StructureDefinition-mal-patient.html" : "Pasient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/marital-status",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "active",
-      "name" : "Marital Status Codes",
-      "title" : "MaritalStatus",
+      "name" : "MaritalStatusCodes",
+      "title" : "Marital Status Codes",
       "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
@@ -118,7 +127,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/name-use",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "active",
       "name" : "NameUse",
       "title" : "NameUse",
@@ -132,35 +141,51 @@
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-category",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "draft",
       "name" : "ObservationCategoryCodes",
       "title" : "Observation Category Codes",
       "description" : "Observation Category codes.",
       "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
-      "oids" : ["2.16.840.1.113883.4.642.3.403"],
-      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.403",
+        "2.16.840.1.113883.4.642.2.222",
+        "2.16.840.1.113883.4.642.3.392"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.403",
+        "2.16.840.1.113883.4.642.2.222",
+        "2.16.840.1.113883.4.642.3.392"
+      ],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "draft",
       "name" : "LOINCCodes",
       "title" : "LOINC Codes",
       "description" : "This value set includes all LOINC codes",
       "systems" : ["http://loinc.org"],
-      "oids" : ["2.16.840.1.113883.4.642.3.396"],
-      "sources" : ["2.16.840.1.113883.4.642.3.396"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.216",
+        "2.16.840.1.113883.4.642.3.396",
+        "2.16.840.1.113883.4.642.3.383"
+      ],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "active",
       "name" : "ObservationInterpretationCodes",
       "title" : "Observation Interpretation Codes",
@@ -168,57 +193,95 @@
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
       ],
-      "oids" : ["2.16.840.1.113883.4.642.3.399"],
-      "sources" : ["2.16.840.1.113883.4.642.3.399"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.399",
+        "2.16.840.1.113883.4.642.3.386",
+        "2.16.840.1.113883.4.642.2.218"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.399",
+        "2.16.840.1.113883.4.642.3.386",
+        "2.16.840.1.113883.4.642.2.218"
+      ],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "draft",
       "name" : "ObservationMethods",
       "title" : "Observation Methods",
       "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
       "systems" : ["http://snomed.info/sct"],
-      "oids" : ["2.16.840.1.113883.4.642.3.395"],
-      "sources" : ["2.16.840.1.113883.4.642.3.395"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.215",
+        "2.16.840.1.113883.4.642.3.395",
+        "2.16.840.1.113883.4.642.3.382"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.215",
+        "2.16.840.1.113883.4.642.3.395",
+        "2.16.840.1.113883.4.642.3.382"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-referencerange-normalvalue",
+      "version" : "6.0.0-ballot3",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeNormalValueCodes",
+      "title" : "Observation Reference Range Normal Value Codes",
+      "description" : "Codes that describe the normal value in the reference range, such as “Negative” or “Absent”",
+      "systems" : ["http://hl7.org/fhir/observation-referencerange-normalvalue"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3264"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3264"],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "active",
       "name" : "ObservationStatus",
-      "title" : "ObservationStatus",
+      "title" : "Observation Status",
       "description" : "Codes providing the status of an observation.",
       "systems" : ["http://hl7.org/fhir/observation-status"],
-      "oids" : ["2.16.840.1.113883.4.642.3.400"],
-      "sources" : ["2.16.840.1.113883.4.642.3.400"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.400",
+        "2.16.840.1.113883.4.642.3.387",
+        "2.16.840.1.113883.4.642.2.219"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.400",
+        "2.16.840.1.113883.4.642.3.387",
+        "2.16.840.1.113883.4.642.2.219"
+      ],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
-      "version" : "4.0.1",
+      "url" : "http://hl7.org/fhir/ValueSet/observation-triggeredbytype",
+      "version" : "6.0.0-ballot3",
       "status" : "active",
-      "name" : "PatientContactRelationship",
-      "title" : "Patient Contact Relationship ",
-      "description" : "The nature of the relationship between the patient and the contact person.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
-      "oids" : ["2.16.840.1.113883.4.642.3.1130"],
-      "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+      "name" : "TriggeredBytype",
+      "title" : "triggered Bytype",
+      "description" : "Codes providing the type of triggeredBy observation.",
+      "systems" : ["http://hl7.org/fhir/observation-triggeredbytype"],
+      "oids" : ["2.16.840.1.113883.4.642.3.3265"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3265"],
       "uses" : {
       },
-      "StructureDefinition-mal-patient.html" : "Pasient"
+      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "draft",
       "name" : "ObservationReferenceRangeAppliesToCodes",
       "title" : "Observation Reference Range Applies To Codes",
@@ -227,15 +290,21 @@
         "http://terminology.hl7.org/CodeSystem/v3-Race",
         "http://snomed.info/sct"
       ],
-      "oids" : ["2.16.840.1.113883.4.642.3.407"],
-      "sources" : ["2.16.840.1.113883.4.642.3.407"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.407",
+        "2.16.840.1.113883.4.642.3.396"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.407",
+        "2.16.840.1.113883.4.642.3.396"
+      ],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
-      "version" : "4.0.1",
+      "version" : "6.0.0-ballot3",
       "status" : "draft",
       "name" : "ObservationReferenceRangeMeaningCodes",
       "title" : "Observation Reference Range Meaning Codes",
@@ -243,11 +312,60 @@
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
       ],
-      "oids" : ["2.16.840.1.113883.4.642.3.397"],
-      "sources" : ["2.16.840.1.113883.4.642.3.397"],
+      "oids" : [
+        "2.16.840.1.113883.4.642.3.397",
+        "2.16.840.1.113883.4.642.2.217",
+        "2.16.840.1.113883.4.642.3.384"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.3.397",
+        "2.16.840.1.113883.4.642.2.217",
+        "2.16.840.1.113883.4.642.3.384"
+      ],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",
+      "version" : "6.0.0-ballot3",
+      "status" : "draft",
+      "name" : "PatientRelationshipType",
+      "title" : "Patient Relationship Type",
+      "description" : "A set of codes that can be used to indicate the relationship between a Patient and a Related Person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "http://terminology.hl7.org/CodeSystem/v2-0131",
+        "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+      ],
+      "oids" : [
+        "2.16.840.1.113883.4.642.2.259",
+        "2.16.840.1.113883.4.642.3.442",
+        "2.16.840.1.113883.4.642.3.449"
+      ],
+      "sources" : [
+        "2.16.840.1.113883.4.642.2.259",
+        "2.16.840.1.113883.4.642.3.442",
+        "2.16.840.1.113883.4.642.3.449"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-mal-patient.html" : "Pasient"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-PersonalRelationshipRoleType",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "PersonalRelationshipRoleType",
+      "title" : "PersonalRelationshipRoleType",
+      "description" : "Types of personal relationships between two living subjects.\r\n\r\n*Example:*Parent, sibling, unrelated friend, neighbor",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["2.16.840.1.113883.1.11.19563"],
+      "sources" : ["2.16.840.1.113883.1.11.19563"],
+      "uses" : {
+      },
+      "StructureDefinition-mal-patient.html" : "Pasient"
     }
   ]
 }

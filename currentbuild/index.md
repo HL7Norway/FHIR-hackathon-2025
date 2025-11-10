@@ -1,4 +1,4 @@
-# Home - FHIR Hackathon 2025 v1.1.2
+# Home - FHIR Hackathon 2025 v1.1.3
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:1.1.2 |
-| Draft as of 2025-11-09 | *Computable Name*:FHIRHackathon2025 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:1.1.3 |
+| Draft as of 2025-11-10 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
 
@@ -91,11 +91,11 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2025",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "1.1.2",
+  "version" : "1.1.3",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-11-09T20:57:40+00:00",
+  "date" : "2025-11-10T12:59:59+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
@@ -122,7 +122,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   ],
   "packageId" : "hl7.fhir.no.hackathon.2025",
   "license" : "CC0-1.0",
-  "fhirVersion" : ["4.0.1"],
+  "fhirVersion" : ["6.0.0-ballot3"],
   "dependsOn" : [
     {
       "id" : "hl7tx",
@@ -133,7 +133,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
         }
       ],
       "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
-      "packageId" : "hl7.terminology.r4",
+      "packageId" : "hl7.terminology.r5",
       "version" : "6.5.0"
     },
     {
@@ -145,671 +145,15 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
         }
       ],
       "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
-      "packageId" : "hl7.fhir.uv.extensions.r4",
+      "packageId" : "hl7.fhir.uv.extensions.r5",
       "version" : "5.2.0"
-    },
-    {
-      "id" : "hl7_fhir_no_basis",
-      "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
-      "packageId" : "hl7.fhir.no.basis",
-      "version" : "2.2.2"
     }
   ],
   "definition" : {
     "extension" : [
       {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "copyrightyear"
-          },
-          {
-            "url" : "value",
-            "valueString" : "2025+"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "releaselabel"
-          },
-          {
-            "url" : "value",
-            "valueString" : "ci-build"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "autoload-resources"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "path-liquid"
-          },
-          {
-            "url" : "value",
-            "valueString" : "template/liquid"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "path-liquid"
-          },
-          {
-            "url" : "value",
-            "valueString" : "input/liquid"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "path-qa"
-          },
-          {
-            "url" : "value",
-            "valueString" : "temp/qa"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "path-temp"
-          },
-          {
-            "url" : "value",
-            "valueString" : "temp/pages"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "path-output"
-          },
-          {
-            "url" : "value",
-            "valueString" : "output"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "path-suppressed-warnings"
-          },
-          {
-            "url" : "value",
-            "valueString" : "input/ignoreWarnings.txt"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "path-history"
-          },
-          {
-            "url" : "value",
-            "valueString" : "http://hl7.no/fhir/ig/hackathon/2025/history.html"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "template-html"
-          },
-          {
-            "url" : "value",
-            "valueString" : "template-page.html"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "template-md"
-          },
-          {
-            "url" : "value",
-            "valueString" : "template-page-md.html"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "apply-contact"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "apply-context"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "apply-copyright"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "apply-jurisdiction"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "apply-license"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "apply-publisher"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "apply-version"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "apply-wg"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "active-tables"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "fmm-definition"
-          },
-          {
-            "url" : "value",
-            "valueString" : "http://hl7.org/fhir/versions.html#maturity"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "propagate-status"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "excludelogbinaryformat"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueString" : "tabbed-snapshots"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-        "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "copyrightyear"
-          },
-          {
-            "url" : "value",
-            "valueString" : "2025+"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "releaselabel"
-          },
-          {
-            "url" : "value",
-            "valueString" : "ci-build"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "autoload-resources"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "path-liquid"
-          },
-          {
-            "url" : "value",
-            "valueString" : "template/liquid"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "path-liquid"
-          },
-          {
-            "url" : "value",
-            "valueString" : "input/liquid"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "path-qa"
-          },
-          {
-            "url" : "value",
-            "valueString" : "temp/qa"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "path-temp"
-          },
-          {
-            "url" : "value",
-            "valueString" : "temp/pages"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "path-output"
-          },
-          {
-            "url" : "value",
-            "valueString" : "output"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "path-suppressed-warnings"
-          },
-          {
-            "url" : "value",
-            "valueString" : "input/ignoreWarnings.txt"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "path-history"
-          },
-          {
-            "url" : "value",
-            "valueString" : "http://hl7.no/fhir/ig/hackathon/2025/history.html"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "template-html"
-          },
-          {
-            "url" : "value",
-            "valueString" : "template-page.html"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "template-md"
-          },
-          {
-            "url" : "value",
-            "valueString" : "template-page-md.html"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "apply-contact"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "apply-context"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "apply-copyright"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "apply-jurisdiction"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "apply-license"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "apply-publisher"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "apply-version"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "apply-wg"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "active-tables"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "fmm-definition"
-          },
-          {
-            "url" : "value",
-            "valueString" : "http://hl7.org/fhir/versions.html#maturity"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "propagate-status"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "excludelogbinaryformat"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "tabbed-snapshots"
-          },
-          {
-            "url" : "value",
-            "valueString" : "true"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+        "valueCode" : "hl7.fhir.uv.tools.r5#0.8.0"
       }
     ],
     "resource" : [
@@ -825,7 +169,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
         },
         "name" : "Blodprøve",
         "description" : "Profil for vanlige blodprøver",
-        "exampleBoolean" : false
+        "isExample" : false
       },
       {
         "extension" : [
@@ -839,7 +183,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
         },
         "name" : "Pasient",
         "description" : "Informasjon om pasienten, basert på no-basis.",
-        "exampleBoolean" : false
+        "isExample" : false
       },
       {
         "extension" : [
@@ -853,94 +197,63 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
         },
         "name" : "Pasient-1",
         "description" : "Eksempel på pasient med navn og fødselsnummer",
-        "exampleCanonical" : "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient"
+        "isExample" : true,
+        "profile" : [
+          "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient"
+        ]
       }
     ],
     "page" : {
-      "extension" : [
-        {
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "toc.html"
-        }
-      ],
-      "nameUrl" : "toc.html",
+      "sourceUrl" : "toc.html",
+      "name" : "toc.html",
       "title" : "Table of Contents",
       "generation" : "html",
       "page" : [
         {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "index.html"
-            }
-          ],
-          "nameUrl" : "index.html",
+          "sourceUrl" : "index.html",
+          "name" : "index.html",
           "title" : "Home",
           "generation" : "markdown"
         },
         {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "hack-agenda.html"
-            }
-          ],
-          "nameUrl" : "hack-agenda.html",
+          "sourceUrl" : "hack-agenda.html",
+          "name" : "hack-agenda.html",
           "title" : "Hack Agenda",
           "generation" : "markdown"
         },
         {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "ig-publishing.html"
-            }
-          ],
-          "nameUrl" : "ig-publishing.html",
+          "sourceUrl" : "ig-publishing.html",
+          "name" : "ig-publishing.html",
           "title" : "Ig Publishing",
           "generation" : "markdown"
         },
         {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "practical-info.html"
-            }
-          ],
-          "nameUrl" : "practical-info.html",
+          "sourceUrl" : "ig-publishing-results.html",
+          "name" : "ig-publishing-results.html",
+          "title" : "Ig Publishing Results",
+          "generation" : "markdown"
+        },
+        {
+          "sourceUrl" : "practical-info.html",
+          "name" : "practical-info.html",
           "title" : "Practical Info",
           "generation" : "markdown"
         },
         {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "pre-agenda.html"
-            }
-          ],
-          "nameUrl" : "pre-agenda.html",
+          "sourceUrl" : "pre-agenda.html",
+          "name" : "pre-agenda.html",
           "title" : "Pre Agenda",
           "generation" : "markdown"
         },
         {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "terminology.html"
-            }
-          ],
-          "nameUrl" : "terminology.html",
+          "sourceUrl" : "terminology.html",
+          "name" : "terminology.html",
           "title" : "Terminology",
           "generation" : "markdown"
         },
         {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "track-descriptions.html"
-            }
-          ],
-          "nameUrl" : "track-descriptions.html",
+          "sourceUrl" : "track-descriptions.html",
+          "name" : "track-descriptions.html",
           "title" : "Track Descriptions",
           "generation" : "markdown"
         }
@@ -948,64 +261,284 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
     },
     "parameter" : [
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "copyrightyear"
+        },
+        "value" : "2025+"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "releaselabel"
+        },
+        "value" : "ci-build"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "autoload-resources"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/capabilities"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/examples"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/extensions"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/models"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/operations"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/profiles"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/resources"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/vocabulary"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/maps"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/testing"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "input/history"
       },
       {
-        "code" : "path-resource",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-resource"
+        },
         "value" : "fsh-generated/resources"
       },
       {
-        "code" : "path-pages",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-pages"
+        },
         "value" : "template/config"
       },
       {
-        "code" : "path-pages",
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-pages"
+        },
         "value" : "input/images"
       },
       {
-        "code" : "path-tx-cache",
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-liquid"
+        },
+        "value" : "template/liquid"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-liquid"
+        },
+        "value" : "input/liquid"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-qa"
+        },
+        "value" : "temp/qa"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-temp"
+        },
+        "value" : "temp/pages"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-output"
+        },
+        "value" : "output"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/guide-parameter-code",
+          "code" : "path-tx-cache"
+        },
         "value" : "input-cache/txcache"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-suppressed-warnings"
+        },
+        "value" : "input/ignoreWarnings.txt"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "path-history"
+        },
+        "value" : "http://hl7.no/fhir/ig/hackathon/2025/history.html"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "template-html"
+        },
+        "value" : "template-page.html"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "template-md"
+        },
+        "value" : "template-page-md.html"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-contact"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-context"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-copyright"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-jurisdiction"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-license"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-publisher"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-version"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "apply-wg"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "active-tables"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "fmm-definition"
+        },
+        "value" : "http://hl7.org/fhir/versions.html#maturity"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "propagate-status"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "excludelogbinaryformat"
+        },
+        "value" : "true"
+      },
+      {
+        "code" : {
+          "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code" : "tabbed-snapshots"
+        },
+        "value" : "true"
       }
     ]
   }
