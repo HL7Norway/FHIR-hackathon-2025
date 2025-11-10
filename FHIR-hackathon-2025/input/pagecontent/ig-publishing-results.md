@@ -14,12 +14,17 @@ Tooling, Observations, Encounters, terminology and EpisodeOfCare.
 * Started work on their own implementation guides.
 * Managing IG versioning and publishing on SIMPLIFIER
   * [SAFEST IG](https://simplifier.net/guide/implementation-guide-for-noma-s-fhir-api-2.0.0?version=current)
-* Kodeverk er viktig!
-* Terminologitjenere og infrastruktur for å syndikering
-* Nyttig å lage noe i praksis
+* CodeSystem, ValueSets and terminology is importan
+  * Proposal of a service that shows what codes are used for a specific concept?
+* A lot of discussion of how to build comprehensive terminologyservices in Norway to serve:
+  * The industry's need for terminology services run-time
+  * The SDO's needs for terminology services design time
+    * How to syndicate norwegian terminoogies to tx.fhir.org
+
+> Very usefull to do something practical.
 
 ### Images
 
-<div>
 Diskusjoner på IG og terminologi.  
+<div>
 <img src="hackathon-1.jpg" alt="IG og terminologitrack" style="width: 100%;max-width: 600px"/></div>
