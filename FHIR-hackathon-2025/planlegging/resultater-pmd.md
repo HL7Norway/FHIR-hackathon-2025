@@ -1,3 +1,5 @@
+### PMD track summary
+
 12 deltakere
 
 Alle kom igjennom testcasene
@@ -12,7 +14,9 @@ Ideer for videreutvikling av PMD
 * Fikk testet hvor bred profil som vi skal tillate i PMD
 * Hvordan folk utenfor NHN bruker FHIR
 
-## OKT track
+## OKT track summary
+
+10 participants
 
 Tre ressurser som kan uttrykke det som 
 ServiceReqest, CarePlan eller Episode of Care for OKT
