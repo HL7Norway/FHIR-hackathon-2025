@@ -2,7 +2,7 @@ Results from the IG-publishing and terminology track.
 
 ### Participants
 
-14 participants from Sykehuspartner, DMP, Helsedirektoratet, Aidn
+14 participants from Sykehuspartner, DMP, Helsedirektoratet og Aidn
 
 ### use-cases
 
@@ -17,3 +17,9 @@ Tooling, Observations, Encounters, terminology and EpisodeOfCare.
 * Kodeverk er viktig!
 * Terminologitjenere og infrastruktur for å syndikering
 * Nyttig å lage noe i praksis
+
+### Images
+
+<div>
+Diskusjoner på IG og terminologi.  
+<img src="hackathon-1.jpg" alt="IG og terminologitrack" style="width: 100%;max-width: 600px"/></div>
