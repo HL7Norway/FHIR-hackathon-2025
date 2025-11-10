@@ -1,6 +1,6 @@
 Profile:     MalPatient
 Id:          mal-patient
-Parent:      NoBasisPatient
+Parent:      Patient
 Title:       "Pasient"
 Description: "Informasjon om pasienten, basert på no-basis."
 * ^status = #draft
