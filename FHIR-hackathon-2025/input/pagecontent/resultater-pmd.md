@@ -14,16 +14,15 @@ Ideer for videreutvikling av PMD
 * Fikk testet hvor bred profil som vi skal tillate i PMD
 * Hvordan folk utenfor NHN bruker FHIR
 
-## OKT track summary
+### OKT track summary
 
-10 participants
+* 10 participants
+* Det er alltid mindre tid enn det man har tenkt, mye å diskutere
+* Tre ressurser som kan uttrykke det som tilbys gjennom OKT-API  
+* ServiceReqest, CarePlan eller Episode of Care for OKT  
 
-Tre ressurser som kan uttrykke det som 
-ServiceReqest, CarePlan eller Episode of Care for OKT
-EpisodeOfCare - hvilke felter som er implementert i pilot
+#### EpisodeOfCare - hvilke felter som er implementert i pilot
 
 * Eksempler i en IG, identifisert noen endringer  
 * Datafelt trengs ikke i modellen
 * Testet og forbedrert EpisodeofCare profilen
-
-Det er alltid mindre tid enn det man har tenkt, mye å diskutere
