@@ -210,8 +210,8 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-relatedperson-relationshiptype.html" : "Patient Relationship Type",
-      "http://terminology.hl7.org/6.5.0/ValueSet-v3-PersonalRelationshipRoleType.html" : "PersonalRelationshipRoleType"
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-PersonalRelationshipRoleType.html" : "PersonalRelationshipRoleType",
+      "http://hl7.org/fhir/R5/valueset-relatedperson-relationshiptype.html" : "Patient Relationship Type"
     },
     {
       "url" : "urn:ietf:bcp:47",
@@ -223,8 +223,8 @@
       "oids" : ["2.16.840.1.113883.6.121"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages",
-      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages"
+      "http://hl7.org/fhir/R5/valueset-all-languages.html" : "All Languages",
+      "http://hl7.org/fhir/R5/valueset-languages.html" : "Common Languages"
     }
   ]
 }
