@@ -1,4 +1,4 @@
-# Pasient - FHIR Hackathon 2025 v1.2.0
+# Pasient - FHIR Hackathon 2025 v1.3.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient | *Version*:1.2.0 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient | *Version*:1.3.1 |
 | Draft as of 2025-01-22 | *Computable Name*:MalPatient |
 
  
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-mal-patient.csv), [E
   "resourceType" : "StructureDefinition",
   "id" : "mal-patient",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient",
-  "version" : "1.2.0",
+  "version" : "1.3.1",
   "name" : "MalPatient",
   "title" : "Pasient",
   "status" : "draft",
@@ -66,22 +66,12 @@ Other representations of profile: [CSV](StructureDefinition-mal-patient.csv), [E
       ]
     }
   ],
-  "fhirVersion" : "6.0.0-ballot3",
+  "fhirVersion" : "4.0.1",
   "mapping" : [
-    {
-      "identity" : "w5",
-      "uri" : "http://hl7.org/fhir/fivews",
-      "name" : "FiveWs Pattern Mapping"
-    },
     {
       "identity" : "rim",
       "uri" : "http://hl7.org/v3",
       "name" : "RIM Mapping"
-    },
-    {
-      "identity" : "interface",
-      "uri" : "http://hl7.org/fhir/interface",
-      "name" : "Interface Pattern"
     },
     {
       "identity" : "cda",
@@ -89,9 +79,14 @@ Other representations of profile: [CSV](StructureDefinition-mal-patient.csv), [E
       "name" : "CDA (R2)"
     },
     {
+      "identity" : "w5",
+      "uri" : "http://hl7.org/fhir/fivews",
+      "name" : "FiveWs Pattern Mapping"
+    },
+    {
       "identity" : "v2",
       "uri" : "http://hl7.org/v2",
-      "name" : "HL7 V2 Mapping"
+      "name" : "HL7 v2 Mapping"
     },
     {
       "identity" : "loinc",

@@ -1,4 +1,4 @@
-# Terminology - FHIR Hackathon 2025 v1.2.0
+# Terminology - FHIR Hackathon 2025 v1.3.1
 
 * [**Table of Contents**](toc.md)
 * **Terminology**

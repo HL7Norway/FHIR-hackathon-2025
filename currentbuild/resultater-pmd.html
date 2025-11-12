@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Resultater Pmd - FHIR Hackathon 2025 v1.2.0</title>
+    <title>Resultater Pmd - FHIR Hackathon 2025 v1.3.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7"}
-    h3,h4,h5,h6{--heading-prefix:"7"}</style>
+    <style type="text/css">h2{--heading-prefix:"8"}
+    h3,h4,h5,h6{--heading-prefix:"8"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -69,7 +69,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">FHIR Hackathon 2025</span>
             <br/>
-            <span style="display:inline-block;">1.2.0 - ci-build
+            <span style="display:inline-block;">1.3.1 - ci-build
 
 
 
@@ -95,7 +95,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <!-- menu.xml  -->
 
@@ -125,7 +125,10 @@
         <a href="ig-publishing-results.html">IG publishing results</a>
       </li>
       <li>
-        <a href="resultater-pmd.html">PMD and OKT track results</a>
+        <a href="resultater-pmd.html">PMD track results</a>
+      </li>
+      <li>
+        <a href="resultater-okt.html">OKT track results</a>
       </li>
     </ul>
   </li>
@@ -183,7 +186,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v1.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v1.3.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Resultater Pmd</h2>
   
 
@@ -224,11 +227,73 @@ Ideer for videreutvikling av PMD</p>
   <li>Hvordan folk utenfor NHN bruker FHIR</li>
 </ul>
 
+<h4 id="background">Background</h4>
+
+<p>The developer portal for PMD is at https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata.</p>
+
 <h4 id="demo-app">Demo App</h4>
 
 <p>Demo app for observation post/get and some utilities:</p>
 
 <p><a href="https://fhir-hackathon-pmd.vercel.app/">Demo app</a></p>
+
+<h4 id="identified-issues">Identified issues</h4>
+
+<h5 id="error-messages-are-not-that-descriptive">Error messages are not that descriptive</h5>
+
+<p>It would be very nice for developers, but not the biggest priority.</p>
+
+<h5 id="big-bundles-do-not-go-through">Big bundles do not go through</h5>
+
+<p>The platform does not accept a Bundle of 10 Mb. The use case is when you onboard a new patient and
+want to record a lot of historical data.</p>
+
+<p>This is probably a load balancer configuration issue.</p>
+
+<p>We don’t know what file size is accepted. It would be nice to have this in documentation.</p>
+
+<h5 id="conditional-create-is-not-supported">Conditional Create is not supported</h5>
+
+<p>Yet.</p>
+
+<p>It will be essential, when data starts to stream in from multiple sources. It is also convenient
+for a single source of data, as it greatly simplifies deduplication.</p>
+
+<h5 id="results-of-a-bundle-are-not-returned-directly">Results of a Bundle are not returned directly</h5>
+
+<p>It’s not clear how the Bundle is processed.</p>
+
+<h4 id="open-questions">Open Questions</h4>
+
+<h5 id="how-to-record-provenance">How to record Provenance?</h5>
+
+<p>It is important to capture the source of the data. How should this be recorded and communicated?</p>
+
+<p>A simple solution is to use the
+<a href="https://www.hl7.org/fhir/resource-definitions.html#Meta.source"><code class="language-plaintext highlighter-rouge">Observation.meta.source</code></a>
+element.</p>
+
+<p>The FHIR standard also has the Provenance resource type that should probably be used, as it
+enables the entire flow of data to be recorded, and accommodates more data.</p>
+
+<p>Some implementations use the Provenance resource as a separate entity. It may be difficult to
+record the Provenance resource together with the Observation, especially when recording a lot of
+data in Bundles using conditional create.</p>
+
+<p>A simple implementation adopted in some early implementations is to contain the Provenance in the
+Observation. This is not a good fit for batch processing, and makes searching by provenance hard -
+but it is easy to implement.</p>
+
+<p>In some cases, like dosing medication, context around a measurement is very important. For a
+primary clinician approximate weight might be enough, for cancer treatment the weight is very
+sensitive.</p>
+
+<h4 id="notable-results">Notable Results</h4>
+
+<p>It is good that the profile is permissive</p>
+
+<p>Sensotrend was able to post data used in other environments, with minor changes. The biggest change
+was the use of identifiers instead of id’s in <code class="language-plaintext highlighter-rouge">.subject</code> and <code class="language-plaintext highlighter-rouge">.performer references</code>.</p>
 
 <h3 id="okt-track-summary">OKT track summary</h3>
 
@@ -266,7 +331,7 @@ Ideer for videreutvikling av PMD</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 6.0.0-ballot3</a>. Generated <span title="Mon, Nov 10, 2025 16:38+0000">2025-11-10</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.3.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 12, 2025 08:04+0000">2025-11-12</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
