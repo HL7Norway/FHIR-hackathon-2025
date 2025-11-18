@@ -81,16 +81,3 @@ It is good that the profile is permissive
 
 Sensotrend was able to post data used in other environments, with minor changes. The biggest change
 was the use of identifiers instead of id’s in `.subject` and `.performer references`.
-
-### OKT track summary
-
-* 10 participants
-* Det er alltid mindre tid enn det man har tenkt, mye å diskutere
-* Tre ressurser som kan uttrykke det som tilbys gjennom OKT-API  
-* ServiceReqest, CarePlan eller Episode of Care for OKT  
-
-#### EpisodeOfCare - hvilke felter som er implementert i pilot
-
-* Eksempler i en IG, identifisert noen endringer  
-* Datafelt trengs ikke i modellen
-* Testet og forbedrert EpisodeofCare profilen
