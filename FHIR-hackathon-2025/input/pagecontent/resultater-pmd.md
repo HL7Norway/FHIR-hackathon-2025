@@ -1,18 +1,18 @@
 ### PMD track summary
 
-12 deltakere
+12 participants
 
-Alle kom igjennom testcasene
-Test av APIet og dokumentasjonen
-Ideer for videreutvikling av PMD
+All participants completed the test-cases described in the track intro. This was a good test of the API implementation and the API documentation. NHN got a good idea of how the profiles worked and what kind of data was possible to transmit using the input-API. NHN also got a lot of inpu regarding how to build a good FHIR API, and how developers expect to use FHIR API's.  
 
-* kontekst rundt måledata
-* Hva betyr målingen
-* måleserien som dette er en del av
-* kvaliteten på data og opphavet til data
-* Hvem har ansvaret for datakvaliteten
-* Fikk testet hvor bred profil som vi skal tillate i PMD
-* Hvordan folk utenfor NHN bruker FHIR
+#### Further work  
+
+Several ideas for development of the PMD-API where discussed
+
+* How to document measurment context and provenance
+* What does a single measurement result mean
+* How to identify the series of measurments that are connected  
+* How to document and read the quality of the data
+* Who is responsible for the quality of the data
 
 #### Background
 
