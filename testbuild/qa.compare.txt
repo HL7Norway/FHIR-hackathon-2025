@@ -1,0 +1,24 @@
+FHIRHackathon2025 : Validation Results
+=========================================
+
+err = 0, warn = 6, info = 1
+$--
+Generated $--. FHIR version $-- for hl7.fhir.no.hackathon.2025#$-- (canonical = http://hl7.no/fhir/ig/hackathon/2025)
+ Build Errors : 0 / 4 / 0
+ /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025 : 0 / 0 / 1
+ /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/Patient-Pasient-1 : 0 / 1 / 1
+ /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 2
+ /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-patient : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json ==
+== fsh-generated/resources/Patient-Pasient-1.json ==
+WARNING: Patient/Pasient-1: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.1'
+== fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json ==
+INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-observation-blodprove'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-mal-patient.json ==

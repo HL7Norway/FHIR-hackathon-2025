@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Ig Publishing - FHIR Hackathon 2025 v1.4.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Hackathon 2025</span>
+            <br/>
+            <span style="display:inline-block;">1.4.0 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Agenda
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="hack-agenda.html">Hackathon agenda</a>
+      </li>
+      <li>
+        <a href="pre-agenda.html">Startup meeting agenda</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Results
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="ig-publishing-results.html">IG publishing results</a>
+      </li>
+      <li>
+        <a href="resultater-pmd.html">PMD track results</a>
+      </li>
+      <li>
+        <a href="resultater-okt.html">OKT track results</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Tracks
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="track-descriptions.html">Track descriptions</a>
+      </li>
+      <li>
+        <a href="terminology.html">Nordic tx-fhir and terminology</a>
+      </li>
+      <li>
+        <a href="ig-publishing.html">IG publishing</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="practical-info.html">Practical</a>
+  </li>
+  <li>
+    <a href="toc.html">TOC</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Ig Publishing</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v1.4.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Ig Publishing</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#track-fhir-ig-authoring-and-building" id="markdown-toc-track-fhir-ig-authoring-and-building">Track: FHIR IG authoring and building</a></li>
+  <li><a href="#basic-use-cases" id="markdown-toc-basic-use-cases">Basic use cases</a></li>
+  <li><a href="#advanced-use-cases" id="markdown-toc-advanced-use-cases">Advanced use cases</a></li>
+</ul>
+
+</div>
+<h3 id="track-fhir-ig-authoring-and-building">Track: FHIR IG authoring and building</h3>
+
+<p>FHIR IG authoring for documenting a FHIR RestfulAPI can seem like a big challenge to new FHIR developers. In this track we introduce the participants to FHIR IG authoring, building and how to publish a draft on Github. The participation in this track can be combined with participation in PMD/OKT API development tracks, to document results from work in those tracks.</p>
+
+<h4 id="prerequisites-and-preparations">Prerequisites and preparations</h4>
+
+<p>There is no need for prior knowledge on FHIR or IG building before participation. You can build an IG entirely on Github but it will be faster if you have preinstalled the necessary tools on you own computer. Basic knowlege of HL7 FHIR standard is helpful, also a thought about a use-case you want to work with before the workshop (both PMD and OKT are valid use-cases for authoring and building an IG).</p>
+
+<h5 id="preparations">Preparations</h5>
+
+<p>The presentations from the pre-meetings contain information about the FHIR IG authoring track included links to tools, introductory guides and specifications that are usefull to prepare for the Hackathon.</p>
+
+<p>Presentation: <a href="FHIR-Hackathon-2025-pre1.pdf">FHIR Hackathon pre meeting 1 - intro</a><br />
+Presentation: <a href="FHIR-Hackathon-2025-premeeting-2.pdf">FHIR Hackathon pre meeting 2 and IG authoring</a></p>
+
+<h4 id="learning-goals">Learning goals</h4>
+
+<ul>
+  <li>Basic understanding of the role of FHIR profiling</li>
+  <li>Know the necessary tools for building FHIR IG's
+    <ul>
+      <li>IG publisher</li>
+      <li>SUSHI (Publisher and SUSHI can run entirely on Github)</li>
+      <li>Forge (must be installed on your computer, trial version available)</li>
+      <li>Simplifier.net</li>
+    </ul>
+  </li>
+  <li>Basic understanding of Github for maintaining your codebase
+    <ul>
+      <li>Simplifier Github integration</li>
+    </ul>
+  </li>
+  <li>Learn how to write FHIR documentation using FSH or Forge</li>
+  <li>Learn how to use the tools for FHIR IG authoring</li>
+  <li>Learn how to present a draft IG using Github.io or Simplifier.net</li>
+</ul>
+
+<h3 id="basic-use-cases">Basic use cases</h3>
+
+<p>The basic use cases are described over.</p>
+
+<h3 id="advanced-use-cases">Advanced use cases</h3>
+
+<p>Some advanced assignments.</p>
+
+<h4 id="generate-ig-and-publish-on-github">Generate IG and publish on GitHub</h4>
+
+<ol>
+  <li>Make sure you have a GitHub account</li>
+  <li>Go to <a href="https://github.com/HL7Norway/ig-mal">ig-mal</a> and follow the instructions</li>
+  <li>Upload or write your FHIR profiles based in FHIR Shorthand (FSH)</li>
+  <li>Set up the publishing enviroment with GitHub Pages functionality</li>
+  <li>Run the publisher action</li>
+</ol>
+
+<h4 id="install-enviroment-for-ig-publisher-on-your-computer">Install enviroment for IG publisher on your computer</h4>
+
+<p>You must have necessary rights to install and run software.</p>
+
+<ol>
+  <li>Install Java. IG Publisher requires Java 17 or later.</li>
+  <li>Download IG Publisher - https://github.com/HL7/ig-publisher.</li>
+  <li>Set Up Your IG Project Folder</li>
+  <li>Run the publisher</li>
+  <li>Optional: Use Sushi for FSH Projects</li>
+</ol>
+
+<h4 id="using-firely-forge-and-simplifier-for-collaborative-ig-development">Using Firely Forge and Simplifier for Collaborative IG Development</h4>
+
+<p>You must have necessary rights to install and run software.</p>
+
+<ol>
+  <li>Create and edit FHIR profiles using Firely Forge</li>
+  <li>Upload and manage IG content on Simplifier.net</li>
+  <li>Collaborate with others, track changes, and validate content using Firely Terminal</li>
+  <li>Learn how to sync local work with Simplifier and use versioning</li>
+</ol>
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 21, 2025 07:56+0000">2025-11-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

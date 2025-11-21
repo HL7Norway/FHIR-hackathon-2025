@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Home - FHIR Hackathon 2025 v1.4.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Hackathon 2025</span>
+            <br/>
+            <span style="display:inline-block;">1.4.0 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Agenda
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="hack-agenda.html">Hackathon agenda</a>
+      </li>
+      <li>
+        <a href="pre-agenda.html">Startup meeting agenda</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Results
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="ig-publishing-results.html">IG publishing results</a>
+      </li>
+      <li>
+        <a href="resultater-pmd.html">PMD track results</a>
+      </li>
+      <li>
+        <a href="resultater-okt.html">OKT track results</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Tracks
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="track-descriptions.html">Track descriptions</a>
+      </li>
+      <li>
+        <a href="terminology.html">Nordic tx-fhir and terminology</a>
+      </li>
+      <li>
+        <a href="ig-publishing.html">IG publishing</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="practical-info.html">Practical</a>
+  </li>
+  <li>
+    <a href="toc.html">TOC</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v1.4.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.4.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025|1.4.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-11-21
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">FHIRHackathon2025</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#norwegian-fhir-hackathon-2025" id="markdown-toc-norwegian-fhir-hackathon-2025">Norwegian FHIR Hackathon 2025</a></li>
+  <li><a href="#result-summary" id="markdown-toc-result-summary">Result summary</a></li>
+  <li><a href="#registration" id="markdown-toc-registration">Registration</a></li>
+  <li><a href="#pre-meetings" id="markdown-toc-pre-meetings">Pre-meetings</a></li>
+  <li><a href="#why-should-you-attend" id="markdown-toc-why-should-you-attend">Why should you attend?</a></li>
+  <li><a href="#who-should-attend" id="markdown-toc-who-should-attend">Who should attend?</a></li>
+  <li><a href="#preparations-for-participants" id="markdown-toc-preparations-for-participants">Preparations for participants</a></li>
+  <li><a href="#how-to-attend" id="markdown-toc-how-to-attend">How to attend</a></li>
+  <li><a href="#questions-and-contact" id="markdown-toc-questions-and-contact">Questions and contact</a></li>
+  <li><a href="#other-hackathons-in-the-nordics" id="markdown-toc-other-hackathons-in-the-nordics">Other hackathons in the Nordics</a></li>
+</ul>
+
+</div>
+<h3 id="norwegian-fhir-hackathon-2025">Norwegian FHIR Hackathon 2025</h3>
+
+<p>The Norwegian FHIR Hackathon 2025 takes place on EHiN preconference on the 10. november 2025. The Norwegian FHIR hackathon is a collaborative effort of HL7 Norway in cooperation with <a href="https://www.nhn.no/">NHN</a>, <a href="https://www.helsedirektoratet.no/">Helsedirektoratet</a>, <a href="https://bedredelt.no/">Bedredelt</a>, <a href="https://www.felleskatalogen.no/medisin/">Felleskatalogen</a> and <a href="https://www.hl7.no/">HL7 Norge</a></p>
+
+<h3 id="result-summary">Result summary</h3>
+
+<p>Please visit the result pages in this IG for documentation of results from the Hackathon. You can also read a short summary in the <a href="FHIR Hackathon 2025 oppsummering-alle.pdf">presentation</a>.</p>
+
+<h3 id="registration">Registration</h3>
+
+<p><a href="https://event.checkin.no/167096/prekonferanse-ehin-2025">Registration is now open, please use registration form at EHiN</a><br />
+<strong>Please select "Norwegian FHIR Hackathon 2025" and fill out the registration form.</strong></p>
+
+<h3 id="pre-meetings">Pre-meetings</h3>
+
+<p>We will arrange two pre meetings before the hackathon. The pre meetings will be arranged one and two weeks before the actual hackathon (on october 27th and november 3rd 1000-1100). The track leads will introduce the different tracks and there will be time for questions and discussions about how to prepare for the actual hackathon. Both pre-meetings will be digital only on Teams, and you will receive an invite for the pre meeting via e-mail (you can also download an ical from the <a href="https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/pre-agenda.html">meeting pages</a>).</p>
+
+<h3 id="why-should-you-attend">Why should you attend?</h3>
+
+<p>The main goals of the Norwegian FHIR Hackathon is to build FHIR competence in the Norwegian e-health community by implementing and testing actual FHIR RESTful API's and software. The Norwegian FHIR Hackathon is a typical learning-by-doing event where you can expect to build, write and test things yourself.</p>
+
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="279px" preserveAspectRatio="none" style="width:555px;height:279px;background:#FFFFFF;" version="1.1" viewBox="0 0 555 279" width="555px" zoomAndPan="magnify"><defs /><g><!--entity participant--><g class="entity" data-entity="participant" data-source-line="2" data-uid="ent0002" id="entity_participant"><ellipse cx="43.7856" cy="112.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" /><path d="M43.7856,120.5 L43.7856,147.5 M30.7856,128.5 L56.7856,128.5 M43.7856,147.5 L30.7856,162.5 M43.7856,147.5 L56.7856,162.5" fill="none" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75.5713" x="6" y="176.9951">Participant</text></g><!--entity applikasjon--><g class="entity" data-entity="applikasjon" data-source-line="3" data-uid="ent0003" id="entity_applikasjon"><ellipse cx="506.1187" cy="112.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" /><path d="M506.1187,120.5 L506.1187,147.5 M493.1187,128.5 L519.1187,128.5 M506.1187,147.5 L493.1187,162.5 M506.1187,147.5 L519.1187,162.5" fill="none" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85.2373" x="463.5" y="176.9951">API provider</text></g><g class="entity" data-entity="learn" data-source-line="6" data-uid="ent0004" id="entity_learn"><ellipse cx="438.7829" cy="24.8566" fill="#FFC0CB" rx="77.2829" ry="17.8566" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111.8223" x="380.1215" y="28.5391">Learn new skills</text></g><g class="entity" data-entity="doing" data-source-line="7" data-uid="ent0005" id="entity_doing"><ellipse cx="176.8277" cy="25.0655" fill="#FFC0CB" rx="83.3277" ry="19.0655" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126.4443" x="113.1229" y="28.0762">Learning by doing</text></g><g class="entity" data-entity="test" data-source-line="8" data-uid="ent0006" id="entity_test"><ellipse cx="190.9279" cy="142.1856" fill="#ADD8E6" rx="73.9279" ry="17.1856" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103.2432" x="136.3063" y="145.9331">Test API usage</text></g><g class="entity" data-entity="provide" data-source-line="9" data-uid="ent0007" id="entity_provide"><ellipse cx="363.7695" cy="142.1539" fill="#ADD8E6" rx="63.7695" ry="15.1539" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75.1338" x="323.2026" y="145.9014">API testing</text></g><g class="entity" data-entity="give" data-source-line="10" data-uid="ent0008" id="entity_give"><ellipse cx="189.0945" cy="256.8189" fill="#ADD8E6" rx="72.0945" ry="16.8189" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98.4375" x="136.8758" y="260.5665">give feedback</text></g><g class="entity" data-entity="get" data-source-line="11" data-uid="ent0009" id="entity_get"><ellipse cx="366.1042" cy="256.8208" fill="#ADD8E6" rx="69.6042" ry="16.3208" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91.752" x="317.2282" y="260.5684">get feedback</text></g><!--reverse link learn to applikasjon--><g class="link" data-entity-1="learn" data-entity-2="applikasjon" data-source-line="15" data-uid="lnk11" id="link_learn_applikasjon"><path d="M451.909,48.1551 C461.219,64.1451 472.48,83.47 484.43,103.98" fill="none" id="learn-backto-applikasjon" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="448.89,42.97,449.9617,52.7604,451.4058,47.291,456.8752,48.7351,448.89,42.97" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link doing to applikasjon--><g class="link" data-entity-1="doing" data-entity-2="applikasjon" data-source-line="16" data-uid="lnk13" id="link_doing_applikasjon"><path d="M242.4496,39.7249 C298.0596,52.4149 376.77,73.3 446,104 C451.71,106.53 457.52,109.52 463.17,112.69" fill="none" id="doing-backto-applikasjon" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="236.6,38.39,244.4845,44.292,241.4747,39.5024,246.2643,36.4925,236.6,38.39" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link provide to applikasjon--><g class="link" data-entity-1="provide" data-entity-2="applikasjon" data-source-line="17" data-uid="lnk15" id="link_provide_applikasjon"><path d="M434.07,142 C445.84,142 451.61,142 463.38,142" fill="none" id="provide-backto-applikasjon" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="428.07,142,437.07,146,433.07,142,437.07,138,428.07,142" style="stroke:#181818;stroke-width:1;" /></g><!--link applikasjon to get--><g class="link" data-entity-1="applikasjon" data-entity-2="get" data-source-line="18" data-uid="lnk16" id="link_applikasjon_get"><path d="M463.23,177.52 C437.02,198.68 409.4397,220.9425 389.4597,237.0625" fill="none" id="applikasjon-to-get" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="384.79,240.83,394.3062,238.2918,388.6814,237.6904,389.2828,232.0656,384.79,240.83" style="stroke:#181818;stroke-width:1;" /></g><!--link give to get--><g class="link" data-entity-1="give" data-entity-2="get" data-source-line="19" data-uid="lnk18" id="link_give_get"><path d="M261.25,257 C272.98,257 284.71,257 296.44,257" fill="none" id="give-get" style="stroke:#181818;stroke-width:1;" /></g><!--link test to provide--><g class="link" data-entity-1="test" data-entity-2="provide" data-source-line="20" data-uid="lnk20" id="link_test_provide"><path d="M265.34,142 C276.77,142 288.2,142 299.64,142" fill="none" id="test-provide" style="stroke:#181818;stroke-width:1;" /></g><!--link provide to get--><!--reverse link learn to participant--><g class="link" data-entity-1="learn" data-entity-2="participant" data-source-line="22" data-uid="lnk23" id="link_learn_participant"><path d="M365.9406,34.8503 C295.6706,44.9103 189.16,64.94 99,104 C93.3,106.47 87.55,109.55 82.04,112.86" fill="none" id="learn-backto-participant" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="371.88,34,362.404,31.3158,366.9305,34.7086,363.5377,39.2351,371.88,34" style="stroke:#181818;stroke-width:1;" /></g><!--link test to give--><!--link participant to test--><g class="link" data-entity-1="participant" data-entity-2="test" data-source-line="33" data-uid="lnk25" id="link_participant_test"><path d="M82.19,142 C93.66,142 99.14,142 110.62,142" fill="none" id="participant-to-test" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="116.62,142,107.62,138,111.62,142,107.62,146,116.62,142" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link doing to participant--><g class="link" data-entity-1="doing" data-entity-2="participant" data-source-line="35" data-uid="lnk27" id="link_doing_participant"><path d="M152.2609,47.3938 C132.4909,64.4838 106.43,87.02 82.09,108.06" fill="none" id="doing-backto-participant" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="156.8,43.47,147.3754,46.3296,153.0174,46.7398,152.6072,52.3818,156.8,43.47" style="stroke:#181818;stroke-width:1;" /></g><!--link participant to give--><g class="link" data-entity-1="participant" data-entity-2="give" data-source-line="36" data-uid="lnk28" id="link_participant_give"><path d="M82.1,172.69 C109.95,194.4 141.8977,219.2915 164.2477,236.7115" fill="none" id="participant-to-give" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="168.98,240.4,164.3405,231.7124,165.0364,237.3263,159.4225,238.0222,168.98,240.4" style="stroke:#181818;stroke-width:1;" /></g></g></svg></div>
+
+<p>During the Norwegian FHIR Hackathon you can:</p>
+
+<ul>
+  <li>Implement and test implementation of the FHIR API for <a href="https://utviklerportal.nhn.no/informasjonstjenester/pasientens-maaledata">Pasientens måledata</a> (PMD-API)
+    <ul>
+      <li>Implement and test data exchange to/from different software products using PMD-API</li>
+    </ul>
+  </li>
+  <li>Implement and test FHIR interfaces for services with existing proprietary API's
+    <ul>
+      <li>Use-case: <a href="https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api/openapi/okt-api-prototype">Oversikt over kommunale tjenester API (OKT)</a></li>
+    </ul>
+  </li>
+  <li>Implement and test use of FHIR terminology services
+    <ul>
+      <li><a href="https://tx-nordics.fhir.org/fhir/r4">Nordic terminology server</a></li>
+    </ul>
+  </li>
+  <li>Write and publish documentation of FHIR API's by authoring and publishing a FHIR Implementation Guide</li>
+</ul>
+
+<blockquote>
+  <p>DISCLAIMER: The results from the FHIR Hackaton signifies no obligation from the API owner (e.g. NHN/CSIRO), to make changes to their published API-services or software.</p>
+</blockquote>
+
+<h3 id="who-should-attend">Who should attend?</h3>
+
+<p>The event will be of value to individuals working in the healthcare industry and software providers in healthcare.</p>
+
+<ul>
+  <li>Developers</li>
+  <li>Solution architects</li>
+  <li>Information architects</li>
+  <li>Enterprise architects</li>
+  <li>Project managers</li>
+</ul>
+
+<h3 id="preparations-for-participants">Preparations for participants</h3>
+
+<ul>
+  <li>Basic knowledge of RESTful API's is usefull to be able to participate in testing and development</li>
+  <li>Knowledge of at least one of the following areas:
+    <ul>
+      <li>Development of RESTful API clients/servers</li>
+      <li>Information modelling</li>
+      <li>Testing RESTful APIs</li>
+      <li>Using RESTful APIs using Postman</li>
+    </ul>
+  </li>
+  <li>Some basic knowledge of the HL7 FHIR standard is valuable, but no prerequisite (intro to FHIR will be provided). HL7 also provides some great video resources for this purpose:
+    <ul>
+      <li><a href="https://vimeo.com/1102006982/68c2e4fcfb">FHIR 101</a></li>
+      <li><a href="https://vimeo.com/1102008456/cc0e9cddbd">How to read an implementation guide</a></li>
+      <li><a href="https://vimeo.com/542197402/8fb80fea04">Newcomer orientation</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="how-to-attend">How to attend</h3>
+
+<ul>
+  <li>Please use the attendee form published by <a href="https://event.checkin.no/167096/prekonferanse-ehin-2025">EHiN 2025</a> to secure your place on the hackathon.</li>
+  <li>Attend the startup meetings one and two the weeks before, on monday 27th of October and monday 3rd of November from 1000-1100 (this will be a digital only meetings).</li>
+  <li>Make your preparations for the workshop.</li>
+  <li>Meet us at <a href="https://maps.app.goo.gl/EcvP399Myg3NAuzr8">X meeting point</a> (EHIN venue) for the first Norwegian FHIR Hackathon 10th november 2025.</li>
+</ul>
+
+<h3 id="questions-and-contact">Questions and contact</h3>
+
+<p>Please contact <a href="mailto:thomas.tveit.rosenlund@helsedir.no">Thomas Tveit Rosenlund</a> if you got any questions regarding the event.</p>
+
+<h3 id="other-hackathons-in-the-nordics">Other hackathons in the Nordics</h3>
+
+<p>All the nordic countries are arranging FHIR hackathon in 2025/2026. More information on the <a href="https://fhir.fi/hackathon/">Nordic FHIR Hackathon page</a></p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 21, 2025 07:56+0000">2025-11-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+
