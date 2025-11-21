@@ -1,8 +1,8 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json	3497	-	0	0	0	0	0	0	12	94	0	0	0	0	0	0	0	0	0	0	71	58	0	0	0	3	0	1
-fsh-generated/resources/Patient-Pasient-1.json	375	16	0	0	0	0	0	0	0	346	0	0	0	0	0	0	0	0	0	0	10	16	0	0	1	0	0	0
-fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2253	21	0	105	1	0	0	0	0	109	0	0	1	0	0	0	0	2	0	0	187	1551	0	0	0	12	0	1
-fsh-generated/resources/StructureDefinition-mal-patient.json	821	22	0	96	0	0	0	0	0	48	0	0	0	0	0	0	0	1	0	0	131	468	0	0	0	10	0	1
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json	3497	-	0	0	0	0	0	0	15	81	0	0	0	0	0	0	0	0	0	0	75	58	0	0	0	3	0	0
+fsh-generated/resources/Patient-Pasient-1.json	375	18	0	0	0	0	0	0	1	304	0	0	0	0	0	0	0	0	0	0	12	16	0	0	1	0	0	0
+fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2253	15	0	102	0	0	0	0	0	106	0	0	1	0	0	0	0	2	0	0	206	1469	0	1	0	11	1	1
+fsh-generated/resources/StructureDefinition-mal-patient.json	821	16	0	84	0	0	0	0	0	48	0	0	0	0	0	0	0	2	0	0	132	445	0	0	0	8	0	0
 /fsh-generated/includes/fsh-link-references.md	160	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /fsh-generated/includes/menu.xml	2378	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/resultater-okt.md	592	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -10,7 +10,7 @@ fsh-generated/resources/StructureDefinition-mal-patient.json	821	22	0	96	0	0	0	0
 /input/pagecontent/resultater-pmd.md	3161	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/ig-publishing-results.md	1113	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/hack-agenda.md	2976	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent/2026-changes.md	774	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/2026-changes.md	1318	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/track-descriptions.md	7668	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /input/pagecontent/practical-info.md	1607	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/terminology.md	2324	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -28,15 +28,15 @@ fsh-generated/resources/StructureDefinition-mal-patient.json	821	22	0	96	0	0	0	0
 /input/images/test.svg	9068	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/FHIR-Hackathon-pre-meeting-2.ics	12651	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/motesenter.png	283545	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/images/samordnet.png	203058	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images/samordnet.png	203058	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /input/images/FHIR Hackathon 2025 oppsummering-alle.pdf	2114544	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
-/input/images/251110 EHiN 2025 0126.jpg	8746192	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0
+/input/images/251110 EHiN 2025 0126.jpg	8746192	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0
 /input/images/rom-A5.png	1176631	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
-/input/images/251110 EHiN 2025 0117.jpg	8645040	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0
-/input/images/251110 EHiN 2025 0120.jpg	10531031	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0
-/input/images/hackathon-1.jpg	3597386	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0
+/input/images/251110 EHiN 2025 0117.jpg	8645040	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0
+/input/images/251110 EHiN 2025 0120.jpg	10531031	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0
+/input/images/hackathon-1.jpg	3597386	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0
 /input/images/FHIR-Hackathon-2025-premeeting-2.pdf	2521100	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
-/input/images/251110 EHiN 2025 0128.jpg	10965291	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0
+/input/images/251110 EHiN 2025 0128.jpg	10965291	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0
 /input/images/co-development.png	205383	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /input/images/FHIR-Hackathon-2025-pre1.pdf	2424894	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/temp/pages/_includes/artifacts.xml	2479	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	2479	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
