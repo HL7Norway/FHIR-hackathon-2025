@@ -7,3 +7,9 @@ Get more clinicians on the hackathon to provide feedback and co-devlop API's and
 Why should clinicians care and participate?  
 
 <div>{% include clinician-use-case.svg %}</div>
+
+### Method
+
+Method for user involvement in software development.
+
+<div>{% include user-method.svg %}</div>

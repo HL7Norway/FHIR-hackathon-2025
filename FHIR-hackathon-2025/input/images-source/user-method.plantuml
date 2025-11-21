@@ -1,0 +1,9 @@
+@startuml
+
+repeat :Design;
+  :Utvikling;
+  :Prototype/produkt;
+  :Bruk/Test;
+backward :Tilbakemelding;
+
+@enduml
