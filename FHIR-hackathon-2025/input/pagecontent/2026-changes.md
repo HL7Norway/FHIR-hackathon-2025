@@ -1,6 +1,6 @@
 ### Proposed changes
 
-Get more clinicians on the hackathon to provide feedback and co-devlop API and software solutions.
+Get more clinicians on the hackathon to provide feedback and co-devlop API's and software solutions.
 
 ### Value proposal (use-case)
 
