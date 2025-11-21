@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FHIRHackathon2025"] ; # 
   fhir:title [ fhir:v "FHIR Hackathon 2025"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-21T07:56:06+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-21T08:00:02+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norge"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norge" ] ;
@@ -1394,6 +1394,25 @@
            fhir:l fhir:index.html
          ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
+             fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
+           ] ;
+           fhir:value [
+             a fhir:Url ;
+             fhir:v "2026-changes.html"^^xsd:anyURI ;
+             fhir:l fhir:2026-changes.html
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:Url ;
+           fhir:v "2026-changes.html"^^xsd:anyURI ;
+           fhir:l fhir:2026-changes.html
+         ] ;
+         fhir:title [ fhir:v "2026 Changes" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

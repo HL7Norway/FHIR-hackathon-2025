@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>2026 Changes - FHIR Hackathon 2025 v1.4.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+            
+<div id="family-nav">
+	<a id="logo" no-external="true" href="http://hl7.org/fhir"> <img
+		alt="logo fhir" height="50" src="assets/images/fhir-logo-www.png" />
+	</a>
+</div>
+
+
+            
+<div id="hl7-nav">
+    <a id="hl7-logo" no-external="true" href="https://github.com/HL7Norway">
+        <img alt="visit the hl7 website" height="60" src="assets/images/HL7-norway-logo.png" />
+    </a>            
+</div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Hackathon 2025</span>
+            <br/>
+            <span style="display:inline-block;">1.4.0 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Agenda
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="hack-agenda.html">Hackathon agenda</a>
+      </li>
+      <li>
+        <a href="pre-agenda.html">Startup meeting agenda</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Results
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="ig-publishing-results.html">IG publishing results</a>
+      </li>
+      <li>
+        <a href="resultater-pmd.html">PMD track results</a>
+      </li>
+      <li>
+        <a href="resultater-okt.html">OKT track results</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Tracks
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="track-descriptions.html">Track descriptions</a>
+      </li>
+      <li>
+        <a href="terminology.html">Nordic tx-fhir and terminology</a>
+      </li>
+      <li>
+        <a href="ig-publishing.html">IG publishing</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="practical-info.html">Practical</a>
+  </li>
+  <li>
+    <a href="2026-changes.html">Next year</a>
+  </li>
+  <li>
+    <a href="toc.html">TOC</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>2026 Changes</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Hackathon 2025 - Local Development build (v1.4.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/ig/hackathon/2025/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>2026 Changes</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#proposed-changes" id="markdown-toc-proposed-changes">Proposed changes</a></li>
+  <li><a href="#value-proposal-use-case" id="markdown-toc-value-proposal-use-case">Value proposal (use-case)</a></li>
+</ul>
+
+</div>
+<h3 id="proposed-changes">Proposed changes</h3>
+
+<p>Get more clinicians on the hackathon to provide feedback and co-devlop API and software solutions.</p>
+
+<h3 id="value-proposal-use-case">Value proposal (use-case)</h3>
+
+<p>Why should clinicians care and participate?</p>
+
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="338px" preserveAspectRatio="none" style="width:645px;height:338px;background:#FFFFFF;" version="1.1" viewBox="0 0 645 338" width="645px" zoomAndPan="magnify"><defs /><g><!--entity clinician--><g class="entity" data-entity="clinician" data-source-line="2" data-uid="ent0002" id="entity_clinician"><ellipse cx="35.6782" cy="121" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" /><path d="M35.6782,129 L35.6782,156 M22.6782,137 L48.6782,137 M35.6782,156 L22.6782,171 M35.6782,156 L48.6782,171" fill="none" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59.3564" x="6" y="185.4951">Clinician</text></g><!--entity developer--><g class="entity" data-entity="developer" data-source-line="3" data-uid="ent0003" id="entity_developer"><ellipse cx="603.5547" cy="112.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" /><path d="M603.5547,120.5 L603.5547,147.5 M590.5547,128.5 L616.5547,128.5 M603.5547,147.5 L590.5547,162.5 M603.5547,147.5 L616.5547,162.5" fill="none" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67.7988" x="568.5" y="176.9951">Architect\</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70.1094" x="568.5" y="193.292">developer</text></g><g class="entity" data-entity="codevelop" data-source-line="6" data-uid="ent0004" id="entity_codevelop"><ellipse cx="510.5214" cy="25.0043" fill="#FFC0CB" rx="78.0214" ry="18.0043" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113.668" x="451.2438" y="28.6047">co-development</text></g><g class="entity" data-entity="doing" data-source-line="7" data-uid="ent0005" id="entity_doing"><ellipse cx="220.3277" cy="25.0655" fill="#FFC0CB" rx="83.3277" ry="19.0655" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126.4443" x="156.6229" y="28.0762">Learning by doing</text></g><g class="entity" data-entity="getusable" data-source-line="8" data-uid="ent0006" id="entity_getusable"><ellipse cx="201.4868" cy="150.5473" fill="#ADD8E6" rx="100.9868" ry="26.0473" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73.5752" x="164.6992" y="145.2455">get usable</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126.5742" x="138.1997" y="161.5424">software products</text></g><g class="entity" data-entity="provideusable" data-source-line="9" data-uid="ent0007" id="entity_provideusable"><ellipse cx="435.34" cy="150.5473" fill="#ADD8E6" rx="97.84" ry="26.0473" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103.4688" x="383.6056" y="145.2455">provide usable</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122.124" x="374.278" y="161.5424">softwareproducts</text></g><g class="entity" data-entity="provide" data-source-line="10" data-uid="ent0008" id="entity_provide"><ellipse cx="201.6181" cy="294.5709" fill="#ADD8E6" rx="73.6181" ry="37.5709" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87.8691" x="157.6836" y="281.1207">provide user</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77.8408" x="162.6977" y="297.4176">experience</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.3125" x="169.4619" y="313.7144">feedback</text></g><g class="entity" data-entity="implement" data-source-line="11" data-uid="ent0009" id="entity_implement"><ellipse cx="435.3932" cy="294.5473" fill="#ADD8E6" rx="64.8932" ry="26.0473" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75.5303" x="397.6281" y="289.2455">implement</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58.8164" x="405.985" y="305.5424">changes</text></g><!--reverse link codevelop to developer--><g class="link" data-entity-1="codevelop" data-entity-2="developer" data-source-line="13" data-uid="lnk11" id="link_codevelop_developer"><path d="M526.8488,47.7034 C538.6388,63.3634 553.1,82.57 569.11,103.83" fill="none" id="codevelop-backto-developer" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="523.24,42.91,525.4576,52.5059,526.2473,46.9045,531.8488,47.6942,523.24,42.91" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link doing to developer--><g class="link" data-entity-1="doing" data-entity-2="developer" data-source-line="14" data-uid="lnk13" id="link_doing_developer"><path d="M302.0297,34.0253 C371.5597,43.0853 469.99,62.07 551.5,104 C557.26,106.96 562.9,110.7 568.22,114.75" fill="none" id="doing-backto-developer" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="296.08,33.25,304.4877,38.3794,301.0381,33.8961,305.5214,30.4464,296.08,33.25" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link provideusable to developer--><g class="link" data-entity-1="provideusable" data-entity-2="developer" data-source-line="15" data-uid="lnk15" id="link_provideusable_developer"><path d="M539.61,150.5 C551.17,150.5 556.72,150.5 568.28,150.5" fill="none" id="provideusable-backto-developer" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="533.61,150.5,542.61,154.5,538.61,150.5,542.61,146.5,533.61,150.5" style="stroke:#181818;stroke-width:1;" /></g><!--link developer to implement--><g class="link" data-entity-1="developer" data-entity-2="implement" data-source-line="16" data-uid="lnk16" id="link_developer_implement"><path d="M568.36,182.46 C562.74,187.35 556.98,192.33 551.5,197 C521.61,222.5 491.5511,247.4352 467.9511,266.8752" fill="none" id="developer-to-implement" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="463.32,270.69,472.8099,268.0552,467.1793,267.511,467.7235,261.8804,463.32,270.69" style="stroke:#181818;stroke-width:1;" /></g><!--link getusable to provideusable--><g class="link" data-entity-1="getusable" data-entity-2="provideusable" data-source-line="17" data-uid="lnk17" id="link_getusable_provideusable"><path d="M302.5,150.5 C314.11,150.5 325.71,150.5 337.31,150.5" fill="none" id="getusable-provideusable" style="stroke:#181818;stroke-width:1;" /></g><!--link provide to implement--><g class="link" data-entity-1="provide" data-entity-2="implement" data-source-line="18" data-uid="lnk18" id="link_provide_implement"><path d="M275.08,294.5 C306.83,294.5 338.58,294.5 370.33,294.5" fill="none" id="provide-implement" style="stroke:#181818;stroke-width:1;" /></g><!--link getusable to provide--><!--reverse link codevelop to clinician--><g class="link" data-entity-1="codevelop" data-entity-2="clinician" data-source-line="21" data-uid="lnk21" id="link_codevelop_clinician"><path d="M435.8317,34.3061 C331.3617,46.6861 144.14,72.32 82.5,104 C76.34,107.17 70.44,111.41 65.04,116.03" fill="none" id="codevelop-backto-clinician" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="441.79,33.6,432.3818,30.6869,436.8247,34.1884,433.3233,38.6313,441.79,33.6" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link doing to clinician--><g class="link" data-entity-1="doing" data-entity-2="clinician" data-source-line="22" data-uid="lnk23" id="link_doing_clinician"><path d="M180.7534,45.0133 C151.8934,59.4433 115.57,79.29 82.5,104 C76.59,108.42 70.65,113.53 65.07,118.69" fill="none" id="doing-backto-clinician" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="186.12,42.33,176.2813,42.7772,181.6479,44.5661,179.859,49.9326,186.12,42.33" style="stroke:#181818;stroke-width:1;" /></g><!--link clinician to getusable--><g class="link" data-entity-1="clinician" data-entity-2="getusable" data-source-line="23" data-uid="lnk24" id="link_clinician_getusable"><path d="M65,150.5 C76.82,150.5 82.64,150.5 94.46,150.5" fill="none" id="clinician-to-getusable" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="100.46,150.5,91.46,146.5,95.46,150.5,91.46,154.5,100.46,150.5" style="stroke:#181818;stroke-width:1;" /></g><!--link clinician to provide--><g class="link" data-entity-1="clinician" data-entity-2="provide" data-source-line="24" data-uid="lnk25" id="link_clinician_provide"><path d="M65.22,181.03 C70.87,186.43 76.81,191.95 82.5,197 C108.28,219.85 133.7214,240.5612 157.2214,259.1212" fill="none" id="clinician-to-provide" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="161.93,262.84,157.3463,254.1228,158.0062,259.741,152.3879,260.4009,161.93,262.84" style="stroke:#181818;stroke-width:1;" /></g><!--link provideusable to implement--></g></svg></div>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.no">HL7 Norge</a>.  Package hl7.fhir.no.hackathon.2025#1.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 21, 2025 08:00+0000">2025-11-21</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

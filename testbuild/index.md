@@ -99,7 +99,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-11-21T07:56:06+00:00",
+  "date" : "2025-11-21T08:00:02+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
@@ -874,6 +874,17 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
           ],
           "nameUrl" : "index.html",
           "title" : "Home",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "2026-changes.html"
+            }
+          ],
+          "nameUrl" : "2026-changes.html",
+          "title" : "2026 Changes",
           "generation" : "markdown"
         },
         {

@@ -1,39 +1,40 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json	3364	-	0	0	0	0	0	0	15	96	0	0	0	0	0	0	0	0	0	0	93	56	0	0	0	3	0	0
-fsh-generated/resources/Patient-Pasient-1.json	375	22	0	0	0	0	0	0	0	334	0	0	0	0	0	0	0	0	0	0	11	13	0	0	1	0	0	0
-fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2253	22	0	112	0	0	0	0	1	110	0	0	1	0	0	0	0	2	0	0	180	917	0	0	0	11	0	1
-fsh-generated/resources/StructureDefinition-mal-patient.json	821	22	0	82	1	0	0	0	0	47	0	0	0	0	0	0	0	1	0	0	128	338	0	0	0	10	0	1
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json	3497	-	0	0	0	0	0	0	15	88	0	0	0	0	0	0	0	0	0	0	69	56	0	0	0	3	0	1
+fsh-generated/resources/Patient-Pasient-1.json	375	13	0	0	0	0	0	0	0	354	0	0	0	0	0	0	0	0	0	0	9	17	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2253	18	0	93	0	0	0	0	1	101	0	0	1	0	0	0	0	2	0	0	184	1172	0	0	0	12	0	1
+fsh-generated/resources/StructureDefinition-mal-patient.json	821	19	0	67	0	0	0	0	0	45	0	0	0	0	0	0	0	1	0	0	130	457	0	0	0	10	0	0
 /fsh-generated/includes/fsh-link-references.md	160	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/fsh-generated/includes/menu.xml	2317	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent/resultater-okt.md	592	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/includes/menu.xml	2378	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/resultater-okt.md	592	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /input/pagecontent/ig-publishing.md	3001	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/resultater-pmd.md	3161	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/ig-publishing-results.md	1113	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/hack-agenda.md	2976	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/2026-changes.md	248	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/track-descriptions.md	7668	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/practical-info.md	1607	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent/terminology.md	2324	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/terminology.md	2324	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/index.md	4646	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/pre-agenda.md	4119	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/hackathon-3.jpg	1220635	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/input/images/FHIR-Hackathon-pre-meeting-1.ics	12934	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/images/251110 EHiN 2025 0016.jpg	11034098	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0
-/input/images/251110 EHiN 2025 0113.jpg	9926120	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0
-/input/images/test.puml	389	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/input/images/hackathon-2.jpg	2912909	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/input/images/test.svg	9068	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/images/FHIR-Hackathon-pre-meeting-1.ics	12934	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/images/251110 EHiN 2025 0016.jpg	11034098	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0
+/input/images/251110 EHiN 2025 0113.jpg	9926120	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0
+/input/images/test.puml	389	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images/hackathon-2.jpg	2912909	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0
+/input/images/test.svg	9068	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/FHIR-Hackathon-pre-meeting-2.ics	12651	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/motesenter.png	283545	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/images/FHIR Hackathon 2025 oppsummering-alle.pdf	2114544	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/input/images/251110 EHiN 2025 0126.jpg	8746192	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0
+/input/images/FHIR Hackathon 2025 oppsummering-alle.pdf	2114544	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+/input/images/251110 EHiN 2025 0126.jpg	8746192	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0
 /input/images/rom-A5.png	1176631	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/input/images/251110 EHiN 2025 0117.jpg	8645040	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0
-/input/images/251110 EHiN 2025 0120.jpg	10531031	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0
+/input/images/251110 EHiN 2025 0117.jpg	8645040	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0
+/input/images/251110 EHiN 2025 0120.jpg	10531031	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0
 /input/images/hackathon-1.jpg	3597386	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0
-/input/images/FHIR-Hackathon-2025-premeeting-2.pdf	2521100	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
-/input/images/251110 EHiN 2025 0128.jpg	10965291	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0
+/input/images/FHIR-Hackathon-2025-premeeting-2.pdf	2521100	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0
+/input/images/251110 EHiN 2025 0128.jpg	10965291	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0
 /input/images/FHIR-Hackathon-2025-pre1.pdf	2424894	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
 /temp/pages/_includes/artifacts.xml	2479	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
