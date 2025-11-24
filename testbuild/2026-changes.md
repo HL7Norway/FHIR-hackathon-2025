@@ -11,9 +11,9 @@ Make the FHIR hackathon the perfect arena for diect co-development of applicatio
 
 Goals for 2026:
 
-* Get more clinicians to participate in the hackathon. 
-* Provide user feedback and implement changes based on feedback provided.
-* Developers and users co-develop API's and software solutions.
+* Get more clinicians to participate in the hackathon to facilitate co-developments of API's and software solutions by developers and end users. 
+* Refine user needs by providing user feedback based on testing.
+* Describe wanted changes based on refined user needs.
  
 * Make actual end user applications and prototypes and implement quick changes to the api and end-user applications.
 
