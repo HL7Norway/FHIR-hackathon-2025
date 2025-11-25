@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:1.4.3 |
-| Draft as of 2025-11-24 | *Computable Name*:FHIRHackathon2025 |
+| Draft as of 2025-11-25 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
 
@@ -99,7 +99,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-11-24T13:54:30+00:00",
+  "date" : "2025-11-25T08:19:51+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
