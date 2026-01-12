@@ -29,9 +29,9 @@ Fungerte veldig bra, godt fornøyd, riktig scope for OKT
 Gikk veldig bra med PMD
 
 * Litt som vi forventet at det tekniske ble løst raskt
-* Man vra også opptatt av å diksutere løsning og gi tilbakemeldingen
+* Man var også opptatt av å diskutere løsning og gi tilbakemeldingen
 * Mange gode innspill fra kompetente deltakere.
-* Deltakerne var fornøyd med   dialog med NHN og andre leverandører
+* Deltakerne var fornøyd med dialog med NHN og andre leverandører
 * Mange konkrete oppfølgingspunkter ut av Hackathon
 * Viktig å skape kontakt mellom utviklere og leverandør
 * Veldig bra representasjon i arbeidsmøtet
