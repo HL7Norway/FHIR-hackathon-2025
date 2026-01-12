@@ -1,6 +1,6 @@
 # Retrospekt fra Hackathon 2025
 
-Plan 2026
+## Plan 2026
 
 Tid og sted er viktig
 Hva med andre arenaer og hva med innhold i hackathon

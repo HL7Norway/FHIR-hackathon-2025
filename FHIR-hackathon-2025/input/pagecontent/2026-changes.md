@@ -11,6 +11,7 @@ The main learning point from 2025 is that all organizers are motivated to contin
 * Funding worked perfectly
 * Snacks during the day was good
 * EHiN photos was great and can be used for promotion
+* Three to four tracks is ideal
 
 #### OK
 
@@ -33,12 +34,17 @@ The main learning point from 2025 is that all organizers are motivated to contin
 
 Make the FHIR hackathon the perfect arena for diect co-development of applications and API's.
 
-Goals for 2026:  
+Changes for 2026:  
 
 * Get more clinicians to participate in the hackathon to facilitate co-developments of API's and software solutions by developers and end users.  
   * Refine user needs by providing user feedback based on testing.  
   * Describe wanted changes based on refined user needs.  
-* Make actual end user applications and prototypes and implement quick changes to the api and end-user applications.  
+* Make actual end user applications and prototypes and implement quick changes to the api and end-user applications.
+* Arrange the hackathon as separate sessions (like ICD-11 hackathon)
+  * intro to FHIR and tracks first half of the day
+  * hacking for the rest of the day.  
+* Arrange one pre-meeting instead of two.
+* Decide on language (Norwegian)
 
 ### Method
 
