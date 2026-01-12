@@ -5,9 +5,12 @@ Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.hackathon.2025.json: line 1, col 1211, Info - Reference to draft CodeSystem urn:iso:std:iso:3166|20210120 (BUSINESSRULE)
 /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/Patient-Pasient-1.json: line 11, col 48, Warning - No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.1' (INVALID)
+/__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json: line 1, col 21677, Info - Reference to draft CodeSystem urn:iso:std:iso:3166|20210120 (BUSINESSRULE)
 /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json: line 1, col 31430, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
 /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-patient.json: line 1, col 12273, Info - Reference to draft CodeSystem urn:iso:std:iso:3166|20210120 (BUSINESSRULE)
 
-err = 0, warn = 6, info = 1
-IG Publisher Version: 2.0.26
+err = 0, warn = 6, info = 4
+IG Publisher Version: 2.0.29

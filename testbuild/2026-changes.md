@@ -5,6 +5,33 @@
 
 ## 2026 Changes
 
+### Learning from 2025
+
+The main learning point from 2025 is that all organizers are motivated to continue working like this and organize another hackathon in 2026.
+
+#### Good
+
+* Great involvement from all the organizers!
+* The tracks OKT, PMD and authoring tracks worked great!
+* Good size group of participants
+* Promotion work from all organizers
+* Funding worked perfectly
+* Snacks was good
+* EHiN photos was great and can be used for promotion
+
+#### OK
+
+* EHiN as arena, did it give us anything?
+* Food was OK
+* Terminology did not draw much attention
+* The room got noisy and maybe a bit to busy?
+
+#### Bad
+
+* Hellerudsletta as venue is not a good solution
+* Need more clinicians for some of the discussions (esp. OKT)
+* 
+
 ### Proposed changes
 
 Make the FHIR hackathon the perfect arena for diect co-development of applications and API's.
