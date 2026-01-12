@@ -9,7 +9,7 @@ The main learning point from 2025 is that all organizers are motivated to contin
 * Good size group of participants
 * Promotion work from all organizers
 * Funding worked perfectly
-* Snacks was good
+* Snacks during the day was good
 * EHiN photos was great and can be used for promotion
 
 #### OK
@@ -21,10 +21,13 @@ The main learning point from 2025 is that all organizers are motivated to contin
 
 #### Bad
 
-* Hellerudsletta as venue is not a good solution
 * Need more clinicians for some of the discussions (esp. OKT)
-* Language english or norw? Should choose norwegian as language
-* 
+* Hellerudsletta as venue is not a good solution
+* Language english or norwegian? Should choose norwegian as language
+* Terminology track was not successful (few attendees and unfortunately the track lead got ill on the day)
+* Two pre-meetings was not necessary and did not help an attendee preparedness(?)
+* A number of participants did not attend pre-meetings and was not prepared for the hackathon
+* Some confusion about start time as EHIN pre conference had an official start up time after the actual Hackathon start up time
 
 ### Proposed changes
 

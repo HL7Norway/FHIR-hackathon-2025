@@ -37,15 +37,15 @@ Fungerte formøtene? fikk vi folk til å forberede seg egentlig?
   * Noe vi kan snakke om fra perspektiv av EU, må ha noe som er konkret også.
 * CarePlan - pasientens planer
   * Er veldig konkret og kan fungere som use-case
-* Laboratorium og pasientens legemiddelliste
-* Nordisk - track
-* Terminologi - alle burde være interessert i
+* Lab resultater og pasientens legemiddelliste
+* Nordisk - track?
+* Terminologi - alle burde være interessert i, men få deltok
   * Mange har ikke et forhold til det og man må hjelpe dem og markedsføring. må være mulig å tilnærme seg FHIR.
-* Må treffe på prosjekter som går og vhrod et er utvikling
+* Må treffe på prosjekter som går og hvor det foregår utvikling
   * Hva skal terminologi løse og hvorfor skal klinikere jobbe med dette.
 * FHIR for dummies må vi kjøre
   * Kan ha dete som en del av dagen
-* Beslutning som case lese noe data og kommer opp med et svar - hente data - kjøre prosess og vise et resultat.
+* Utvikle en beslutningsapp som case - lese noe data og kommer opp med et svar - hente data - kjøre prosess og vise et resultat.
 
 ### Neste møte
 
