@@ -30,6 +30,7 @@ The main learning point from 2025 is that all organizers are motivated to contin
 
 * Hellerudsletta as venue is not a good solution
 * Need more clinicians for some of the discussions (esp. OKT)
+* Language english or norw? Should choose norwegian as language
 * 
 
 ### Proposed changes
