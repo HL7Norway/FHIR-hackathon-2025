@@ -1,5 +1,56 @@
 # Retrospekt fra Hackathon 2025
 
+Plan 2026
+
+Tid og sted er viktig
+Hva med andre arenaer og hva med innhold i hackathon
+Klinikere må ha tema som passer for klinikere
+
+* Ikke nødvendigvis detaljer i FHIR som er viktigst for klinikere
+* Diskutere behov og neste del for løsning/realisering av disse behovene i FHIR
+
+Helsedirektoratets IDC-11 hackathon var bra
+
+* todeling med fag - mange klinikere ble med resten av dagen fordi det var gøy.
+* andre del var hacking og nerding
+
+Fungerte formøtene? fikk vi folk til å forberede seg egentlig?
+
+* Det er mange ting i FHIR vi kunne snakket om som introduksjon.
+* Mange som ikke vet hva datamodellen er og hvordan profil fungerer.
+* Hvordan fungerer dokumentasjonen
+* Et track gjør det mulig å komme opp i fart uten å kunne noe særlig
+* FHIR for dummies
+* Kjøre en kort intro for å få nytte av hackahton etterpå. Ha det på formøtet.
+* Innrette introduksjonskurs som vi anbefaler for deltakere som ikke har gjort dette før.
+* Passer spesielt for å binde sammen klinisk behovsarbeid og teknisk løsningsutvikling
+* De som utdanner helseinformatikere Bergen, Agder, Trondheim og Tromsø
+
+### Tracks
+
+* Noe innen kommune
+* Terminologi og mapping
+* VKP - skal skrives om - både kommune/FHIR
+  * Journalføring - hva er journalføring og hvordan fungerer dette teknisk og hva betyr det i virksomheten
+  * Hva er et journalsystem?
+  * Pasientjournal - hva er journalen?
+  * Noe vi kan snakke om fra perspektiv av EU, må ha noe som er konkret også.
+* CarePlan - pasientens planer
+  * Er veldig konkret og kan fungere som use-case
+* Laboratorium og pasientens legemiddelliste
+* Nordisk - track
+* Terminologi - alle burde være interessert i
+  * Mange har ikke et forhold til det og man må hjelpe dem og markedsføring. må være mulig å tilnærme seg FHIR.
+* Må treffe på prosjekter som går og vhrod et er utvikling
+  * Hva skal terminologi løse og hvorfor skal klinikere jobbe med dette.
+* FHIR for dummies må vi kjøre
+  * Kan ha dete som en del av dagen
+* Beslutning som case lese noe data og kommer opp med et svar - hente data - kjøre prosess og vise et resultat.
+
+### Neste møte
+
+* 12 februar klokken 12
+
 ## Spørsmål
 
 Hovedfunn?
