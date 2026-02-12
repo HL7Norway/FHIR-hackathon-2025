@@ -1,4 +1,4 @@
-# Home - FHIR Hackathon 2025 v1.3.2
+# Home - FHIR Hackathon 2025 v1.4.4
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:1.3.2 |
-| Draft as of 2025-11-18 | *Computable Name*:FHIRHackathon2025 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:1.4.4 |
+| Draft as of 2026-02-12 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
 
@@ -95,11 +95,11 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2025",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "1.3.2",
+  "version" : "1.4.4",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2025-11-18T06:14:15+00:00",
+  "date" : "2026-02-12T07:22:18+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
@@ -138,7 +138,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
       ],
       "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId" : "hl7.terminology.r4",
-      "version" : "7.0.0"
+      "version" : "7.0.1"
     },
     {
       "id" : "hl7ext",
@@ -482,7 +482,7 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
       },
       {
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-        "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
+        "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
       },
       {
         "extension" : [
@@ -874,6 +874,17 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
           ],
           "nameUrl" : "index.html",
           "title" : "Home",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "2026-changes.html"
+            }
+          ],
+          "nameUrl" : "2026-changes.html",
+          "title" : "2026 Changes",
           "generation" : "markdown"
         },
         {

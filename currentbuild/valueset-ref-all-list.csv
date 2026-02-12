@@ -1,4 +1,4 @@
-URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
 http://hl7.org/fhir/ValueSet/administrative-gender,4.0.1,active,"2.16.840.1.113883.4.642.3.1",AdministrativeGender,AdministrativeGender,"The gender of a person used for administrative purposes.","StructureDefinition/mal-patient","hl7.fhir.r4.core"
 http://hl7.org/fhir/ValueSet/body-site,4.0.1,draft,"2.16.840.1.113883.4.642.3.141",SNOMEDCTBodyStructures,SNOMED CT Body Structures,"This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).","StructureDefinition/mal-observation-blodprove","SCT"
 http://hl7.org/fhir/ValueSet/data-absent-reason,4.0.1,active,"2.16.840.1.113883.4.642.3.5",DataAbsentReason,DataAbsentReason,"Used to specify why the normally expected content of the data element is missing.","StructureDefinition/mal-observation-blodprove","THO"

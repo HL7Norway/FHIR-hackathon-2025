@@ -1,4 +1,4 @@
-# Track Descriptions - FHIR Hackathon 2025 v1.3.2
+# Track Descriptions - FHIR Hackathon 2025 v1.4.4
 
 * [**Table of Contents**](toc.md)
 * **Track Descriptions**
@@ -42,7 +42,7 @@ This is an exercise in translating an existing API, both data structures and int
 
 We will look at the proprietary [OKT API](https://utviklerportal.nhn.no/informasjonstjenester/felles-journalloeft/okt-prototype/okt-api) from NHN, and discuss which FHIR resources and REST interactions we can translate the API into.
 
-Several resources might fit the purpose, including `EpisodeOfCare`, `CarePlan`, and `ServiceRequest`. We will discuss the resource descriptions and the data fields to see which one is the best match. Other projects, e.g. the use of [`EpisodeOfCare`in Velferdsteknologisk knutepunkt (VKP)](https://simplifier.net/guide/velferdsteknologiskknutepunktvkp-r4/episodeofcare?version=current) will also be considered.
+Several resources might fit the purpose, including `EpisodeOfCare`, `CarePlan`, and `ServiceRequest`. We will discuss the resource descriptions and the data fields to see which one is the best match. Other projects, e.g. the use of [`EpisodeOfCare` in Velferdsteknologisk knutepunkt (VKP)](https://simplifier.net/guide/velferdsteknologiskknutepunktvkp-r4/episodeofcare?version=current) will also be considered.
 
 The more technically inclined may also demonstrate the conversion from the proprietary API to FHIR, either in code or in FHIR, using `StructureMap` resources. Examples of both will be provided among the hackathon resources.
 
