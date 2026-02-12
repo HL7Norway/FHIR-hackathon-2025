@@ -1,0 +1,29 @@
+@startuml
+
+"Clinician" as clinician
+"Architect\\\ndeveloper" as developer
+
+'rectangle "test" as rect {
+"co-development" as (codevelop) #pink
+'"Learning by doing" as (doing) #pink
+"get usable\nsoftware products" as (getusable) #lightblue
+"provide usable\nsoftware products" as (provideusable) #lightblue
+"provide user\nexperience\nfeedback" as (provide) #lightblue
+"implement\nchanges" as (implement) #lightblue
+
+developer -up-> codevelop
+'developer -up-> doing
+developer -left-> provideusable
+developer -down-> implement
+getusable -right- provideusable
+provide -right- implement
+getusable -down[hidden]- provide
+
+clinician -up-> codevelop
+'clinician -up-> doing
+clinician -right-> getusable
+clinician -down-> provide
+
+provideusable -down[hidden]- implement
+
+@enduml
