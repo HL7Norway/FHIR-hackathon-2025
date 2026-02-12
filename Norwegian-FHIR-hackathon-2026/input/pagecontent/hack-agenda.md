@@ -1,0 +1,54 @@
+### Agenda for the Hackathon
+
+Proposed agenda for the hackathon on 10 November.  
+**NOTE! The agenda is currently under active development and changes will occur without further notice.**  
+
+|Time|Title|Presenter|
+|-----|-----|---------|
+|0930|Welcome and Introductions (plenary)|Partners|
+|0945|Parallell intros to tracks|Track leads|
+|1015|Working in tracks|All|
+|1200|Lunch|All|
+|1300|Working in tracks|All|
+|1430|Coffee break|All|
+|1445|Working in tracks|All|
+|1600|Demo summary and discussions (plenary)|Track leads + all|
+|1700|End of day|All|
+{: .grid .table-striped}
+
+#### Parallell intros
+
+Track introductions
+
+* Intro to Pasientens måledata FHIR API interface (Michal/Tormod)
+* Intro to Oversikt over kommunale tjenester API (OKT API) and approaches for making FHIR API from existing services (Robert/Adam)
+* Intro to terminology API and demo of Nordic terminology server (Vadim)
+* Write and publish documentation of FHIR APIs by publishing a FHIR IG (Thomas/Espen)
+
+#### Track leads and partners
+
+A list of people involved in the organization of the hackathon and track leads, including contact information.  
+
+|Track|Name|Contact|Affiliate|
+|----------|------------|-------------|-----------|
+|PMD|Michal Jan Warecki|[michal.jan.warecki@nhn.no](mailto:michal.jan.warecki@nhn.no)|NHN|
+|PMD/OKT|Tormod Haugene|[tormod.haugene@nhn.no](mailto:tormod.haugene@nhn.no)|NHN|
+|PMD/OKT|Sigurd Ringbakken|[sigurd.ringbakken@nhn.no](mailto:sigurd.ringbakken@nhn.no)|NHN|
+|PMD|Bjørnar Selvén|[bjornar.selven@nhn.no](mailto:bjornar.selven@nhn.no)|NHN|
+|OKT|Robert William Dall Frøseth|[robert.william.dall.froseth@nhn.no](mailto:robert.william.dall.froseth@nhn.no)|NHN|
+|OKT|Adam Kover|[adam.kover@felleskatalogen.no](mailto:adam.kover@felleskatalogen.no)|Felleskatalogen|
+|OKT|Nino Lo Cascio|[nino.lo.cascio@tietoevry.com](mailto:nino.lo.cascio@tietoevry.com)|Tietoevry|
+|Terminology|Vadim Peretokin|[vperetokin@hey.com](mailto:vperetokin@hey.com)|Consultant|
+|IG authoring|Thomas Tveit Rosenlund|[Thomas.Tveit.Rosenlund@helsedir.no](mailto:Thomas.Tveit.Rosenlund@helsedir.no)|Helsedirektoratet|
+|IG authoring|Espen Stranger Seland|[ess@vali.no](mailto:ess@vali.no>)|Vali AS|
+|Partner|Øyvind Aassve|[oeyaas@sykehuspartner.no](mailto:oeyaas@sykehuspartner.no)|Sykehuspartner|
+|Partner|Gaute Nygreen|[gaute.nygreen@nhn.no](mailto:gaute.nygreen@nhn.no)|NHN|
+{: .grid .table-striped}
+
+#### Demo summary and discussions
+
+The track leads presents the main results from the day in a plenary presentation. All participants are welcome to demo things they have built during the day. Presentable results can be everything from workable client/server software, via curl/Postman transactions to implementation guides and FHIR conformance resources.
+
+#### Introduction to FHIR
+
+Intro to FHIR, IG and FHIR RESTful can be given on demand. Please review the [HL7 FHIR video resources](https://hl7norway.github.io/FHIR-hackathon-2025/currentbuild/index.html#preparations-for-participants)

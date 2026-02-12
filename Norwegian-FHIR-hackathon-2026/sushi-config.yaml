@@ -1,0 +1,29 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# Oppdater med riktig informasjon
+id: hl7.fhir.no.hackathon.2026
+canonical: http://hl7.no/fhir/ig/hackathon/2026
+name: Norwegian FHIR Hackathon 2026
+title: "Norwegian FHIR Hackathon 2026"
+description: Implementation guide to plan the event and document and publish results from Norwegian FHIR Hackathon 2026
+status: draft
+version: 0.0.1
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+jurisdiction: urn:iso:std:iso:3166#NO "Norway"
+# Oppdater navn og URL til din organisasjon
+publisher:
+  name: HL7 Norge
+  url: https://www.hl7.no
+#dependencies:
+#  hl7.fhir.no.basis: 2.2.2
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  TOC: toc.html

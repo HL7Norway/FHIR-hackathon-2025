@@ -1,0 +1,53 @@
+{
+   "oktMessages": [
+      {
+         "endDate": "",
+         "stayType": "",
+         "iplosCode": {
+            "iplosCodeLevel": "1",
+            "iplosCodeValue": "02",
+            "iplosParentCode": "0",
+            "iplosCodeDescription": "Praktisk bistand - opplæring - daglige gjøremål"
+         },
+         "startDate": "2020-06-22",
+         "needsCaption": false,
+         "serviceLevel": "1.1.2.6 Test kommune - Hjemmeboende - Sone Vest - Sone Vest, Kjeller",
+         "weeklyExtent": "15 timer",
+         "serviceDescription": "",
+         "temporaryCessation": true
+      },
+      {
+         "endDate": "",
+         "stayType": "",
+         "iplosCode": {
+            "iplosCodeLevel": "1",
+            "iplosCodeValue": "15",
+            "iplosParentCode": "0",
+            "iplosCodeDescription": "Helsetjenester i hjemmet"
+         },
+         "startDate": "2020-06-22",
+         "needsCaption": false,
+         "serviceLevel": "1.1.2.6 Test kommune - Hjemmeboende - Sone Vest - Sone Vest, Kjeller",
+         "weeklyExtent": "6 timer",
+         "serviceDescription": "Hjemmesykepleie",
+         "temporaryCessation": true
+      },
+      {
+         "endDate": "",
+         "stayType": "",
+         "iplosCode": {
+            "iplosCodeLevel": "1",
+            "iplosCodeValue": "18",
+            "iplosParentCode": "0",
+            "iplosCodeDescription": "Tidsbegrenset opphold - utredning/behandling"
+         },
+         "startDate": "2022-03-13",
+         "needsCaption": false,
+         "serviceLevel": "1.2.3.4 Test kommune - Institusjon - Ski sykehjem - Vintertunet",
+         "weeklyExtent": "",
+         "serviceDescription": "",
+         "temporaryCessation": false
+      }
+   ],
+   "personIdentifier": "19779998080"
+}

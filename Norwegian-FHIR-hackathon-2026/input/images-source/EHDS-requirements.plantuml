@@ -1,0 +1,44 @@
+@startuml
+
+box "Consumer" #lightgreen
+  participant "Consume\nEEHRxF" as cons
+  participant "Harmonized\ncomponent" as harmonized1 #lightskyblue
+end box
+
+
+box "Producer" #lightblue
+  participant "Harmonized\ncomponent" as harmonized2 #lightskyblue
+  participant "Produce\nEEHRxF" as prod
+end box
+
+note right of harmonized1: Authorization
+
+harmonized1 -> harmonized2 : "can I acces you data"
+harmonized1 <- harmonized2 : "Yes, return token"
+note right #lightgray: <size:10>Authorization\n<size:10>might be outside EHR</size>
+
+note right of harmonized1: Patient lookup
+
+harmonized1 -> harmonized2 : "Do you have patient record for x"
+prod -> harmonized2 : "Produce EEHRxF\nPatient"
+harmonized1 <- harmonized2 : "Here is a matching record for x"
+
+note right of harmonized1: Document search
+
+harmonized1 -> harmonized2 : Do you have PS or HDR for x
+harmonized1 <- harmonized2 : id of PS1 and HDR1 and HDR2
+harmonized1 -> harmonized2 : Please give me PS1
+prod -> harmonized2 : "Produce PS1\nEEHRxF"
+harmonized1 <- harmonized2 : return PS1
+harmonized1 -> cons : "consume PS1\nEEHRxF"
+
+note right of harmonized1: Resource search and retrieval
+
+harmonized1 -> harmonized2 : What Prescription resources for x?
+harmonized1 <- harmonized2 : return id for Prescription1\nand Prescription2
+harmonized1 -> harmonized2 : Please give me Prescription2
+prod -> harmonized2 : "Produce Prescription2\nEEHRxF"
+harmonized1 <- harmonized2 : return Prescription2
+harmonized1 -> cons : "consume Prescription2\nEEHRxF"
+
+@enduml
