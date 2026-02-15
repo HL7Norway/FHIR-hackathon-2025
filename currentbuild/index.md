@@ -1,4 +1,4 @@
-# Home - FHIR Hackathon 2025 v1.4.4
+# Home - FHIR Hackathon 2025 v1.4.5
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:1.4.4 |
-| Draft as of 2026-02-12 | *Computable Name*:FHIRHackathon2025 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025 | *Version*:1.4.5 |
+| Draft as of 2026-02-15 | *Computable Name*:FHIRHackathon2025 |
 
 ### Norwegian FHIR Hackathon 2025
 
@@ -95,11 +95,11 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.hackathon.2025",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/ImplementationGuide/hl7.fhir.no.hackathon.2025",
-  "version" : "1.4.4",
+  "version" : "1.4.5",
   "name" : "FHIRHackathon2025",
   "title" : "FHIR Hackathon 2025",
   "status" : "draft",
-  "date" : "2026-02-12T07:22:18+00:00",
+  "date" : "2026-02-15T18:47:12+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [
     {
@@ -940,6 +940,17 @@ All the nordic countries are arranging FHIR hackathon in 2025/2026. More informa
           ],
           "nameUrl" : "pre-agenda.html",
           "title" : "Pre Agenda",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [
+            {
+              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl" : "resultater-bilder.html"
+            }
+          ],
+          "nameUrl" : "resultater-bilder.html",
+          "title" : "Resultater Bilder",
           "generation" : "markdown"
         },
         {

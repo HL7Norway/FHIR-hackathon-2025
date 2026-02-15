@@ -1,4 +1,4 @@
-# Pasient - FHIR Hackathon 2025 v1.4.4
+# Pasient - FHIR Hackathon 2025 v1.4.5
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient | *Version*:1.4.4 |
+| *Official URL*:http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient | *Version*:1.4.5 |
 | Draft as of 2025-01-22 | *Computable Name*:MalPatient |
 
  
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-mal-patient.csv), [E
   "resourceType" : "StructureDefinition",
   "id" : "mal-patient",
   "url" : "http://hl7.no/fhir/ig/hackathon/2025/StructureDefinition/mal-patient",
-  "version" : "1.4.4",
+  "version" : "1.4.5",
   "name" : "MalPatient",
   "title" : "Pasient",
   "status" : "draft",
