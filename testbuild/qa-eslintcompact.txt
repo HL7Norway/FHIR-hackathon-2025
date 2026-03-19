@@ -13,4 +13,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /__w/FHIR-hackathon-2025/FHIR-hackathon-2025/FHIR-hackathon-2025/fsh-generated/resources/StructureDefinition-mal-patient.json: line 1, col 12273, Info - Reference to draft CodeSystem urn:iso:std:iso:3166|20210120 (BUSINESSRULE)
 
 err = 0, warn = 6, info = 4
-IG Publisher Version: 2.0.29
+IG Publisher Version: 2.2.0
